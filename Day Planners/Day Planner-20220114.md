@@ -3,7 +3,7 @@
 gantt
     dateFormat  HH-mm
     axisFormat %H:%M
-    %% Current Time: 下午12:25:25
+    %% Current Time: 下午12:27:23
     section Tasks
     minivue     :08-50, 120mm
     typing     :10-50, 10mm
