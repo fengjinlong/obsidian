@@ -4,16 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "87b2c9e00c2a0dd2",
+        "id": "1744b5481e2c4b45",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "常规操作.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
+          "type": "graph",
+          "state": {}
         }
       }
     ],
@@ -26,6 +21,7 @@
       {
         "id": "d353dec9b41689b6",
         "type": "tabs",
+        "dimension": 62.5,
         "children": [
           {
             "id": "b909e41c1afcddf7",
@@ -41,7 +37,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "target",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -55,6 +51,7 @@
       {
         "id": "cb7aa56bebb6c97a",
         "type": "tabs",
+        "dimension": 37.5,
         "children": [
           {
             "id": "cf978bdffae608fd",
@@ -76,7 +73,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 241
   },
   "right": {
     "id": "3183b1b661034dde",
@@ -86,17 +83,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "87b2c9e00c2a0dd2",
+  "active": "1744b5481e2c4b45",
   "lastOpenFiles": [
-    "常规操作.md",
-    "Daily/2022-01-24.md",
-    "Daily/2022-01-21.md",
-    "Daily/2022-01-20.md",
-    "Day Planners/Day Planner-20220120.md",
-    "Daily/2022-01-19.md",
-    "Day Planners/Day Planner-20220119.md",
-    "Day Planners/Day Planner-20220118.md",
-    "Day Planners/Day Planner-20220117.md",
-    "Day Planners/Day Planner-20220116.md"
+    "索引/思考-索引.md",
+    "索引/技能-索引.md",
+    "笔记/原型链图.md",
+    "笔记/reactive.md",
+    "笔记/vue3总览.md",
+    "笔记/网站优化.md",
+    "笔记/虚拟DOM.md",
+    "索引/vue3-索引.md",
+    "笔记/ob操作.md",
+    "笔记/http2 多路复用.md"
   ]
 }
