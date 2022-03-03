@@ -1,0 +1,11 @@
+- 写测试
+- reactivity  返回一个proxy 对象
+- effect
+	- ReactiveEffect class
+	- 执行fn
+	- 依赖收集
+	- 触发
+	- runner
+	- sch
+	- stop active
+	- 

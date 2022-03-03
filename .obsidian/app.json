@@ -1,5 +1,5 @@
 {
-  "legacyEditor": false,
+  "legacyEditor": true,
   "livePreview": true,
   "promptDelete": true,
   "useMarkdownLinks": true,
@@ -8,5 +8,6 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "笔记",
   "attachmentFolderPath": "附件",
-  "fileSortOrder": "alphabeticalReverse"
+  "fileSortOrder": "alphabeticalReverse",
+  "showLineNumber": true
 }

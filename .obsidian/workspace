@@ -85,15 +85,15 @@
   },
   "active": "1744b5481e2c4b45",
   "lastOpenFiles": [
-    "索引/思考-索引.md",
-    "索引/技能-索引.md",
-    "笔记/原型链图.md",
-    "笔记/reactive.md",
-    "笔记/vue3总览.md",
-    "笔记/网站优化.md",
-    "笔记/虚拟DOM.md",
+    "笔记/readonly isReadOnly isReactive isProxy shallowReadOnly.md",
     "索引/vue3-索引.md",
-    "笔记/ob操作.md",
-    "笔记/http2 多路复用.md"
+    "笔记/readonly isReadOnly isReactive isProxy shallow.md",
+    "索引/思考-索引.md",
+    "笔记/vu3 组件的双向绑定 v-model.md",
+    "笔记/Vue.js 3.2+ 关于响应式部分的优化.md",
+    "索引/技能-索引.md",
+    "笔记/effect & reactive.md",
+    "索引/管理-索引.md",
+    "笔记/vim 快捷键.md"
   ]
 }
