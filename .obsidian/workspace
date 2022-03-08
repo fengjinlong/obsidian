@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "索引/vue3-索引.md",
-            "mode": "preview",
+            "file": "笔记/优秀的孩子.md",
+            "mode": "source",
             "backlinks": false
           }
         }
@@ -89,15 +89,15 @@
   },
   "active": "8dc36633ef081206",
   "lastOpenFiles": [
+    "笔记/优秀的孩子.md",
+    "索引/管理-索引.md",
+    "索引/技能-索引.md",
+    "索引/思考-索引.md",
     "索引/vue3-索引.md",
     "笔记/vue3.x 组件通信.md",
     "笔记/未命名.md",
     "笔记/reactive.md",
     "Daily/2022-03-08.md",
-    "笔记/Vue3.x 推荐使用 mitt.js.md",
-    "笔记/vue3 用ref获取dom元素.md",
-    "笔记/computed.md",
-    "笔记/ref isRef unRef proxyRefs.md",
-    "学习与生活/软件相关/常规操作.md"
+    "笔记/Vue3.x 推荐使用 mitt.js.md"
   ]
 }
