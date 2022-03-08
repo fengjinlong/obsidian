@@ -62,6 +62,7 @@ export function isReactive(raw) {
 }
 ```
 #### isProxy
+- 检查 obj 是否是readonly 或 reactive 创建出来的
 ```js
 export function isProxy(raw) {
   return !!raw[ReactiveFlegs.IS_REACTIVE] || !!raw[ReactiveFlegs.IS_READONLY]
