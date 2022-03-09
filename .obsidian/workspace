@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "8dc36633ef081206",
+        "id": "dda09515baf775f7",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/优秀的孩子.md",
+            "file": "索引/思考-索引.md",
             "mode": "source",
             "backlinks": false
           }
@@ -77,27 +77,42 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276
+    "width": 209
   },
   "right": {
     "id": "3183b1b661034dde",
     "type": "split",
-    "children": [],
+    "children": [
+      {
+        "id": "61ed6936af3b57e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c025615fdd7df6e8",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
     "direction": "horizontal",
     "width": 300,
     "collapsed": true
   },
-  "active": "8dc36633ef081206",
+  "active": "dda09515baf775f7",
   "lastOpenFiles": [
+    "索引/思考-索引.md",
+    "Daily/2022-03-09.md",
+    "笔记/reactive.md",
     "笔记/优秀的孩子.md",
     "索引/管理-索引.md",
     "索引/技能-索引.md",
-    "索引/思考-索引.md",
     "索引/vue3-索引.md",
     "笔记/vue3.x 组件通信.md",
     "笔记/未命名.md",
-    "笔记/reactive.md",
-    "Daily/2022-03-08.md",
-    "笔记/Vue3.x 推荐使用 mitt.js.md"
+    "Daily/2022-03-08.md"
   ]
 }
