@@ -1,6 +1,6 @@
 ## runtime-core 运行时流程
 #### 目的
-1. 将虚拟dom挂载到页面
+1. 将组件挂载到页面，组件 - vnode - element
 
 #### 处理目标
 1. 渲染 component 组件

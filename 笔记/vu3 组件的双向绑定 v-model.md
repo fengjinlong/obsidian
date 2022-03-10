@@ -7,16 +7,14 @@
 </template>
 
 <script>
-import HelloWorld from "@/components/HelloWorld.vue";
-import { reactive,ref } from "vue";
+import { ref } from "vue";
 export default {
-  name: "Home",
   components: {
     HelloWorld,
   },
   setup() {
     const vvv = ref(2)
-    return { state, vvv };
+    return { vvv };
   },
 };
 </script>
@@ -35,7 +33,6 @@ export default {
 
 <script>
 export default {
-  name: "HelloWorld",
   props: {
     modelValue: Number,
   },
