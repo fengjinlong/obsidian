@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily/2022-03-10.md",
-            "mode": "preview",
+            "file": "索引/vue3-索引.md",
+            "mode": "source",
             "backlinks": false
           }
         }
@@ -104,15 +104,15 @@
   },
   "active": "49af97e8fb771e09",
   "lastOpenFiles": [
-    "Daily/2022-03-10.md",
     "索引/vue3-索引.md",
-    "笔记/vu3 组件的双向绑定 v-model.md",
-    "笔记/runtime-core 运行时流程.md",
     "索引/思考-索引.md",
-    "Daily/2022-03-09.md",
-    "笔记/reactive.md",
-    "笔记/优秀的孩子.md",
-    "索引/管理-索引.md",
-    "索引/技能-索引.md"
+    "索引/设计-索引.md",
+    "笔记/工厂模式.md",
+    "附件/WechatIMG264.jpeg",
+    "笔记/未命名 1.md",
+    "Daily/2022-03-11.md",
+    "笔记/runtime-core 运行时流程.md",
+    "Daily/2022-03-10.md",
+    "笔记/vu3 组件的双向绑定 v-model.md"
   ]
 }
