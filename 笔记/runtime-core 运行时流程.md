@@ -117,6 +117,7 @@ function createApp(rootComponent) {
 		// patch  Elements
 		patch(subTree, container)
 		// 也就是 patch 的 processElement 逻辑
+		// 区分创建元素？更新元素？ 进行 元素，属性，children，挂载的操作
 	}
 	```
 
