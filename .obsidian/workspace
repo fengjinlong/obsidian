@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/vue3 实现组件代理对象.md",
-            "mode": "preview",
+            "file": "笔记/创建者模式.md",
+            "mode": "source",
             "backlinks": false
           }
         }
@@ -77,7 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 209
+    "width": 266
   },
   "right": {
     "id": "3183b1b661034dde",
@@ -104,15 +104,15 @@
   },
   "active": "49af97e8fb771e09",
   "lastOpenFiles": [
-    "笔记/vue3 实现组件代理对象.md",
+    "笔记/创建者模式.md",
+    "索引/设计-索引.md",
+    "Daily/2022-03-13.md",
     "索引/vue3-索引.md",
+    "笔记/vue3 实现组件代理对象.md",
     "索引/思考-索引.md",
     "笔记/vue3 中的几种类型.md",
     "笔记/runtime-core 运行时流程.md",
-    "索引/设计-索引.md",
     "笔记/工厂模式.md",
-    "附件/WechatIMG264.jpeg",
-    "笔记/未命名 1.md",
-    "Daily/2022-03-11.md"
+    "附件/WechatIMG264.jpeg"
   ]
 }
