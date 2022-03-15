@@ -1,9 +1,11 @@
 [
   "calendar",
   "obsidian-plugin-deploy-content-to-anywhere",
-  "obsidian-emoji-toolbar",
   "obsidian-admonition",
   "obsidian-day-planner",
   "table-editor-obsidian",
-  "obsidian-journey-plugin"
+  "obsidian-journey-plugin",
+  "emoji-shortcodes",
+  "cm-editor-syntax-highlight-obsidian",
+  "open-vscode"
 ]

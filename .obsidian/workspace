@@ -106,13 +106,13 @@
   "lastOpenFiles": [
     "索引/思考-索引.md",
     "索引/vue3-索引.md",
-    "笔记/vim 快捷键.md",
-    "索引/技能-索引.md",
+    "索引/未命名.md",
+    "笔记/ref isRef unRef proxyRefs.md",
+    "笔记/vue3总览.md",
+    "笔记/reactive.md",
+    "笔记/vue3 挂载全局组件.md",
+    "笔记/vu3 组件的双向绑定 v-model.md",
     "索引/设计-索引.md",
-    "附件/image.png",
-    "Daily/2022-03-14.md",
-    "笔记/js 小技巧.md",
-    "笔记/创建者模式.md",
-    "Daily/2022-03-13.md"
+    "索引/管理-索引.md"
   ]
 }
