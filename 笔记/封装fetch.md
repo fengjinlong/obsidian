@@ -4,7 +4,7 @@
 #### fetch 基本操作
 
 ```js
-fetch('http://example.com/movies.json').then(function(response) { return response.json();}).then(function(myJson) { console.log(myJson);});
+fetch('http://example.com/movies.json').then(function(response) { 	return response.json();}).then(function(myJson) { console.log(myJson);});
 ```
 
 #### 为何不直接使用fetch

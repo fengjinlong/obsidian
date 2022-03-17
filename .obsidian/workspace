@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily/2022-03-17.md",
-            "mode": "source",
+            "file": "索引/思考-索引.md",
+            "mode": "preview",
             "backlinks": false
           }
         }
@@ -104,15 +104,15 @@
   },
   "active": "62dc5cf5680ba024",
   "lastOpenFiles": [
-    "Daily/2022-03-17.md",
     "索引/思考-索引.md",
-    "索引/未命名.md",
-    "笔记/解构影响响应式.md",
+    "笔记/简单的 diff.md",
     "索引/vue3-索引.md",
+    "索引/未命名.md",
+    "笔记/封装fetch.md",
+    "索引/技能-索引.md",
+    "Daily/2022-03-17.md",
+    "笔记/解构影响响应式.md",
     "笔记/ref isRef unRef proxyRefs.md",
-    "笔记/vue3总览.md",
-    "笔记/reactive.md",
-    "笔记/vue3 挂载全局组件.md",
-    "笔记/vu3 组件的双向绑定 v-model.md"
+    "笔记/vue3总览.md"
   ]
 }
