@@ -23,66 +23,43 @@ function patchKeyedChildren(n1, n2, container) {
   let newEndVNode = newChildren[newEndIdx];
 
   while (newStartIdx <= newEndIdx && oldStartIdx <= oldEndIdx) {
-    if (oldStartVNode.key === newStartVNode.key) {
-      // 第一步
+    if (!oldStartVNode) {
       /**
-       * 1 patch 节点打补丁
-       * 2 都是头节点，不需要移动
-       * 3 更新索引值
+       * 1 索引变换
+       * 2 索引对应的节点 改变
        */
-      // 1
-      patch(oldStartVNode, newStartVNode, container);
-      // 3
       oldStartIdx++;
-      newStartIdx++;
       oldStartVNode = oldChildren[oldStartIdx];
-      newStartVNode = newChildren[newStartIdx];
+    } else if (!oldEndVNode) {
+      oldEndIdx--;
+      oldEndVNode = oldChildren[oldEndIdx];
+    } else if (oldStartVNode.key === newStartVNode.key) {
+      // 第一步
     } else if (oldEndVNode.key === newEndVNode.key) {
       // 第二步
-      /**
-       * 1 patch 节点打补丁
-       * 2 都是尾节点，不需要移动位置
-       * 3 更新索引值
-       */
-      // 1
-      patch(oldEndVNode, newEndVNode, container);
-      // 3
-      oldEndIdx--;
-      newEndIdx--;
-      oldEndVNode = oldChildren[oldEndIdx];
-      newEndVNode = newChildren[newEndIdx];
     } else if (oldStartVNode.key === newEndVNode.key) {
       // 第三步
-      /**
-       * 1 patch 节点打补丁
-       * 2 移动位置 旧的头节点对应dom 移动到旧尾节点对应dom 的后面
-       * 更新索引值
-       */
-      // 1
-      patch(oldStartVNode, newEndVNode);
-      // 2
-      insert(oldEndVNode.el, container, oldEndVNode.el.nextSibling);
-      // 3
-      oldStartIdx++;
-      newEndIdx--;
-      oldStartVNode = oldChildren[oldStartIdx];
-      newEndVNode = newChildren[newStartIdx];
     } else if (oldEndVNode.key === newStartVNode.key) {
       // 第四步
-      /**
-       * 1 patch 节点打补丁
-       * 2 移动
-       * 3 更新索引值
-       */
-      // 1
-      patch(oldEndVNode, newStartVNode, container);
-      // 2
-      insert(oldEndVNode.el, container, oldStartVNode.el);
-      // 3
-      oldEndIdx--;
-      newStartIdx++;
-      oldEndVNode = oldChildren[oldEndIdx];
-      newStartVNode = newChildren[newStartIdx];
+    } else {
+      // 遍历旧节点，查找是否存在与 newStartVNode 可复用的节点
+      const idxInOld = oldChildren.find(
+        (node) => node.key === newStartVNode.key
+      );
+      if (idxInOld > 0) {
+        /**
+         * 1 patch 打补丁
+         * 2 移动
+         * 3 置空
+         * 4 跟新索引值,变换更新的索引指向的dom
+         */
+        const vnodeToMove = oldChildren[idxInOld];
+        patch(vnodeToMove, newStartVNode, container);
+        insert(vnodeToMove.el, container, oldStartVNode.el);
+        oldChildren[idxInOld] = undefined;
+        newStartIdx++;
+        newStartVNode = newChildren[newStartIdx];
+      }
     }
   }
 }
