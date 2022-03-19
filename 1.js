@@ -57,9 +57,26 @@ function patchKeyedChildren(n1, n2, container) {
         patch(vnodeToMove, newStartVNode, container);
         insert(vnodeToMove.el, container, oldStartVNode.el);
         oldChildren[idxInOld] = undefined;
-        newStartIdx++;
-        newStartVNode = newChildren[newStartIdx];
+      } else {
+        patch(null, newStartIdx, container, oldStartVNode.el);
       }
+      newStartIdx++;
+      newStartVNode = newChildren[newStartIdx];
     }
+  }
+}
+
+while (newStartIdx <= newEndIdx && oldStartIdx <= oldEndIdx) {
+  // ...
+}
+if (oldEndIdx < oldStartIdx && newStartIdx <= newEndIdx) {
+  // 存在被遗漏的新节点，需要挂载
+  for (let i = newStartIdx; i < newEndIdx; i++) {
+    patch(null, newChildren[i], container, oldStartVNode.el);
+  }
+} else if (newEndIdx < newStartIdx && oldStartIdx <= oldEndIdx) {
+  // 移除操作
+  for (let i = oldStartIdx; i < oldEndIdx; i++) {
+    unmount(oldChildren[i]);
   }
 }
