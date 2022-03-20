@@ -7,8 +7,12 @@
         "id": "88b8c4e967d90438",
         "type": "leaf",
         "state": {
-          "type": "graph",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "索引/vue3-索引.md",
+            "mode": "source",
+            "backlinks": false
+          }
         }
       }
     ],
@@ -37,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "target",
+                "query": "obs",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,14 +105,14 @@
   "active": "88b8c4e967d90438",
   "lastOpenFiles": [
     "索引/vue3-索引.md",
-    "笔记/双端 diff - 非理想情况.md",
-    "索引/思考-索引.md",
-    "笔记/双端 diff - 理想情况.md",
-    "笔记/双端 diff.md",
-    "笔记/简单的 diff.md",
-    "索引/未命名.md",
-    "笔记/封装fetch.md",
     "索引/技能-索引.md",
-    "Daily/2022-03-17.md"
+    "笔记/ob操作.md",
+    "索引/管理-索引.md",
+    "学习与生活/软件相关/常规操作.md",
+    "索引/设计-索引.md",
+    "索引/思考-索引.md",
+    "Daily/2022-02-21.md",
+    "笔记/关于快速diff 的 source数组.md",
+    "笔记/双端 diff - 非理想情况.md"
   ]
 }
