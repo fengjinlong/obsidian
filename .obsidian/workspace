@@ -6,11 +6,25 @@
       {
         "id": "75a21eb969f8f725",
         "type": "leaf",
+        "dimension": 44.54203262233375,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily/2022-03-22.md",
+            "file": "索引/思考-索引.md",
             "mode": "source",
+            "backlinks": false
+          }
+        }
+      },
+      {
+        "id": "636bf96bbfcebb05",
+        "type": "leaf",
+        "dimension": 55.45796737766625,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "索引/思考-索引.md",
+            "mode": "preview",
             "backlinks": false
           }
         }
@@ -104,14 +118,14 @@
   },
   "active": "75a21eb969f8f725",
   "lastOpenFiles": [
-    "Daily/2022-03-22.md",
     "索引/思考-索引.md",
     "笔记/关于快速diff 的 source数组.md",
     "索引/vue3-索引.md",
+    "笔记/ob操作.md",
+    "索引/技能-索引.md",
+    "Daily/2022-03-22.md",
     "Daily/2022-03-21.md",
     "Daily/2022-03-20.md",
-    "索引/技能-索引.md",
-    "笔记/ob操作.md",
     "索引/管理-索引.md",
     "学习与生活/软件相关/常规操作.md"
   ]

@@ -111,4 +111,64 @@ function patchKeyedChildren(n1, n2, container) {
     oldVNode = oldChildren[oldEnd];
     newVNode = newChildren[newEnd];
   }
+  // 预处理完成，如果满足如下条件，则说明从 j --- newEnd 之间的节点
+  if (j > oldEnd && j <= newEnd) {
+    // 锚点的索引
+    const anchorIndex = newEnd + 1;
+    // 锚点元素
+    const anchor =
+      anchorIndex < newChildren.length ? newChildren[anchorIndex].el : null;
+    // 添加
+    while (j <= newEnd) {
+      patch(null, newChildren[j], container, anchor);
+    }
+  } else if (j > newEnd && j <= oldEnd) {
+    // 卸载
+    while (j <= oldEnd) {
+      unmount(oldChildren[j]);
+    }
+  } else {
+    const count = newEnd - j + 1;
+    const source = new Array(count);
+    source.fill(-1);
+    const oldStart = j;
+    const newStart = j;
+
+    // 新增两个变量 moved pos
+    let moved = false;
+    let pos = 0;
+
+    // 构建索引表
+    const keyIndex = {};
+    for (let i = newStart; i < oldEnd; i++) {
+      keyIndex[newChildren[i].key] = i;
+    }
+    let patched = 0;
+    // 遍历旧节点未处理的节点
+    for (let i = oldStart; i < oldEnd; i++) {
+      oldVNode = oldChildren[i];
+      if (patched <= count) {
+        // 通过索引表快速查找到新的一组节点中具有相同key 的节点位置
+        const k = keyIndex[oldVNode.key];
+        if (typeof k !== "undefined") {
+          newVNode = newChildren[k];
+          patch(oldVNode, newVNode, container);
+          source[k - newStart] = i;
+          patched++;
+          // need move ?
+          if (k < pos) {
+            moved = true;
+          } else {
+            pos = k;
+          }
+        } else {
+          // 没找到,卸载
+          unmount(oldVNode);
+        }
+      } else {
+        // 卸载多余的
+        unmount(oldVNode);
+      }
+    }
+  }
 }
