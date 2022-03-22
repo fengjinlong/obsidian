@@ -80,3 +80,35 @@ if (oldEndIdx < oldStartIdx && newStartIdx <= newEndIdx) {
     unmount(oldChildren[i]);
   }
 }
+
+function patchKeyedChildren(n1, n2, container) {
+  const newChildren = n2.children;
+  const oldChildren = n1.children;
+  // 处理相同的前置节点
+  let j = 0;
+  let oldVNode = oldChildren[j];
+  let newVNode = newChildren[j];
+  // 直到遇见不相同的节点为止
+  // 完成前置节点的更新
+  while (oldVNode.key === newVNode.key) {
+    // 打补丁
+    patch(oldVNode, newVNode, container);
+    j++;
+    oldVNode = oldChildren[j];
+    newVNode = newChildren[j];
+  }
+  // 处理后置节点
+  // 完成后置节点的更新
+  let newEnd = newChildren.length - 1;
+  let oldEnd = oldChildren.length - 1;
+  oldVNode = oldChildren[oldEnd];
+  newVNode = newChildren[newEnd];
+  while (oldVNode.key === newVNode.key) {
+    // 打补丁
+    patch(oldVNode, newVNode, container);
+    newEnd--;
+    oldEnd--;
+    oldVNode = oldChildren[oldEnd];
+    newVNode = newChildren[newEnd];
+  }
+}
