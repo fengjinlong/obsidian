@@ -170,5 +170,41 @@ function patchKeyedChildren(n1, n2, container) {
         unmount(oldVNode);
       }
     }
+    if (moved) {
+      const seq = lis(source);
+      let s = seq.length - 1;
+      let i = count - 1;
+      for (let i; i >= 0; i--) {
+        if (source[i] === -1) {
+          // 新节点，挂载
+          // 该节点在newChilren 真实的位置
+          const pos = i + newStart;
+          const newVNode = newChildren[pos];
+          // 该节点下一个位置
+          const nextPos = pos + 1;
+          // 锚点
+          const anchor =
+            nextPos <= newChildren.length ? newChildren[nextPos] : null;
+          // 挂载
+          patch(null, newVNode, container, anchor);
+        } else if (i !== seq[s]) {
+          // 需要移动
+          // 该节点在newChilren 真实的位置
+          const pos = i + newStart;
+          const newVNode = newChildren[pos];
+          // 该节点下一个位置
+          const nextPos = pos + 1;
+          // 锚点
+          const anchor =
+            nextPos <= newChildren.length ? newChildren[nextPos] : null;
+          // 移动
+          insert(newVNode.el, container, anchor);
+        } else {
+          // 不需要移动
+          // i === seq[s] 时，该位置不需要移动
+          s--;
+        }
+      }
+    }
   }
 }
