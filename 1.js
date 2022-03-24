@@ -208,3 +208,12 @@ function patchKeyedChildren(n1, n2, container) {
     }
   }
 }
+const MyComponent = {
+  name: "MyComponent",
+  render() {
+    return {
+      type: "div",
+      children: "text",
+    };
+  },
+};
