@@ -217,3 +217,111 @@ const MyComponent = {
     };
   },
 };
+const queue = new Set();
+let isFlushing = false;
+const p = Promise.resolve;
+function queueJob(job) {
+  queue.add(job);
+  if (isFlushing) {
+    isFlushing = true;
+    p.then(() => {
+      try {
+        queue.forEach((job) => job());
+      } finally {
+        isFlushing = false;
+        queue.length = 0;
+      }
+    });
+  }
+}
+
+function cmountComponent() {
+  // ...
+  beforeCreate && beforeCreate();
+  const instance = {};
+  vnode.component = instance;
+
+  created && created.call(state);
+
+  instance.updated = effect(
+    () => {
+      const subTree = instance.render.call(state);
+      if (!isMounted) {
+        baforeMounted && baforeMounted.call(state);
+        patch(null, subTree);
+        mounted && mounted.call(state);
+        // ...
+      } else {
+        beforeUpdate && beforeUpdate.call(state);
+        patch(prevSubTree, subTree);
+        updated && updated.call(state);
+      }
+    },
+    {
+      scheduler: queueJob(instance.updated),
+    }
+  );
+}
+
+instance.proxy = new Proxy(
+  {},
+  {
+    get(target, key) {
+      const { setupState, props } = instance;
+      // 当 this.xxx，如果xxx 是setup() 的返回对象的 key 时
+      if (key in setupState) {
+        return setupState[key];
+      }
+      // key 在 props 里面
+      if (key in props) {
+        return props[key];
+      }
+      if (key === "$el") {
+        // 这是组件实例的虚拟节点
+        return instance.vnode.el;
+      }
+      if (key === "$props") {
+        // 这是组件实例的props,很少用
+        return instance.vnode.props;
+      }
+    },
+  }
+);
+
+function setupRenderEffect(
+  instance: any,
+  initialVNode: any,
+  container,
+  anchor
+) {
+  instance.update = effect(
+    () => {
+      if (!instance.isMounted) {
+        const { proxy } = instance;
+        const subTree = (instance.subTree = instance.render.call(proxy));
+        // ...
+      } else {
+        // ...
+        const { proxy } = instance;
+        const subTree = instance.render.call(proxy);
+      }
+    },
+    {
+      scheduler() {
+        queueJobs(instance.update);
+      },
+    }
+  );
+}
+
+const { setup } = instance.type;
+if (setup) {
+  // props shallow readonly
+  const setupResult = setup(shallowReadonly(instance.props), {
+    emit: instance.emit,
+  });
+  if (typeof setupResult === "object") {
+    instance.setupState = proxyRef(setupResult);
+  }
+  instance.render = instance.type.render;
+}

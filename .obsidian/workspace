@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/runtime-core 运行时流程.md",
+            "file": "索引/思考-索引.md",
             "mode": "preview",
             "backlinks": false
           }
@@ -104,15 +104,15 @@
   },
   "active": "ebad658c7e46c21c",
   "lastOpenFiles": [
-    "笔记/runtime-core 运行时流程.md",
-    "索引/vue3-索引.md",
     "索引/思考-索引.md",
-    "笔记/vue 动态 src background 写法.md",
+    "索引/vue3-索引.md",
     "索引/技能-索引.md",
+    "笔记/vue3 源码总结.md",
+    "学习与生活/软件相关/常规操作.md",
     "索引/设计-索引.md",
     "索引/管理-索引.md",
-    "笔记/快速 diff.md",
-    "笔记/关于快速diff 的 source数组.md",
-    "笔记/ob操作.md"
+    "笔记/runtime-core 运行时流程.md",
+    "笔记/vue 动态 src background 写法.md",
+    "笔记/快速 diff.md"
   ]
 }
