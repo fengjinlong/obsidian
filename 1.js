@@ -325,3 +325,36 @@ if (setup) {
   }
   instance.render = instance.type.render;
 }
+function render() {
+  return {
+    type: MyComponent,
+    children: {
+      header() {
+        return {
+          type: "h1",
+          children: "标题",
+        };
+      },
+      footer() {
+        return {
+          type: "p",
+          children: "注脚",
+        };
+      },
+    },
+  };
+}
+function render() {
+  return [
+    { type: "div", children: [this.$slots.header()] },
+    { type: "div", children: [this.$slots.footer()] },
+  ];
+}
+
+function initSlots(instance, children) {
+  const { slots } = instance;
+  for (const key in children) {
+    const value = children[key];
+    slots[key] = (props) => [value(props)];
+  }
+}
