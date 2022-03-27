@@ -288,12 +288,7 @@ instance.proxy = new Proxy(
   }
 );
 
-function setupRenderEffect(
-  instance: any,
-  initialVNode: any,
-  container,
-  anchor
-) {
+function setupRenderEffect(instance, initialVNode, container, anchor) {
   instance.update = effect(
     () => {
       if (!instance.isMounted) {
@@ -358,3 +353,30 @@ function initSlots(instance, children) {
     slots[key] = (props) => [value(props)];
   }
 }
+
+let o = {
+  a: 1,
+};
+function fun(obj) {
+  obj.a = 2;
+}
+// o.a === 2
+
+const a = {
+  value: 1,
+  valueOf() {
+    return 2;
+  },
+  toString() {
+    return "3";
+  },
+  [Symbol.toPrimitive]() {
+    return 4;
+  },
+};
+
+// is obj function
+const isComplexDataType = (obj) => {
+  return (typeof obj === "object" || typeof obj === "function") && obj !== null;
+};
+const deepClone = function (obj, hash = new WeakMap()) {};

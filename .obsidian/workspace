@@ -4,24 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "ebad658c7e46c21c",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "索引/技能-索引.md",
-            "mode": "source",
-            "backlinks": false
-          }
-        }
-      },
-      {
         "id": "d840f54c138dfce2",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/重试机制.md",
+            "file": "笔记/基石篇.md",
             "mode": "preview",
             "backlinks": false
           }
@@ -114,17 +102,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ebad658c7e46c21c",
+  "active": "d840f54c138dfce2",
   "lastOpenFiles": [
+    "笔记/基石篇.md",
+    "索引/拉钩js核心-索引.md",
+    "索引/vue3-索引.md",
     "索引/技能-索引.md",
     "索引/设计-索引.md",
-    "索引/vue3-索引.md",
+    "Daily/2022-03-23.md",
     "笔记/重试机制.md",
     "索引/思考-索引.md",
     "笔记/组件实现原理相关内容.md",
-    "Daily/2022-03-23.md",
-    "笔记/Vue3.x 推荐使用 mitt.js.md",
-    "笔记/vue3 源码总结.md",
-    "学习与生活/软件相关/常规操作.md"
+    "笔记/Vue3.x 推荐使用 mitt.js.md"
   ]
 }
