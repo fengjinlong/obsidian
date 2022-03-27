@@ -379,4 +379,35 @@ const a = {
 const isComplexDataType = (obj) => {
   return (typeof obj === "object" || typeof obj === "function") && obj !== null;
 };
-const deepClone = function (obj, hash = new WeakMap()) {};
+const deepClone = function (obj, hash = new WeakMap()) {
+  // 处理日期类型
+  if (obj.constructor === Date) {
+    return new Date(obj);
+  }
+  // 正则
+  if (obj.constructor === RegExp) {
+    return new RegExp(obj);
+  }
+  //如果循环引用了就用 weakMap 来解决
+  if (hash.has(obj)) {
+    return hash.get(obj);
+  }
+  //遍历传入参数所有键的特性
+  let allDesc = Object.getOwnPropertyDescriptors(obj);
+  //继承原型链
+  let cloneObj = Object.create(Object.getPrototypeOf(obj), allDesc);
+  hash.set(obj, cloneObj);
+  for (const key of Reflect.ownKeys(obj)) {
+    /**
+     * isComplexDataType(obj[key]) 是 obj 或 function
+     * isComplexDataType(obj[key]) && typeof obj[key] !== "function"  是 obj
+     * 如果是 obj 递归
+     * 如果不是 obj 直接返回
+     */
+    cloneObj[key] =
+      isComplexDataType(obj[key]) && typeof obj[key] !== "function"
+        ? deepClone(obj[key], hash)
+        : obj[key];
+  }
+  return cloneObj;
+};
