@@ -31,3 +31,16 @@ function neww(fun, ...args) {
   let result = fun.apply(obj, args);
   return result instanceof Object ? result : obj;
 }
+
+let obj = {
+  a: 1,
+  b: 2,
+  length: 2,
+};
+Array.prototype.push.call(obj, "c", "d");
+
+console.log(obj); // {2: 'c', 3: 'd', a: 1, b: 2, length: 4}
+
+fun.call(obj, arg);
+
+

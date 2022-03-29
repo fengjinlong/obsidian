@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "笔记/基石篇.md",
-            "mode": "preview",
+            "mode": "source",
             "backlinks": false
           }
         }
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mitt",
+                "query": "set",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -106,13 +106,13 @@
   "lastOpenFiles": [
     "笔记/基石篇.md",
     "索引/拉钩js核心-索引.md",
+    "索引/思考-索引.md",
+    "索引/vue3-索引.md",
     "笔记/vscode 添加 path.md",
     "索引/技能-索引.md",
     "索引/管理-索引.md",
-    "索引/vue3-索引.md",
     "索引/设计-索引.md",
     "Daily/2022-03-23.md",
-    "笔记/重试机制.md",
-    "索引/思考-索引.md"
+    "笔记/重试机制.md"
   ]
 }
