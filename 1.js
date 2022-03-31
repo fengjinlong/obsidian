@@ -77,3 +77,69 @@ function mountComponent(vnode, container, anchor) {
     };
   }
 }
+function F() {
+  this.a = 1;
+  return {};
+}
+function F2() {
+  this.a = 1;
+  return 1;
+}
+function F3() {
+  this.a = 1;
+}
+
+function Neww(fun, ...args) {
+  let obj = {};
+  Objectj.setPrototypeOf(obj, fun.prototype);
+  let result = fun.apply(obj, args);
+  return result instanceof Object ? result : obj;
+}
+
+F.call(obj, args);
+Function.prototype._call = (ctx, ...args) => {
+  ctx = ctx ? Object(ctx) : window;
+  ctx.fn = this;
+  let result = ctx.fn(...args);
+  delete ctx.fn;
+  return result;
+};
+Function.prototype._apply = (ctx, args) => {
+  ctx = ctx ? Object(ctx) : window;
+  ctx.fn = this;
+  let r = ctx.fn(...args);
+  delete ctx.fn;
+  return r;
+};
+fun.bind(obj, args)();
+Function.prototype._bind = (ctx, ...args) => {
+  if (typeof this !== "function") {
+    return new Error("xxx");
+  }
+  let fn = this;
+  function F() {
+    let con = this instanceof F ? this : ctx;
+    let a = args.concat(...arguments);
+    fn.call(con, a);
+  }
+  if (this.prototype) {
+    Object.setPrototypeOf(F, this.prototype);
+  }
+  return F;
+};
+
+function fun3() {
+  console.log("fun3");
+}
+function fun2() {
+  fun3();
+}
+function fun1() {
+  fun2();
+}
+fun1();
+//执⾏fun1 结果如下
+ECStack = [fun1, globalContext];
+
+
+

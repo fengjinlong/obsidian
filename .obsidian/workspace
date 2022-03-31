@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/KeepAlive.md",
+            "file": "笔记/javascript 执行栈相关.md",
             "mode": "preview",
             "backlinks": false
           }
@@ -104,15 +104,15 @@
   },
   "active": "d840f54c138dfce2",
   "lastOpenFiles": [
-    "笔记/KeepAlive.md",
-    "索引/vue3-索引.md",
-    "索引/草稿2.md",
-    "笔记/异步组件.md",
-    "笔记/vue3 源码总结.md",
+    "笔记/javascript 执行栈相关.md",
     "索引/技能-索引.md",
-    "索引/拉钩js核心-索引.md",
     "索引/设计-索引.md",
-    "索引/草稿1.md",
-    "笔记/vim 快捷键.md"
+    "索引/vue3-索引.md",
+    "Daily/2022-03-31.md",
+    "Daily/2022-03-23.md",
+    "笔记/vue 动态 src background 写法.md",
+    "笔记/vu3 组件的双向绑定 v-model.md",
+    "索引/管理-索引.md",
+    "索引/拉钩js核心-索引.md"
   ]
 }
