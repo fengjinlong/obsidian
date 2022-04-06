@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/vue3 编译模块.md",
+            "file": "笔记/数组篇.md",
             "mode": "preview",
             "backlinks": false
           }
@@ -104,15 +104,15 @@
   },
   "active": "d840f54c138dfce2",
   "lastOpenFiles": [
+    "笔记/数组篇.md",
+    "索引/拉钩js核心-索引.md",
     "笔记/vue3 编译模块.md",
     "索引/vue3-索引.md",
     "笔记/vscode-vim 快捷键.md",
     "索引/技能-索引.md",
     "Daily/2022-04-02.md",
     "笔记/基石篇.md",
-    "索引/拉钩js核心-索引.md",
     "索引/草稿2.md",
-    "索引/草稿1.md",
-    "索引/设计-索引.md"
+    "索引/草稿1.md"
   ]
 }

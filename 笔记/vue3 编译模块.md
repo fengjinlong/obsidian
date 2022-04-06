@@ -11,3 +11,13 @@
 }
         
 ```
+
+## 元素标签
+```js
+// <div></div>
+
+{
+	type: NodeTypes.ELEMENT,
+    tag: "div",
+}
+```
