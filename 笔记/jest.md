@@ -266,6 +266,4 @@ test("测试 getData 的返回值包含 404", async () => {
 
 ```
 ## Jest 中的钩子函数
-
-https://juejin.cn/post/7066792153027969032#heading-4
-
+https://juejin.cn/post/7066792153027969032#heading-23
