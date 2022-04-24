@@ -266,4 +266,169 @@ test("测试 getData 的返回值包含 404", async () => {
 
 ```
 ## Jest 中的钩子函数
-https://juejin.cn/post/7066792153027969032#heading-23
+```js
+// index.js
+
+class Counter {
+  constructor() {
+    this.number = 0;
+  }
+  add() {
+    this.number++;
+  }
+  minus() {
+    this.number--;
+  }
+}
+
+export default Counter;
+
+```
+```js
+// index.test.js
+
+import Counter from "./index";
+
+const counter = new Counter();
+
+test("测试 Counter 的 add 方法", () => {
+  expect(counter.number).toBe(0);
+  counter.add();
+  expect(counter.number).toBe(1);
+});
+
+```
+然后运行测试用例，完美通过。
+然后继续添加minus方法的测试用例：
+```js
+// index.test.js
+
+import Counter from "./index";
+
+const counter = new Counter();
+
+test("测试 Counter 的 add 方法", () => {
+  expect(counter.number).toBe(0);
+  counter.add();
+  expect(counter.number).toBe(1);
+});
+
+test("测试 Counter 的 minus 方法", () => {
+  expect(counter.number).toBe(0);
+  counter.minus();
+  expect(counter.number).toBe(-1);
+});
+
+```
+- 测试 add 方法：通过
+- 测试 minus 方法：不通过
+- 解决办法是：
+我们可以把实例化写在每一个测试用例里面，每次测试都创建一个新的counter 实例。这样就不会公用一个counter了，也不会影响到其它实例了。
+但是一般情况下，我们不会这样做，因为测试用例很多的话，每次都创建一个 counter实例 是一件很麻烦的事情，假如当前文件中有1000个和counter有关的测试用例，那么就要创建1000次counter实例。
+这个时候！钩子函数派上用场了！
+```js
+// index.test.js
+
+import Counter from "./index";
+
+let counter = null;
+
+beforeEach(() => {
+  counter = new Counter();
+});
+
+test("测试 counter 的 add 方法", () => {
+  expect(counter.number).toBe(0);
+  counter.add();
+  expect(counter.number).toBe(1);
+});
+
+test("测试 counter 的 minus 方法", () => {
+  expect(counter.number).toBe(0);
+  counter.minus();
+  expect(counter.number).toBe(-1);
+});
+
+```
+实际上，Jest 一共有四个钩子函数：
+
+- beforeAll：在所有测试用例执行之前调用（调用一次）
+- afterAll：在所有测试用例执行之后调用（调用一次）
+- beforeEach：在每个测试用例执行之前调用（调用多次）
+- afterEach：在每个测试用例执行之后调用（调用多次）
+
+## 钩子函数的作用域
+- 每一个 describe 都可以有自己的钩子函数
+- 每一个 describe 都有自己的作用域
+- 每一个 钩子函数也有自己的作用域，就是当前所在的 describe
+- 每一个 describe 里面的钩子函数对自己作用域下面所有的测试用例都生效
+- 如果 describe 是多层嵌套的，那么测试用例执行的顺序是由外到内
+如果有多个测试用例，但是只想运行一个的时候，注释掉其它的测试用例往往不是最好的选择，我们可以使.only语法去执行
+
+## Jest 中的 Mock
+### 函数的 Mock
+Mock 函数提供的以下三种特性，在我们写测试代码时十分有用：
+
+- 捕获函数调用情况
+- 设置函数返回值
+- 改变函数的内部实现
+
+#### 测试函数是否被正常调用
+
+首先定义一个函数，用来执行传入的回调，然后导出
+
+```js
+// index.js
+
+export const runCallback = callback => {
+  callback();
+};
+
+```
+
+测试
+
+```js
+// index.test.js
+
+import { runCallback } from "./index";
+
+test("测试 runCallback", () => {
+  const func = jest.fn(); // 生成 mock 函数，捕获函数的调用
+  runCallback(func); // 调用 mock 函数
+  expect(func).toBeCalled(); // toBeCalled 匹配器用来检查函数是否被调用过
+});
+
+```
+
+#### 测试函数调用次数是否正确
+
+```js
+// index.test.js
+
+import { runCallback } from "./index";
+
+test("测试调用次数", () => {
+  const func = jest.fn(); // 生成 mock 函数，捕获函数的调用
+  runCallback(func); // 第一次调用 mock 函数
+  runCallback(func); // 第二次调用 mock 函数
+  runCallback(func); // 第三次调用 mock 函数
+  expect(func.mock.calls.length).toBe(3); // 检查函数是否被调用了三次
+});
+
+```
+
+#### 测试函数是否返回 undefined
+
+```js
+// index.test.js
+
+import { runCallback } from "./index";
+
+test("测试返回值", () => {
+ const func = jest.fn(); // 生成 mock 函数，捕获函数的调用
+  expect(runCallback(func)).toBeUndefined(); // 检查函数是否返回 undefined
+});
+
+```
+
