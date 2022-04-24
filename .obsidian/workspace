@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/jest.md",
-            "mode": "source",
+            "file": "笔记/vue3 编译模块.md",
+            "mode": "preview",
             "backlinks": false
           }
         }
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "2j",
+                "query": "vim",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,15 +104,15 @@
   },
   "active": "ee8b804957952340",
   "lastOpenFiles": [
-    "笔记/jest.md",
-    "索引/技能-索引.md",
-    "索引/拉钩js核心-索引.md",
-    "索引/设计-索引.md",
-    "Daily/2022-04-23.md",
-    "Daily/2022-04-22.md",
+    "笔记/vue3 编译模块.md",
     "索引/vue3-索引.md",
-    "Daily/Template.md",
-    "Daily/2022-04-21.md",
-    "索引/草稿3.md"
+    "笔记/vscode-vim 快捷键.md",
+    "索引/技能-索引.md",
+    "笔记/流程图解决方案.md",
+    "索引/管理-索引.md",
+    "Daily/2022-04-24.md",
+    "Daily/2022-04-23.md",
+    "笔记/jest.md",
+    "索引/拉钩js核心-索引.md"
   ]
 }
