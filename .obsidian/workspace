@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "ee8b804957952340",
+        "id": "1ea7bc241a735971",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/vue3 编译模块.md",
+            "file": "Daily/2022-04-28.md",
             "mode": "preview",
             "backlinks": false
           }
@@ -25,7 +25,6 @@
       {
         "id": "d353dec9b41689b6",
         "type": "tabs",
-        "dimension": 62.5,
         "children": [
           {
             "id": "b909e41c1afcddf7",
@@ -41,36 +40,13 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "vim",
+                "query": "jest",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
-            }
-          }
-        ]
-      },
-      {
-        "id": "cb7aa56bebb6c97a",
-        "type": "tabs",
-        "dimension": 37.5,
-        "children": [
-          {
-            "id": "cf978bdffae608fd",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "8b09e04463512958",
-            "type": "leaf",
-            "state": {
-              "type": "timeline",
-              "state": {}
             }
           }
         ]
@@ -94,6 +70,14 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "f2e5676cdccbd901",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
           }
         ]
       }
@@ -102,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "ee8b804957952340",
+  "active": "1ea7bc241a735971",
   "lastOpenFiles": [
-    "笔记/vue3 编译模块.md",
-    "索引/vue3-索引.md",
-    "笔记/vscode-vim 快捷键.md",
+    "Daily/2022-04-28.md",
+    "笔记/闭包.md",
     "索引/技能-索引.md",
-    "笔记/流程图解决方案.md",
-    "索引/管理-索引.md",
-    "Daily/2022-04-24.md",
-    "Daily/2022-04-23.md",
-    "笔记/jest.md",
-    "索引/拉钩js核心-索引.md"
+    "索引/拉钩js核心-索引.md",
+    "索引/设计-索引.md",
+    "索引/vue3-索引.md",
+    "索引/草稿3.md",
+    "索引/草稿2.md",
+    "索引/草稿1.md",
+    "笔记/jest.md"
   ]
 }

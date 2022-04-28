@@ -110,4 +110,7 @@ promise.then(onFulfilled, onRejected)
 
 ## 3. Notes
 ## 打完收工
+代码仓库
+https://github.com/fengjinlong/promise
+
 ![](Pasted%20image%2020220426002823.png)

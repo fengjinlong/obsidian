@@ -1,26 +1,217 @@
-# 编译
-## 编译插值表达式
+## parse 
+#### 目的转换为ast
+#### baseParse主要逻辑
+1. 代码
 ```js
-// {{massage}}
-{
-	type: NodeTypes.INTERPOLATION,// 插值
-    content: {
-    	type:NodeTypes.SIMPLE_EXPRESSION,// 简单表达式
-        content: "message"
-	}
+export function baseParse(content: string) {
+  const context = createParserContext(content);
+  return createRoot(parseChildren(context));
 }
-        
+
+// createParserContext 返回一个上下文对象 { source: content}
+// parseChildren 判断类型，进行不同转换，插值，element，text 等，返回vnodes=[...]
+// createRoot 创建ast {children: vnodes}
 ```
 
-## 元素标签
+#### 处理插值
+1. 处理插值表达式
 ```js
-// <div></div>
-
+// {{message}} 通过截取字符串获取到 message
+// ast
 {
-	type: NodeTypes.ELEMENT,
+	type: "interpolation",
+	content: {
+		type: "simple_expression",
+		content: "message"
+	}
+}
+```
+解析完要删除 {{message}}
+
+2. 处理element
+
+```js
+// <div></div> 通过正则表达式
+// ast
+{
+    type: NodeTypes.ELEMENT,
     tag: "div",
 }
 ```
+解析完删除 element
+
+3. 解析 text 类型
+- 如果不是插值且不是 element 那么就走text逻辑
+- 获取 text
+- 删除推进 
+
+4. 混合型, element text 插值 并存
+
+- 处理完 element，element被销毁，继续递归处理即可 parseChildren
+- 处理 text 时候，销毁的长度逻辑，要考虑后面是否有 插值（ "{{" ）和 标签 ( "<" )的情况
+- parseChildren 内部循环停止条件
+	- 遇见结束标签
+	- context 为空
+- 当缺少结束标签时候，上面逻辑就会进入死循环
+```js
+// <div><p></div>
+// 找不到 p 的结束标签，不能跳出 parseChildren 的循环
+// 解决思路
+
+/**
+ * parseElement 时候将 tag push一个栈
+ * 在 parseChildren 结束时候 从栈 pop
+ * 正常情况 <div><p></p></div>
+ */
+// 1 获取到 div，推进消除，此后 context 是 <p></p></div>
+const element: any = parseTag(context, TagType.Start);
+// 2 ancestor -> [ div ]
+ancestor.push(element);
+// 3 获取到 p, 消除推进，此后 context 是 </p></div>
+// ancestor -> [ div, p ]
+element.children = parseChildren(context, ancestor);
+// 4 ancestor -> [ div ]
+ancestor.pop();
+parseTag(context, TagType.End);
+// 5 ancestor -> []
+// 此时 isEnd 的逻辑可以使循环结束
+
+/**
+ * 非正常情况<div><p></div>
+ */
+// 1 获取到 div，推进消除，此后 context 是 <p></div>
+const element: any = parseTag(context, TagType.Start);
+// 2 ancestor -> [ div ]
+ancestor.push(element);
+// 3 获取到 p, 消除推进，此后 context 是 </div>
+// ancestor -> [ div, p ]
+element.children = parseChildren(context, ancestor);
+// 找不到结束标签
+// 此时 isEnd 的逻辑不可以使循环结束
+
+/**
+ * 优化
+ * 依然是 parseElement 时候将元素进栈
+ * 处理完子节点，就近pop
+ * 修改isEnd 逻辑
+ *
+ */
+function isEnd(context, ancestor) {
+  const s = context.source;
+  if (s.startsWith("</")) {
+    for (let i = ancestor.length - 1; i >= 0; i--) {
+      const tag = ancestor[i].tag;
+      // 在栈中找到相同的标签，即可退出循环
+      if (startsWithEndTagOpen(s, tag)) {
+        return true;
+      }
+    }
+  }
+  return !s;
+}
+function startsWithEndTagOpen(source, tag) {
+  return (
+    source.startsWith("</") &&
+    source.slice(2, 2 + tag.length).toLowerCase() === tag.toLowerCase()
+  );
+}
+```
+
+5. 有限状态机
+![](Pasted%20image%2020220418230706.png)
+
+
+## transform
+#### 对  ast 做增删改查
+#### 思路：深度优先遍历ast，在处理函数内做相应的修改
+1. 简易demo
+```js
+// 修改文本节点内容
+export function transform(root) {
+  // 遍历
+  traverseNode(root);
+  // 修改
+}
+
+function traverseNode(node: any) {
+  // 相应的修改
+  if (node.type === NodeTypes.TEXT) {
+    node.content = "hi, mini-vue";
+  }
+  const children = node.children;
+  if (children) {
+    for (let i = 0; i < children.length; i++) {
+      const node = children[i];
+      traverseNode(node);
+    }
+  }
+}
+```
+
+2. 优化
+- 考虑要区分 程序的变动点与不变动点
+- 插件化思想
+- 有用户决定调用什么插件
+
+```js
+// 下面程序的变动点，不应该在程序的核心逻辑
+if (node.type === NodeTypes.TEXT) {
+  node.content = "hi, mini-vue";
+}
+// 我们希望是这样的，当调用transform 方法处理ast时候，我需要这个插件我才配置这个插件，不需要就不配置
+transform(ast, {
+  nodeTransformer: [myPlugin]
+});
+// 这样就达到了，分离变动点与不变动点，插件化
+// 最后我们拿到nodeTransformer 的参数，遍历执行 ok
+  
+```
+3. 全局上下文
+创建全局上下文，用于相关数据的传输,存储属性和方法
+```js
+function createTransformContext(root: any, options: any) {
+  const context = {
+    root,
+    nodeTransformer: options.nodeTransformer || {},
+  };
+  return context;
+}
+```
+4. 实现 traansform 逻辑
+```js
+
+export function transform(root, options) {
+  // 全局上下文
+  const context = createTransformContext(root, options);
+  // 遍历
+  traverseNode(root, context);
+  // 修改
+}
+
+function traverseNode(node: any, context) {
+  const nodeTransformer = context.nodeTransformer;
+  for (let i = 0; i < nodeTransformer.length; i++) {
+    let transform = nodeTransformer[i];
+    transform(node);
+  }
+  traverseChildren(node, context);
+}
+function traverseChildren(node: any, context: any) {
+  const children = node.children;
+  if (children) {
+    for (let i = 0; i < children.length; i++) {
+      const node = children[i];
+      traverseNode(node, context);
+    }
+  }
+}
+```
+
+## codegen
+1. 生成代码，根据ast 拼接字符串，生成 render 函数
+2. 只生成代码，不处理ast
+3. 所有对 ast 处理的逻辑都应该放在 transform 里面
+4. toDisplayString 是处理插值的
 
 
 ![](Pasted%20image%2020220425000134.png)
@@ -177,7 +368,4 @@ export { createVNode as createElementVNode };
 
 // 两个函数均在 runtime-core 的出口 导出即可
 ```
-
-
-
 
