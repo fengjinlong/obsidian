@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "1ea7bc241a735971",
+        "id": "5b1f8bf20311832a",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Daily/2022-04-28.md",
+            "file": "笔记/vue3.0 带来的有优化.md",
             "mode": "preview",
             "backlinks": false
           }
@@ -22,6 +22,20 @@
     "id": "6ecacc15a09b9176",
     "type": "split",
     "children": [
+      {
+        "id": "6fcb8706410a6408",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f2e5676cdccbd901",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      },
       {
         "id": "d353dec9b41689b6",
         "type": "tabs",
@@ -70,14 +84,6 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
-          },
-          {
-            "id": "f2e5676cdccbd901",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
           }
         ]
       }
@@ -86,17 +92,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1ea7bc241a735971",
+  "active": "5b1f8bf20311832a",
   "lastOpenFiles": [
-    "Daily/2022-04-28.md",
-    "笔记/闭包.md",
-    "索引/技能-索引.md",
-    "索引/拉钩js核心-索引.md",
-    "索引/设计-索引.md",
+    "笔记/vue3.0 带来的有优化.md",
     "索引/vue3-索引.md",
-    "索引/草稿3.md",
-    "索引/草稿2.md",
-    "索引/草稿1.md",
-    "笔记/jest.md"
+    "笔记/monorepo 介绍.md",
+    "Daily/2022-04-30.md",
+    "Day Planners/Day Planner-20220427.md",
+    "Daily/2022-04-26.md",
+    "索引/Promises/A+.md",
+    "索引/技能-索引.md",
+    "Daily/2022-04-28.md",
+    "笔记/闭包.md"
   ]
 }
