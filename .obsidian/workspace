@@ -4,12 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "5b1f8bf20311832a",
+        "id": "68e9cb431d36d643",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/vue3.0 带来的有优化.md",
+            "file": "索引/草稿2.md",
+            "mode": "source",
+            "backlinks": false
+          }
+        }
+      },
+      {
+        "id": "3882689f3749ae76",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "索引/草稿2.md",
             "mode": "preview",
             "backlinks": false
           }
@@ -67,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266
+    "width": 266,
+    "collapsed": true
   },
   "right": {
     "id": "3183b1b661034dde",
@@ -92,17 +105,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5b1f8bf20311832a",
+  "active": "68e9cb431d36d643",
   "lastOpenFiles": [
-    "笔记/vue3.0 带来的有优化.md",
+    "索引/草稿2.md",
+    "Daily/2022-05-01.md",
     "索引/vue3-索引.md",
+    "笔记/简单的 diff.md",
+    "索引/草稿1.md",
+    "笔记/vue3.0 带来的有优化.md",
     "笔记/monorepo 介绍.md",
     "Daily/2022-04-30.md",
     "Day Planners/Day Planner-20220427.md",
-    "Daily/2022-04-26.md",
-    "索引/Promises/A+.md",
-    "索引/技能-索引.md",
-    "Daily/2022-04-28.md",
-    "笔记/闭包.md"
+    "Daily/2022-04-26.md"
   ]
 }
