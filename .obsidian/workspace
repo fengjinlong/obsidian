@@ -9,20 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "索引/草稿2.md",
+            "file": "笔记/vscode-vim 快捷键.md",
             "mode": "source",
-            "backlinks": false
-          }
-        }
-      },
-      {
-        "id": "e0b40022394e61ef",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "索引/草稿2.md",
-            "mode": "preview",
             "backlinks": false
           }
         }
@@ -106,15 +94,15 @@
   },
   "active": "68e9cb431d36d643",
   "lastOpenFiles": [
+    "笔记/vscode-vim 快捷键.md",
+    "索引/技能-索引.md",
     "索引/草稿2.md",
-    "Daily/2022-05-01.md",
+    "笔记/总览 diff.md",
     "索引/vue3-索引.md",
+    "Daily/2022-05-01.md",
     "笔记/简单的 diff.md",
     "索引/草稿1.md",
     "笔记/vue3.0 带来的有优化.md",
-    "笔记/monorepo 介绍.md",
-    "Daily/2022-04-30.md",
-    "Day Planners/Day Planner-20220427.md",
-    "Daily/2022-04-26.md"
+    "笔记/monorepo 介绍.md"
   ]
 }
