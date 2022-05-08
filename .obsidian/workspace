@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/vscode-vim 快捷键.md",
-            "mode": "source",
+            "file": "笔记/总览 diff.md",
+            "mode": "preview",
             "backlinks": false
           }
         }
@@ -67,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266
+    "width": 266,
+    "collapsed": true
   },
   "right": {
     "id": "3183b1b661034dde",
@@ -94,11 +95,11 @@
   },
   "active": "68e9cb431d36d643",
   "lastOpenFiles": [
+    "笔记/总览 diff.md",
+    "索引/vue3-索引.md",
     "笔记/vscode-vim 快捷键.md",
     "索引/技能-索引.md",
     "索引/草稿2.md",
-    "笔记/总览 diff.md",
-    "索引/vue3-索引.md",
     "Daily/2022-05-01.md",
     "笔记/简单的 diff.md",
     "索引/草稿1.md",

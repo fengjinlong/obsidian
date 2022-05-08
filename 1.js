@@ -63,3 +63,5 @@ function getSequence(arr) {
 
   return result;
 }
+
+// diff
