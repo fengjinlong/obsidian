@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/总览 diff.md",
+            "file": "笔记/jest.md",
             "mode": "preview",
             "backlinks": false
           }
@@ -67,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266,
-    "collapsed": true
+    "width": 266
   },
   "right": {
     "id": "3183b1b661034dde",
@@ -95,15 +94,15 @@
   },
   "active": "68e9cb431d36d643",
   "lastOpenFiles": [
-    "笔记/总览 diff.md",
-    "索引/vue3-索引.md",
-    "笔记/vscode-vim 快捷键.md",
+    "笔记/jest.md",
     "索引/技能-索引.md",
-    "索引/草稿2.md",
-    "Daily/2022-05-01.md",
-    "笔记/简单的 diff.md",
+    "索引/vue3-索引.md",
+    "索引/设计-索引.md",
     "索引/草稿1.md",
-    "笔记/vue3.0 带来的有优化.md",
-    "笔记/monorepo 介绍.md"
+    "索引/草稿2.md",
+    "索引/草稿3.md",
+    "索引/管理-索引.md",
+    "Daily/2022-04-24.md",
+    "笔记/vscode-vim 快捷键.md"
   ]
 }

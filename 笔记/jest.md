@@ -432,3 +432,25 @@ test("测试返回值", () => {
 
 ```
 
+## 模拟定时器
+
+jest 提供了定时器模拟方法，`debounce` 内部采用的是 `setTimeout` 实现的定时功能。
+
+```ts
+import debounce from 'lodash/debounce';
+
+// 启用定时器模拟器
+jest.useFakeTimers();
+
+it('fails to mock Lodash timers correctly', () => {
+  const test = jest.fn();
+  const debounced = debounce(test, 1000);
+
+  debounced();
+  debounced();
+
+  jest.runAllTimers();
+
+  expect(test).toHaveBeenCalledTimes(1);
+});
+```
