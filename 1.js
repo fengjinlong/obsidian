@@ -38,7 +38,6 @@ function getSequence(arr) {
           v = c;
         }
       }
-
       if (arrI < arr[result[u]]) {
         if (u > 0) {
           p[i] = result[u - 1];
