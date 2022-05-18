@@ -1,7 +1,7 @@
 {
   "legacyEditor": true,
   "livePreview": true,
-  "promptDelete": true,
+  "promptDelete": false,
   "useMarkdownLinks": true,
   "communityPluginSortOrder": "download",
   "alwaysUpdateLinks": true,

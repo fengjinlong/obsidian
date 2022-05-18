@@ -7,8 +7,12 @@
         "id": "29974ea6605bb961",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "笔记/js执行机制 Evnet Loop.md",
+            "mode": "preview",
+            "backlinks": false
+          }
         }
       }
     ],
@@ -90,15 +94,15 @@
   },
   "active": "29974ea6605bb961",
   "lastOpenFiles": [
-    "笔记/浏览器核心.md",
-    "索引/拉钩js核心-索引.md",
-    "索引/vue3-索引.md",
-    "笔记/js执行机制.md",
+    "笔记/js执行机制 Evnet Loop.md",
     "索引/技能-索引.md",
+    "笔记/eventLoop.md",
+    "索引/拉钩js核心-索引.md",
+    "笔记/js执行机制 Event Loop.md",
     "索引/设计-索引.md",
+    "笔记/浏览器核心.md",
+    "索引/vue3-索引.md",
     "笔记/基石篇.md",
-    "笔记/jest.md",
-    "索引/草稿1.md",
-    "索引/草稿2.md"
+    "笔记/jest.md"
   ]
 }
