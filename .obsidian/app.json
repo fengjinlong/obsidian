@@ -9,5 +9,6 @@
   "newFileFolderPath": "笔记",
   "attachmentFolderPath": "附件",
   "fileSortOrder": "alphabeticalReverse",
-  "showLineNumber": true
+  "showLineNumber": true,
+  "vimMode": true
 }

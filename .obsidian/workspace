@@ -4,13 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "29974ea6605bb961",
+        "id": "423a645712bec4e4",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
             "file": "笔记/从 URL 开始建立前端知识体系.md",
             "mode": "source",
+            "backlinks": false
+          }
+        }
+      },
+      {
+        "id": "7cdf5a0ab9e4d372",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "笔记/从 URL 开始建立前端知识体系.md",
+            "mode": "preview",
             "backlinks": false
           }
         }
@@ -67,7 +79,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266
+    "width": 266,
+    "collapsed": true
   },
   "right": {
     "id": "3183b1b661034dde",
@@ -92,17 +105,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "29974ea6605bb961",
+  "active": "423a645712bec4e4",
   "lastOpenFiles": [
     "笔记/从 URL 开始建立前端知识体系.md",
     "索引/技能-索引.md",
     "索引/拉钩js核心-索引.md",
+    "附件/Pasted image 20220517235858.png",
+    "笔记/eventLoop.md",
     "索引/设计-索引.md",
     "笔记/vscode-vim 快捷键.md",
     "笔记/js执行机制 Evnet Loop.md",
-    "笔记/eventLoop.md",
     "笔记/js执行机制 Event Loop.md",
-    "笔记/浏览器核心.md",
-    "索引/vue3-索引.md"
+    "笔记/浏览器核心.md"
   ]
 }
