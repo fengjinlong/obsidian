@@ -23,8 +23,26 @@ URL 主要由 协议、主机、端口、路径、查询参数、锚点6部分�
 #### 缓存机制
 强制缓存优先于协商缓存进行，若强制缓存(Expires和Cache-Control)生效则直接使用缓存，若不生效则进行协商缓存(Last-Modified / If-Modified-Since和Etag / If-None-Match)，协商缓存由服务器决定是否使用缓存，若协商缓存失效，那么代表该请求的缓存失效，返回200，重新返回资源和缓存标识，再存入浏览器缓存中；生效则返回304，继续使用缓存
 #### 强缓存
+![](Pasted%20image%2020220520221346.png)
+1. 不会向服务器发送请求，直接从缓存中读取资源，在chrome控制台的Network选项中可以看到该请求返回200的状态码，并且Size显示from disk cache或from memory cache。强缓存可以通过设置两种 HTTP Header 实现：Expires 和 Cache-Control。
+2. 这里的 header 中的信息指的是 expires 和 cahe-control.
+3. Cache-Control 与 Expires 可以在服务端配置同时启用，同时启用的时候 Cache-Control 优先级高。
 #### 协商缓存
+![](Pasted%20image%2020220520223146.png)
+1. 协商缓存就是强制缓存失效后，浏览器携带缓存标识向服务器发起请求，由服务器根据缓存标识决定是否使用缓存的过程
+2. 这里的 header 中的信息指的是 Last-Modify/If-Modify-Since 和 ETag/If-None-Match
+3. Last-Modified 与 ETag 是可以一起使用的，服务器会优先验证 ETag，一致的情况下，才会继续比对 Last-Modified，最后才决定是否返回 304。
+
 #### 存储位置
+1. Service Worker
+2. Memory Cache
+   Memory Cache 也就是内存中的缓存,读取内存中的数据肯定比磁盘快，会随着进程的释放而释放。 一旦我们关闭 Tab 页面，内存中的缓存也就被释放了。
+3. Disk Cache
+  Disk Cache 也就是存储在硬盘中的缓存，读取速度慢点，但是什么都能存储到磁盘中，比之 Memory Cache 胜在容量和存储时效性上。
+
+- 对于大文件来说，大概率是不存储在内存中的，反之优先
+- 当前系统内存使用率高的话，文件优先存储进硬盘
+4.Push Cache
 #### 强缓存和协商缓存分别适用于哪些场景
 1. 强制缓存优先于协商缓存进行，若强制缓存(Expires和Cache-Control)生效则直接使用缓存，若不生效则进行协商缓存(Last-Modified / If-Modified-Since和Etag / If-None-Match)，协商缓存由服务器决定是否使用缓存，若协商缓存失效，那么代表该请求的缓存失效，返回200，重新返回资源和缓存标识，再存入浏览器缓存中；生效则返回304，继续使用缓存
 
