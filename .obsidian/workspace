@@ -4,18 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "423a645712bec4e4",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/从 URL 开始建立前端知识体系.md",
-            "mode": "source",
-            "backlinks": false
-          }
-        }
-      },
-      {
         "id": "a4a9f219a6a173e0",
         "type": "leaf",
         "state": {
@@ -79,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266,
-    "collapsed": true
+    "width": 266
   },
   "right": {
     "id": "3183b1b661034dde",
