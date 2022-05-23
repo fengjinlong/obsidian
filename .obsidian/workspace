@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/从 URL 开始建立前端知识体系.md",
-            "mode": "preview",
+            "file": "笔记/渲染大数据.md",
+            "mode": "source",
             "backlinks": false
           }
         }
@@ -94,15 +94,15 @@
   },
   "active": "a4a9f219a6a173e0",
   "lastOpenFiles": [
-    "笔记/从 URL 开始建立前端知识体系.md",
+    "笔记/渲染大数据.md",
     "索引/技能-索引.md",
+    "笔记/跨域.md",
+    "笔记/从 URL 开始建立前端知识体系.md",
     "索引/拉钩js核心-索引.md",
     "附件/Pasted image 20220517235858.png",
     "笔记/eventLoop.md",
     "索引/设计-索引.md",
     "笔记/vscode-vim 快捷键.md",
-    "笔记/js执行机制 Evnet Loop.md",
-    "笔记/js执行机制 Event Loop.md",
-    "笔记/浏览器核心.md"
+    "笔记/js执行机制 Evnet Loop.md"
   ]
 }
