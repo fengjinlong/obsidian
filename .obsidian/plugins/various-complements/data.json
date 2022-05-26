@@ -70,6 +70,22 @@
           "lastUpdated": 1653492102620
         }
       }
+    },
+    "prototype": {
+      "prototype": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1653550432848
+        }
+      }
+    },
+    "object": {
+      "object": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1653575880034
+        }
+      }
     }
   }
 }
