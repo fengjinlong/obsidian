@@ -4,27 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "a4a9f219a6a173e0",
-        "type": "leaf",
-        "dimension": 46.44927536231884,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/prototype.md",
-            "mode": "source",
-            "backlinks": false
-          }
-        }
-      },
-      {
         "id": "29dcb6dff0493bc8",
         "type": "leaf",
-        "dimension": 53.55072463768116,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/prototype.md",
-            "mode": "preview",
+            "file": "索引/键盘侠-索引.md",
+            "mode": "source",
             "backlinks": false
           }
         }
@@ -81,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 266,
-    "collapsed": true
+    "width": 266
   },
   "right": {
     "id": "3183b1b661034dde",
@@ -107,8 +92,10 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "a4a9f219a6a173e0",
+  "active": "29dcb6dff0493bc8",
   "lastOpenFiles": [
+    "索引/键盘侠-索引.md",
+    "Daily/2022-05-29.md",
     "笔记/prototype.md",
     "索引/技能-索引.md",
     "索引/设计-索引.md",
@@ -116,8 +103,6 @@
     "笔记/跨域.md",
     "笔记/从 URL 开始建立前端知识体系.md",
     "索引/拉钩js核心-索引.md",
-    "附件/Pasted image 20220517235858.png",
-    "笔记/eventLoop.md",
-    "笔记/vscode-vim 快捷键.md"
+    "附件/Pasted image 20220517235858.png"
   ]
 }
