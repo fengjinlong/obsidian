@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "索引/键盘侠-索引.md",
+            "file": "索引/草稿2.md",
             "mode": "source",
             "backlinks": false
           }
@@ -94,15 +94,15 @@
   },
   "active": "29dcb6dff0493bc8",
   "lastOpenFiles": [
+    "索引/草稿2.md",
+    "索引/草稿1.md",
     "索引/键盘侠-索引.md",
-    "Daily/2022-05-29.md",
-    "笔记/prototype.md",
+    "笔记/安全防范.md",
     "索引/技能-索引.md",
     "索引/设计-索引.md",
+    "Daily/2022-05-29.md",
+    "笔记/prototype.md",
     "笔记/渲染大数据.md",
-    "笔记/跨域.md",
-    "笔记/从 URL 开始建立前端知识体系.md",
-    "索引/拉钩js核心-索引.md",
-    "附件/Pasted image 20220517235858.png"
+    "笔记/跨域.md"
   ]
 }
