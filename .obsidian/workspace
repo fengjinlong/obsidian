@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "索引/键盘侠-索引.md",
-            "mode": "preview",
+            "mode": "source",
             "backlinks": false
           }
         }
@@ -95,14 +95,14 @@
   "active": "29dcb6dff0493bc8",
   "lastOpenFiles": [
     "索引/键盘侠-索引.md",
+    "笔记/掌控习惯.md",
+    "索引/读书笔记-索引.md",
     "索引/草稿2.md",
     "索引/草稿1.md",
     "索引/设计-索引.md",
     "笔记/jest.md",
     "索引/技能-索引.md",
     "索引/拉钩js核心-索引.md",
-    "索引/vue3-索引.md",
-    "笔记/掌控习惯.md",
-    "索引/读书笔记-索引.md"
+    "索引/vue3-索引.md"
   ]
 }
