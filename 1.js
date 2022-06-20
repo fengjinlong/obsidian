@@ -1,12 +1,10 @@
-function getSequence(arr) {
+function getsequence(arr) {
   const p = arr.slice();
 
-  const result = [0];
+  const /* result */ = [0];
 
   let i, j, u, v, c;
-
   const len = arr.length;
-
   for (i = 0; i < len; i++) {
     const arrI = arr[i];
 
@@ -18,7 +16,7 @@ function getSequence(arr) {
 
         p[i] = j;
 
-        result.push(i);
+        // result.push(i);
 
         continue;
       }
@@ -64,3 +62,9 @@ function getSequence(arr) {
 }
 
 // diff
+function add (){
+  let a = 1
+  function f() {
+    let b = 1
+  }
+}
