@@ -1,17 +1,17 @@
 function getsequence(arr) {
   const p = arr.slice();
 
-  const /* result */ = [0];
+  const result = [0];
 
   let i, j, u, v, c;
   const len = arr.length;
   for (i = 0; i < len; i++) {
-    const arrI = arr[i];
+    const arri = arr[i];
 
-    if (arrI !== 0) {
+    if (arri !== 0) {
       j = result[result.length - 1];
 
-      if (arr[j] < arrI) {
+      if (arr[j] < arri) {
         // 存储在 result 更新前的最后一个索引的值
 
         p[i] = j;
@@ -25,7 +25,7 @@ function getsequence(arr) {
 
       v = result.length - 1;
 
-      // 二分搜索，查找比 arrI 小的节点，更新 result 的值
+      // 二分搜索，查找比 arri 小的节点，更新 result 的值
 
       while (u < v) {
         c = ((u + v) / 2) | 0;
