@@ -156,6 +156,10 @@ vscode注释，与vim无关
 
 
 ![](vimium%201.png)
+	J 上一个tab
+	K 下一个tab
+	o 搜索
+	t 新tab
 	
 
 

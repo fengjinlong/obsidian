@@ -39,171 +39,11 @@
   "insertCommaAfterFrontMatterCompletion": false,
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "eventLoop": {
-      "eventLoop": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1652973023901
-        }
-      }
-    },
-    "HTTP": {
-      "HTTP": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1653059676574
-        }
-      }
-    },
-    "TCP": {
-      "TCP": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1653059743935
-        }
-      }
-    },
-    " 属性指向构造函数，构造函数又通过 ": {
-      " 属性指向构造函数，构造函数又通过 ": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1653492102620
-        }
-      }
-    },
-    "prototype": {
-      "prototype": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1653550432848
-        }
-      }
-    },
-    "object": {
-      "object": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1653575880034
-        }
-      }
-    },
-    "old": {
-      "old": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1654095536194
-        }
-      }
-    },
-    "移动到行首": {
-      "移动到行首": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1654122169887
-        }
-      }
-    },
-    "攻击？什么是": {
-      "攻击？什么是": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1654182641726
-        }
-      }
-    },
-    "vim": {
-      "vim": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1654557504856
-        }
-      }
-    },
     "ctrl": {
       "ctrl": {
         "currentFile": {
-          "count": 6,
-          "lastUpdated": 1654642721245
-        }
-      }
-    },
-    "习惯是自我提高的复利。17就像金钱借助于复利倍增一样，你的习惯的效果也会随着你不断地重复而倍增。在一两天的时间里，你觉不出任何不同，但在数月和数年后，你会发现它们产生了巨大影响。只有在过了两年、五年或者十年后再回顾时，你才会发现好习惯的价值之高和坏习惯的代价之大令人瞠目结舌。”": {
-      "习惯是自我提高的复利。17就像金钱借助于复利倍增一样，你的习惯的效果也会随着你不断地重复而倍增。在一两天的时间里，你觉不出任何不同，但在数月和数年后，你会发现它们产生了巨大影响。只有在过了两年、五年或者十年后再回顾时，你才会发现好习惯的价值之高和坏习惯的代价之大令人瞠目结舌。”": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1654524557684
-        }
-      }
-    },
-    "fun": {
-      "fun": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1654556584246
-        }
-      }
-    },
-    "function": {
-      "function": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1654556585949
-        }
-      }
-    },
-    "你在培养习惯的过程中，有相当长时间是感受不到它的影响的，直到某一天，你突破了临界点，跨入新境界。在任何探索的早期和中期，通常都会有一个不如意的低谷区。你期望日新月异，收到立竿见影之效，但让你感到沮丧的是，在最初的几天、几周甚至几个月里，几乎看不到任何明显的变化。你觉得一切都是在白费功夫。这是任何复利进程的共同特征：最有力的结果总是姗姗来迟。": {
-      "你在培养习惯的过程中，有相当长时间是感受不到它的影响的，直到某一天，你突破了临界点，跨入新境界。在任何探索的早期和中期，通常都会有一个不如意的低谷区。你期望日新月异，收到立竿见影之效，但让你感到沮丧的是，在最初的几天、几周甚至几个月里，几乎看不到任何明显的变化。你觉得一切都是在白费功夫。这是任何复利进程的共同特征：最有力的结果总是姗姗来迟。": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1654561761874
-        }
-      }
-    },
-    "基于行": {
-      "基于行": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1654907463252
-        }
-      }
-    },
-    "基于两个单词跳转，先开启配置": {
-      "基于两个单词跳转，先开启配置": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1654908272496
-        }
-      }
-    },
-    "operator": {
-      "operator": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1654963695386
-        }
-      }
-    },
-    "###": {
-      "###": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1654964085563
-        }
-      }
-    },
-    "行尾插入": {
-      "行尾插入": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1654964562738
-        }
-      }
-    },
-    "obj": {
-      "obj": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1654965256312
+          "count": 9,
+          "lastUpdated": 1657090696321
         }
       }
     },
@@ -284,6 +124,110 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1655427428354
+        }
+      }
+    },
+    "true": {
+      "true": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1655890193981
+        }
+      }
+    },
+    "command": {
+      "command": {
+        "currentFile": {
+          "count": 21,
+          "lastUpdated": 1657125694622
+        }
+      }
+    },
+    "切换窗口": {
+      "切换窗口": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1656079780988
+        }
+      }
+    },
+    "server": {
+      "server": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1656374477642
+        }
+      }
+    },
+    "snippets": {
+      "snippets": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1656635115127
+        }
+      }
+    },
+    "vscode": {
+      "vscode": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1656720889908
+        }
+      }
+    },
+    "leader": {
+      "leader": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1656721934576
+        }
+      }
+    },
+    "abracadabra": {
+      "abracadabra": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1656721978934
+        }
+      }
+    },
+    "zsh": {
+      "zsh": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1656864705952
+        }
+      }
+    },
+    "shift": {
+      "shift": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1657125391781
+        }
+      }
+    },
+    "google": {
+      "google": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1657469663651
+        }
+      }
+    },
+    "github": {
+      "github": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1657469687095
+        }
+      }
+    },
+    "上一个查找结果": {
+      "上一个查找结果": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1657470230540
         }
       }
     }
