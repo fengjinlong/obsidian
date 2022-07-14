@@ -4,14 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "5dd9903e1193acf5",
+        "id": "2ab985674be90410",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/promise.race.md",
-            "mode": "source",
-            "backlinks": false
+            "file": "笔记/阅读cac.md",
+            "mode": "preview",
+            "backlinks": false,
+            "source": false
           }
         }
       }
@@ -92,17 +93,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5dd9903e1193acf5",
+  "active": "2ab985674be90410",
   "lastOpenFiles": [
-    "笔记/promise.race.md",
-    "索引/Promises/promise.md",
-    "索引/键盘侠-索引.md",
-    "笔记/promise.any.md",
-    "笔记/promise.allSettled.md",
-    "笔记/promise.all.md",
-    "索引/vue3-索引.md",
-    "索引/Promises/A+.md",
-    "笔记/未命名 1.md",
-    "笔记/reactive.md"
+    "索引/技能-索引.md",
+    "笔记/阅读cac.md",
+    "索引/拉钩js核心-索引.md",
+    "索引/设计-索引.md",
+    "学习与生活/零散/超级学习者.md",
+    "索引/管理-索引.md",
+    "学习与生活/零散/提高工作效率.md",
+    "笔记/掌控习惯.md",
+    "索引/读书笔记-索引.md",
+    "学习与生活/零散/早晨习惯.md"
   ]
 }

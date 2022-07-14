@@ -47,14 +47,6 @@
         }
       }
     },
-    "可视化模式": {
-      "可视化模式": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1655162198622
-        }
-      }
-    },
     "随着时间的推移，情境中的微小变化会导致行为的巨大变化。": {
       "随着时间的推移，情境中的微小变化会导致行为的巨大变化。": {
         "currentFile": {
@@ -114,8 +106,8 @@
     "command": {
       "command": {
         "currentFile": {
-          "count": 21,
-          "lastUpdated": 1657125694622
+          "count": 27,
+          "lastUpdated": 1657782154225
         }
       }
     },
