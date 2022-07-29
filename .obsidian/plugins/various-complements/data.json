@@ -42,104 +42,24 @@
     "ctrl": {
       "ctrl": {
         "currentFile": {
-          "count": 9,
-          "lastUpdated": 1657090696321
-        }
-      }
-    },
-    "随着时间的推移，情境中的微小变化会导致行为的巨大变化。": {
-      "随着时间的推移，情境中的微小变化会导致行为的巨大变化。": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1655426754301
-        }
-      }
-    },
-    "每一个习惯都是由提示引发的。我们更容易注意到鲜明的提示。": {
-      "每一个习惯都是由提示引发的。我们更容易注意到鲜明的提示。": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1655426767120
-        }
-      }
-    },
-    "让良好习惯的提示在你的环境中显而易见。": {
-      "让良好习惯的提示在你的环境中显而易见。": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1655426773881
-        }
-      }
-    },
-    "渐渐地，你的习惯不再与单一的触发因素相关联，而是与这种行为周围的整个": {
-      "渐渐地，你的习惯不再与单一的触发因素相关联，而是与这种行为周围的整个": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1655426781611
-        }
-      }
-    },
-    "环境相关联。情境变成了提示。在新的环境中培养新的习惯更容易，因为你不会受到与旧习惯相关联的提示的": {
-      "环境相关联。情境变成了提示。在新的环境中培养新的习惯更容易，因为你不会受到与旧习惯相关联的提示的": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1655426790503
-        }
-      }
-    },
-    "用减肥演示羞辱肥胖的人会让他们感到压抑，结果导致许多人回归他们最喜欢的应对策略：暴饮暴食。94向吸烟者展示": {
-      "用减肥演示羞辱肥胖的人会让他们感到压抑，结果导致许多人回归他们最喜欢的应对策略：暴饮暴食。94向吸烟者展示": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1655427428354
-        }
-      }
-    },
-    "true": {
-      "true": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1655890193981
+          "count": 12,
+          "lastUpdated": 1658023138255
         }
       }
     },
     "command": {
       "command": {
         "currentFile": {
-          "count": 27,
-          "lastUpdated": 1657782154225
-        }
-      }
-    },
-    "切换窗口": {
-      "切换窗口": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1656079780988
-        }
-      }
-    },
-    "server": {
-      "server": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1656374477642
-        }
-      }
-    },
-    "snippets": {
-      "snippets": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1656635115127
+          "count": 41,
+          "lastUpdated": 1658023409334
         }
       }
     },
     "vscode": {
       "vscode": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1656720889908
+          "count": 2,
+          "lastUpdated": 1658796854568
         }
       }
     },
@@ -170,8 +90,8 @@
     "shift": {
       "shift": {
         "currentFile": {
-          "count": 3,
-          "lastUpdated": 1657125391781
+          "count": 7,
+          "lastUpdated": 1658023407373
         }
       }
     },
@@ -202,8 +122,56 @@
     "promise.all": {
       "promise.all": {
         "internalLink": {
+          "count": 2,
+          "lastUpdated": 1659079574774
+        }
+      }
+    },
+    "debug": {
+      "debug": {
+        "currentFile": {
+          "count": 3,
+          "lastUpdated": 1657928145257
+        }
+      }
+    },
+    "方向键": {
+      "方向键": {
+        "currentFile": {
           "count": 1,
-          "lastUpdated": 1657708549373
+          "lastUpdated": 1658023153689
+        }
+      }
+    },
+    "zellij": {
+      "zellij": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1658116136823
+        }
+      }
+    },
+    "alias": {
+      "alias": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1658117602781
+        }
+      }
+    },
+    "opt": {
+      "opt": {
+        "currentFile": {
+          "count": 5,
+          "lastUpdated": 1658796952046
+        }
+      }
+    },
+    "iterm2": {
+      "iterm2": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1658796884288
         }
       }
     }
