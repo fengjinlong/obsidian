@@ -4,25 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "cc46c58ab79bb17e",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "索引/设计-索引.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        }
-      },
-      {
         "id": "4af3c6215e3a7486",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/创建者模式.md",
+            "file": "索引/the first.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -102,15 +89,15 @@
   },
   "active": "4af3c6215e3a7486",
   "lastOpenFiles": [
-    "笔记/工厂模式.md",
-    "笔记/创建者模式.md",
+    "Excalidraw/Drawing 2022-07-29 11.40.14.excalidraw.md",
     "索引/设计-索引.md",
     "索引/the first.md",
+    "索引/vite-index.md",
+    "笔记/创建者模式.md",
+    "笔记/工厂模式.md",
     "笔记/reactive.md",
     "笔记/手写关键点.md",
     "笔记/promise.all.md",
-    "索引/vue3-索引.md",
-    "笔记/简单的 diff.md",
-    "笔记/effect & reactive.md"
+    "索引/vue3-索引.md"
   ]
 }
