@@ -7,12 +7,9 @@
         "id": "cdf904822cdd3b3a",
         "type": "leaf",
         "state": {
-          "type": "markdown",
+          "type": "image",
           "state": {
-            "file": "索引/the first.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": false
+            "file": "Excalidraw/vue3响应式原理.excalidraw.png"
           }
         }
       }
@@ -89,11 +86,11 @@
   },
   "active": "cdf904822cdd3b3a",
   "lastOpenFiles": [
+    "Excalidraw/vue3响应式原理.excalidraw.md",
+    "Excalidraw/vue3响应式原理.excalidraw.png",
+    "索引/the first.md",
     "索引/vite-index.md",
     "笔记/Drawing 2022-07-29 11.40.14.excalidraw.md",
-    "索引/the first.md",
-    "Excalidraw/vue3响应式原理.excalidraw.png",
-    "Excalidraw/vue3响应式原理.excalidraw.md",
     "Excalidraw/Drawing 2022-07-29 11.40.14.excalidraw.md",
     "索引/草稿1.md",
     "索引/vue3-索引.md",
