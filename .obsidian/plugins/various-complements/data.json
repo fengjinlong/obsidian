@@ -58,32 +58,8 @@
     "vscode": {
       "vscode": {
         "currentFile": {
-          "count": 2,
-          "lastUpdated": 1658796854568
-        }
-      }
-    },
-    "leader": {
-      "leader": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1656721934576
-        }
-      }
-    },
-    "abracadabra": {
-      "abracadabra": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1656721978934
-        }
-      }
-    },
-    "zsh": {
-      "zsh": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1656864705952
+          "count": 3,
+          "lastUpdated": 1659317021995
         }
       }
     },
@@ -106,8 +82,8 @@
     "github": {
       "github": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1657469687095
+          "count": 3,
+          "lastUpdated": 1659318932192
         }
       }
     },
@@ -172,6 +148,30 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1658796884288
+        }
+      }
+    },
+    "alfred": {
+      "alfred": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1659316918153
+        }
+      }
+    },
+    "search": {
+      "search": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1659318936673
+        }
+      }
+    },
+    "mini-vue": {
+      "mini-vue": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1659366402227
         }
       }
     }

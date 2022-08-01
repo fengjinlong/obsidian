@@ -7,9 +7,12 @@
         "id": "cdf904822cdd3b3a",
         "type": "leaf",
         "state": {
-          "type": "image",
+          "type": "markdown",
           "state": {
-            "file": "Excalidraw/vue3响应式原理.excalidraw.png"
+            "file": "索引/类图.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
           }
         }
       }
@@ -86,15 +89,15 @@
   },
   "active": "cdf904822cdd3b3a",
   "lastOpenFiles": [
-    "Excalidraw/vue3响应式原理.excalidraw.md",
-    "Excalidraw/vue3响应式原理.excalidraw.png",
-    "索引/the first.md",
-    "索引/vite-index.md",
-    "笔记/Drawing 2022-07-29 11.40.14.excalidraw.md",
-    "Excalidraw/Drawing 2022-07-29 11.40.14.excalidraw.md",
     "索引/草稿1.md",
-    "索引/vue3-索引.md",
-    "笔记/reactive.md",
-    "笔记/effect & reactive.md"
+    "索引/the first.md",
+    "Excalidraw/工厂方法模式生产coffee2.excalidraw.png",
+    "Excalidraw/vue3响应式原理.excalidraw.png",
+    "索引/键盘侠-索引.md",
+    "索引/拉钩js核心-索引.md",
+    "索引/vite-index.md",
+    "索引/设计-索引.md",
+    "Excalidraw/工厂方法模式生产coffee.excalidraw.md",
+    "Excalidraw/工厂方法模式生产coffee.excalidraw.png"
   ]
 }
