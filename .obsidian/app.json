@@ -10,5 +10,6 @@
   "attachmentFolderPath": "附件",
   "fileSortOrder": "alphabeticalReverse",
   "showLineNumber": true,
-  "vimMode": true
+  "vimMode": true,
+  "communityThemeSortOrder": "download"
 }
