@@ -29,3 +29,10 @@
 o![](Pasted%20image%2020220802145058.png)
 1. instanceof 运算符用于检测`构造函数的 prototype` 是否在某个`实例对象的原型链上`
 #### asasdf
+
+adads
+adads ad
+
+adadad
+adadad
+adasd adasd adasd

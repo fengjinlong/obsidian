@@ -141,7 +141,7 @@ function foo(i) {
 }
 foo(22);
   // 当我们执⾏foo(22)的时候，EC创建阶段 会类似⽣成下⾯这样的对象
-  fooExecutionContext = {
+fooExecutionContext = {
     scopeChain: { Scope },
     AO: {
       arguments: {
@@ -150,13 +150,12 @@ foo(22);
       },
       i: 22,
       c: pointer to function c(),
-        a: undefined, 
-        b: undefined
-      },
-      VO:{...}
-      Scope: [AO, globalContext.VO],
-    }
-  }
+      a: undefined,
+      b: undefined
+    },
+    VO:{...}
+    Scope: [AO, globalContext.VO],
+}
   //
 ```
  - 1 创建阶段，发生属性名称的定义，但并没有赋值。这也就是 `变量提升阶段`

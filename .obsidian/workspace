@@ -4,28 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "7f604702b18513c3",
+        "id": "0d824166831e3be9",
         "type": "leaf",
-        "dimension": 33.246584255042286,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "索引/技能-索引.md",
+            "file": "索引/设计-索引.md",
             "mode": "source",
-            "backlinks": false,
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "0935358e6624febe",
-        "type": "leaf",
-        "dimension": 66.7534157449577,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/javascript 执行栈相关.md",
-            "mode": "preview",
             "backlinks": false,
             "source": false
           }
@@ -56,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "闭包",
+                "query": "深克隆",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,13 +50,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 323,
-    "collapsed": true
+    "width": 323
   },
   "right": {
     "id": "3183b1b661034dde",
@@ -104,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0935358e6624febe",
+  "active": "0d824166831e3be9",
   "lastOpenFiles": [
-    "索引/技能-索引.md",
-    "笔记/javascript 执行栈相关.md",
-    "笔记/闭包.md",
+    "笔记/qwqwqwqw.md",
+    "索引/草稿1.md",
+    "Day Planners/Day Planner-20220807.md",
+    "索引/草稿2.md",
+    "Daily/Template.md",
+    "Daily/2022-08-05.md",
+    "Daily/2022-05-29.md",
     "索引/the first.md",
-    "索引/键盘侠-索引.md",
-    "笔记/单例模式.md",
-    "索引/设计-索引.md",
-    "笔记/抽象工厂.md",
-    "笔记/简单工厂.md",
-    "索引/草稿1.md"
+    "索引/vite-index.md",
+    "索引/vue3-索引.md"
   ]
 }
