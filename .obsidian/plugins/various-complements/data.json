@@ -71,27 +71,11 @@
         }
       }
     },
-    "google": {
-      "google": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1657469663651
-        }
-      }
-    },
     "github": {
       "github": {
         "currentFile": {
           "count": 3,
           "lastUpdated": 1659318932192
-        }
-      }
-    },
-    "上一个查找结果": {
-      "上一个查找结果": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1657470230540
         }
       }
     },
@@ -220,6 +204,22 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1659863422322
+        }
+      }
+    },
+    "适配器模式": {
+      "适配器模式": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1660010704068
+        }
+      }
+    },
+    "computed": {
+      "computed": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1660016874301
         }
       }
     }

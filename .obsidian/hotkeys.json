@@ -55,5 +55,21 @@
       ],
       "key": "ArrowLeft"
     }
+  ],
+  "table-editor-obsidian:move-row-down": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "table-editor-obsidian:move-row-up": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowUp"
+    }
   ]
 }

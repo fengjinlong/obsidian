@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "0d824166831e3be9",
+        "id": "fae316b2aecf8ca2",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "索引/设计-索引.md",
+            "file": "索引/草稿1.md",
             "mode": "source",
             "backlinks": false,
             "source": false
@@ -41,7 +41,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "深克隆",
+                "query": "new",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -50,7 +50,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -87,17 +88,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "0d824166831e3be9",
+  "active": "fae316b2aecf8ca2",
   "lastOpenFiles": [
-    "笔记/qwqwqwqw.md",
+    "索引/技能-索引.md",
+    "笔记/url 转义.md",
     "索引/草稿1.md",
-    "Day Planners/Day Planner-20220807.md",
-    "索引/草稿2.md",
-    "Daily/Template.md",
-    "Daily/2022-08-05.md",
-    "Daily/2022-05-29.md",
+    "Day Planners/Day Planner-20220809.md",
     "索引/the first.md",
-    "索引/vite-index.md",
-    "索引/vue3-索引.md"
+    "笔记/适配器模式.md",
+    "索引/设计-索引.md",
+    "笔记/[[单例模式.md",
+    "笔记/单例模式.md",
+    "Day Planners/Day Planner-20220808.md"
   ]
 }

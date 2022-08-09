@@ -17,3 +17,17 @@ function querystring(querystr) {
   return {}
 }
 ```
+
+```js
+
+function getUrlParams(url){
+  let reg = /([^?&=]+)=([^?&=]+)/g
+  let obj = { }
+  url.replace(reg, function(){
+      obj[arguments[1]] = arguments[2]
+  })
+  return obj
+}
+let url = 'https://www.junjin.cn?a=1&b=2'
+console.log(getUrlParams(url)) // { a: 1, b: 2 }
+```
