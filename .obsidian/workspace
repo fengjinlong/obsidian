@@ -9,9 +9,20 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "索引/草稿1.md",
+            "file": "索引/vite-index.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "232464c73775fc16",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "笔记/初始安装.md",
             "mode": "source",
-            "backlinks": false,
             "source": false
           }
         }
@@ -50,12 +61,12 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 323
+    "width": 323,
+    "collapsed": true
   },
   "right": {
     "id": "3183b1b661034dde",
@@ -80,6 +91,35 @@
               "type": "calendar",
               "state": {}
             }
+          },
+          {
+            "id": "75263758c51b6733",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "索引/vite-index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a8d4e85dc02ad9d9",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "索引/vite-index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
           }
         ]
       }
@@ -90,15 +130,15 @@
   },
   "active": "fae316b2aecf8ca2",
   "lastOpenFiles": [
-    "索引/技能-索引.md",
-    "笔记/url 转义.md",
+    "笔记/初始安装.md",
+    "索引/vite-index.md",
+    "索引/the first.md",
+    "Excalidraw/vue3响应式原理.excalidraw.md",
+    "索引/键盘侠-索引.md",
+    "索引/设计-索引.md",
+    "笔记/单例模式.md",
     "索引/草稿1.md",
     "Day Planners/Day Planner-20220809.md",
-    "索引/the first.md",
-    "笔记/适配器模式.md",
-    "索引/设计-索引.md",
-    "笔记/[[单例模式.md",
-    "笔记/单例模式.md",
-    "Day Planners/Day Planner-20220808.md"
+    "索引/技能-索引.md"
   ]
 }

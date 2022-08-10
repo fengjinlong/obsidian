@@ -27,3 +27,26 @@
 - 深克隆
 o![](Pasted%20image%2020220802145058.png)
 1. instanceof 运算符用于检测`构造函数的 prototype` 是否在某个`实例对象的原型链上`
+
+
+
+
+
+![](Pasted%20image%2020220810193305.png)
+![](Pasted%20image%2020220810193858.png)
+
+
+```ts
+
+let id = 1
+const generateId = ()=> id++
+```
+
+导出变量响应式丢失
+vue3 用toRefs 解决
+pinia 用 storeToRefs  解决
+```ts
+
+import {storeToRefs} from 'pinia'
+const {a} = storeToRefs(todoStore)
+```
