@@ -42,16 +42,16 @@
     "ctrl": {
       "ctrl": {
         "currentFile": {
-          "count": 12,
-          "lastUpdated": 1658023138255
+          "count": 16,
+          "lastUpdated": 1660358701267
         }
       }
     },
     "command": {
       "command": {
         "currentFile": {
-          "count": 41,
-          "lastUpdated": 1658023409334
+          "count": 42,
+          "lastUpdated": 1660177919416
         }
       }
     },
@@ -66,8 +66,8 @@
     "shift": {
       "shift": {
         "currentFile": {
-          "count": 7,
-          "lastUpdated": 1658023407373
+          "count": 9,
+          "lastUpdated": 1660177939987
         }
       }
     },
@@ -162,8 +162,8 @@
     "cmd": {
       "cmd": {
         "currentFile": {
-          "count": 1,
-          "lastUpdated": 1659660145562
+          "count": 3,
+          "lastUpdated": 1660177936029
         }
       }
     },
@@ -220,6 +220,30 @@
         "internalLink": {
           "count": 1,
           "lastUpdated": 1660016874301
+        }
+      }
+    },
+    "解除当前蓝牙频道所绑定的设备": {
+      "解除当前蓝牙频道所绑定的设备": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1660288990243
+        }
+      }
+    },
+    "常用快捷键一览": {
+      "常用快捷键一览": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1660295287545
+        }
+      }
+    },
+    "hjkl": {
+      "hjkl": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1660358728713
         }
       }
     }

@@ -71,5 +71,31 @@
       ],
       "key": "ArrowUp"
     }
+  ],
+  "obsidian-excalidraw-plugin:insert-link-to-element": [],
+  "app:toggle-left-sidebar": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "["
+    }
+  ],
+  "editor:focus": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "1"
+    }
+  ],
+  "obsidian-better-command-palette:open-better-commmand-palette-tag-search": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "O"
+    }
   ]
 }
