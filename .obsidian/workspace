@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/总览 diff.md",
-            "mode": "preview",
+            "file": "索引/技能-索引.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -53,8 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323,
-    "collapsed": true
+    "width": 323
   },
   "right": {
     "id": "3183b1b661034dde",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/总览 diff.md",
+                "file": "索引/技能-索引.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/总览 diff.md",
+                "file": "索引/技能-索引.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,15 +117,15 @@
   },
   "active": "21bd31b720f1724a",
   "lastOpenFiles": [
-    "索引/vue3-索引.md",
-    "索引/键盘侠-索引.md",
-    "笔记/总览 diff.md",
-    "笔记/双端 diff - 非理想情况.md",
-    "笔记/快速 diff.md",
-    "笔记/双端 diff - 理想情况.md",
-    "笔记/简单的 diff.md",
-    "索引/the first.md",
     "索引/设计-索引.md",
-    "笔记/未命名 1.md"
+    "索引/the first.md",
+    "索引/vue3-索引.md",
+    "Excalidraw/vue3响应式原理.excalidraw.png",
+    "笔记/vue3-diff-脑图.md",
+    "索引/键盘侠-索引.md",
+    "Excalidraw/工厂方法模式生产coffee2.excalidraw.png",
+    "Excalidraw/vue3响应式原理.excalidraw.md",
+    "笔记/总览 diff.md",
+    "笔记/双端 diff - 非理想情况.md"
   ]
 }
