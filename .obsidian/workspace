@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "5c08c0e91f3556c8",
+        "id": "d10ae0942bea1c81",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "索引/the first.md",
-            "mode": "source",
+            "file": "笔记/排序算法.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "索引/the first.md",
+                "file": "笔记/排序算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "索引/the first.md",
+                "file": "笔记/排序算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,17 +115,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "5c08c0e91f3556c8",
+  "active": "d10ae0942bea1c81",
   "lastOpenFiles": [
-    "笔记/javascript 执行机制.md",
     "索引/技能-索引.md",
-    "笔记/前端优化小册子.md",
-    "笔记/bfc.md",
+    "笔记/排序算法.md",
     "索引/设计-索引.md",
     "索引/the first.md",
+    "索引/键盘侠-索引.md",
+    "笔记/javascript 执行机制.md",
+    "笔记/前端优化小册子.md",
+    "笔记/bfc.md",
     "索引/vue3-索引.md",
-    "Excalidraw/vue3响应式原理.excalidraw.png",
-    "笔记/vue3-diff-脑图.md",
-    "索引/键盘侠-索引.md"
+    "Excalidraw/vue3响应式原理.excalidraw.png"
   ]
 }
