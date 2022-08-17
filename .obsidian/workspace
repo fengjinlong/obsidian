@@ -10,7 +10,7 @@
           "type": "markdown",
           "state": {
             "file": "笔记/排序算法.md",
-            "mode": "preview",
+            "mode": "source",
             "source": false
           }
         }
@@ -118,10 +118,10 @@
   "active": "d10ae0942bea1c81",
   "lastOpenFiles": [
     "索引/技能-索引.md",
-    "笔记/排序算法.md",
-    "索引/设计-索引.md",
-    "索引/the first.md",
     "索引/键盘侠-索引.md",
+    "索引/设计-索引.md",
+    "笔记/排序算法.md",
+    "索引/the first.md",
     "笔记/javascript 执行机制.md",
     "笔记/前端优化小册子.md",
     "笔记/bfc.md",
