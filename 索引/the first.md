@@ -3,6 +3,9 @@
 2. [[promise.all]]
 ## mini-vue
 1. [vue3响应式原理.excalidraw](vue3响应式原理.excalidraw.md)
+2. [vue3-diff-脑图](vue3-diff-脑图.md)
+3. [[总览 diff.md#最长递增子序列|diff 的最长递增子序列]]
+4. 
 ## 手写js
 ## 项目经验
 1. 低代码可视化
@@ -39,7 +42,14 @@ o![](Pasted%20image%2020220802145058.png)
     
 
 看一下更新 100次执行几次的大概逻辑
-keep-alive
+#### keep-alive
+1. 只缓存组件
+2. 将组件放到一个缓存容器
+3. **activated**取出组件，**deactivated** 放进容器
+4. 挂在组件实则就是 判断是否是存在 **keepAlivee** 状态
+	- 存在，调用activate
+	- 不存在，mountComponent
+
 
 
 问我们template到render过程，其实是问vue`编译器`工作原理
@@ -71,7 +81,3 @@ keep-alive
 -   使用 http 缓存，比如服务端的响应中添加 `Cache-Control / Expires` 。
 
   
-作者：vortesnail  
-链接：https://juejin.cn/post/7061588533214969892  
-来源：稀土掘金  
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
