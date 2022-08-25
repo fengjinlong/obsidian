@@ -9,19 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "索引/vue3-索引.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "6bf737df7ea9c701",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/KeepAlive.md",
+            "file": "索引/技能-索引.md",
             "mode": "preview",
             "source": false
           }
@@ -52,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "bind",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "索引/vue3-索引.md",
+                "file": "索引/技能-索引.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "索引/vue3-索引.md",
+                "file": "索引/技能-索引.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,15 +117,15 @@
   },
   "active": "d10ae0942bea1c81",
   "lastOpenFiles": [
-    "索引/the first.md",
     "笔记/KeepAlive.md",
-    "索引/vue3-索引.md",
-    "笔记/总览 diff.md",
-    "索引/键盘侠-索引.md",
-    "索引/类图.md",
-    "笔记/vue3-diff-脑图.md",
-    "笔记/排序算法.md",
     "索引/技能-索引.md",
-    "索引/设计-索引.md"
+    "索引/设计-索引.md",
+    "索引/vite-index.md",
+    "索引/vue3-索引.md",
+    "索引/键盘侠-索引.md",
+    "索引/the first.md",
+    "笔记/prototype.md",
+    "笔记/javascript 执行栈相关.md",
+    "笔记/基石篇.md"
   ]
 }
