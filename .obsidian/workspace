@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "d10ae0942bea1c81",
+        "id": "ee1eac7498a9cfc8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "索引/技能-索引.md",
-            "mode": "preview",
+            "file": "索引/康奈尔.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "bind",
+                "query": "vite",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323
+    "width": 323,
+    "collapsed": true
   },
   "right": {
     "id": "3183b1b661034dde",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "索引/技能-索引.md",
+                "file": "索引/康奈尔.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "索引/技能-索引.md",
+                "file": "索引/康奈尔.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,17 +116,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "d10ae0942bea1c81",
+  "active": "ee1eac7498a9cfc8",
   "lastOpenFiles": [
-    "笔记/KeepAlive.md",
-    "索引/技能-索引.md",
-    "索引/设计-索引.md",
-    "索引/vite-index.md",
-    "索引/vue3-索引.md",
+    "索引/草稿2.md",
+    "索引/草稿1.md",
     "索引/键盘侠-索引.md",
-    "索引/the first.md",
-    "笔记/prototype.md",
-    "笔记/javascript 执行栈相关.md",
-    "笔记/基石篇.md"
+    "笔记/Vue.js 3.2+ 关于响应式部分的优化.md",
+    "索引/vue3-索引.md",
+    "Excalidraw/vue3响应式原理.excalidraw.png",
+    "Excalidraw/工厂方法模式生产coffee2.excalidraw.png",
+    "Excalidraw/工厂方法模式生产coffee2.excalidraw.md",
+    "Excalidraw/vue3响应式原理.excalidraw.md",
+    "索引/设计-索引.md"
   ]
 }

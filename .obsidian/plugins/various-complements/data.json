@@ -79,62 +79,6 @@
         }
       }
     },
-    "promise.all": {
-      "promise.all": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1659079574774
-        }
-      }
-    },
-    "debug": {
-      "debug": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1657928145257
-        }
-      }
-    },
-    "方向键": {
-      "方向键": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1658023153689
-        }
-      }
-    },
-    "zellij": {
-      "zellij": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1658116136823
-        }
-      }
-    },
-    "alias": {
-      "alias": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1658117602781
-        }
-      }
-    },
-    "opt": {
-      "opt": {
-        "currentFile": {
-          "count": 5,
-          "lastUpdated": 1658796952046
-        }
-      }
-    },
-    "iterm2": {
-      "iterm2": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1658796884288
-        }
-      }
-    },
     "alfred": {
       "alfred": {
         "currentFile": {
@@ -348,6 +292,30 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1661445553241
+        }
+      }
+    },
+    "asdfasdf": {
+      "asdfasdf": {
+        "currentFile": {
+          "count": 12,
+          "lastUpdated": 1661699021323
+        }
+      }
+    },
+    "啊撒旦发生的发": {
+      "啊撒旦发生的发": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1661699006537
+        }
+      }
+    },
+    "asdfsad": {
+      "asdfsad": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1661699013136
         }
       }
     }
