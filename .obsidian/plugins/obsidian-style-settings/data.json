@@ -1,0 +1,19 @@
+{
+  "blue-topaz-theme@@translucent-setting-panel": true,
+  "blue-topaz-theme@@color-scheme-options": "color-scheme-options-autumn-topaz",
+  "blue-topaz-theme@@style-options-for-calendar-plugin": "style-options-for-calendar-plugin-style-two",
+  "blue-topaz-theme@@rainbow-checklist": true,
+  "blue-topaz-theme@@style-options-for-buttons-plugin": false,
+  "blue-topaz-theme@@bt-status-off": true,
+  "blue-topaz-theme@@hide-vault-name": true,
+  "blue-topaz-theme@@hide-titlebar-text": false,
+  "blue-topaz-theme@@fix-right-ribbon": false,
+  "blue-topaz-theme@@background-image-settings-switch": false,
+  "blue-topaz-theme@@background-image-settings-markdown-page-random": true,
+  "blue-topaz-theme@@background-settings-workplace-background-image": true,
+  "blue-topaz-theme@@background-image-settings-markdown-page-options": "background-image-settings-markdown-page-default",
+  "blue-topaz-theme@@background-image-settings-markdown-page-random-options": "background-image-settings-markdown-page-random-purple",
+  "blue-topaz-theme@@background-settings-workplace-theme-light": "background-settings-workplace-theme-light-custom-option",
+  "blue-topaz-theme@@background-settings-workplace-theme-dark": "background-settings-workplace-theme-dark-in-the-sky",
+  "blue-topaz-theme@@layout-style-options": "layout-style-options-default"
+}

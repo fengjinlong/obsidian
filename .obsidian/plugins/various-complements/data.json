@@ -55,14 +55,6 @@
         }
       }
     },
-    "vscode": {
-      "vscode": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1659317021995
-        }
-      }
-    },
     "shift": {
       "shift": {
         "currentFile": {
@@ -71,99 +63,11 @@
         }
       }
     },
-    "github": {
-      "github": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1659318932192
-        }
-      }
-    },
-    "alfred": {
-      "alfred": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1659316918153
-        }
-      }
-    },
-    "search": {
-      "search": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1659318936673
-        }
-      }
-    },
-    "mini-vue": {
-      "mini-vue": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1659366402227
-        }
-      }
-    },
     "cmd": {
       "cmd": {
         "currentFile": {
           "count": 3,
           "lastUpdated": 1660177936029
-        }
-      }
-    },
-    "深拷贝对象": {
-      "深拷贝对象": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1659701873762
-        }
-      }
-    },
-    "assign": {
-      "assign": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1659701932229
-        }
-      }
-    },
-    "浏览器核心": {
-      "浏览器核心": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1659712301009
-        }
-      }
-    },
-    "vue3总览": {
-      "vue3总览": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1659714046200
-        }
-      }
-    },
-    "adads": {
-      "adads": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1659863422322
-        }
-      }
-    },
-    "适配器模式": {
-      "适配器模式": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1660010704068
-        }
-      }
-    },
-    "computed": {
-      "computed": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1660016874301
         }
       }
     },
@@ -316,6 +220,30 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1661699013136
+        }
+      }
+    },
+    "node_modules": {
+      "node_modules": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1662550836189
+        }
+      }
+    },
+    "install": {
+      "install": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1662550696519
+        }
+      }
+    },
+    "express": {
+      "express": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1662550844841
         }
       }
     }

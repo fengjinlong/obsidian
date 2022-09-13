@@ -29,6 +29,7 @@
 28. [[总览 diff]]
 29. [[vue3-diff-脑图]]
 30. [vue3响应式原理.excalidraw](vue3响应式原理.excalidraw.png)
+31. [[有限状态自动机]]
 
 
 ## 黄奕源码

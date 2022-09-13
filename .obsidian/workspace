@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "9b86f2331c3d40db",
+        "id": "a586b7816806e865",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "索引/键盘侠-索引.md",
-            "mode": "source",
+            "file": "笔记/双端 diff - 非理想情况.md",
+            "mode": "preview",
             "source": false
           }
         }
@@ -53,7 +53,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323
+    "width": 323,
+    "collapsed": true
   },
   "right": {
     "id": "3183b1b661034dde",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "索引/键盘侠-索引.md",
+                "file": "笔记/双端 diff - 非理想情况.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "索引/键盘侠-索引.md",
+                "file": "笔记/双端 diff - 非理想情况.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,17 +116,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "9b86f2331c3d40db",
+  "active": "a586b7816806e865",
   "lastOpenFiles": [
-    "笔记/组件实现原理相关内容.md",
     "索引/vue3-索引.md",
-    "笔记/总览 diff.md",
-    "笔记/vue3-diff-脑图.md",
-    "Excalidraw/vue3响应式原理.excalidraw.png",
-    "索引/康奈尔.md",
-    "索引/草稿2.md",
-    "索引/草稿1.md",
+    "索引/the first.md",
+    "索引/vite-index.md",
+    "笔记/自下而上的学习方法.md",
+    "索引/读书笔记-索引.md",
     "索引/键盘侠-索引.md",
-    "笔记/Vue.js 3.2+ 关于响应式部分的优化.md"
+    "索引/技能-索引.md",
+    "索引/康奈尔.md",
+    "笔记/readonly isReadOnly isReactive isProxy shallowReadOnly.md",
+    "索引/拉钩js核心-索引.md"
   ]
 }
