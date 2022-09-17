@@ -39,158 +39,6 @@
   "insertCommaAfterFrontMatterCompletion": false,
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "ctrl": {
-      "ctrl": {
-        "currentFile": {
-          "count": 17,
-          "lastUpdated": 1660359354246
-        }
-      }
-    },
-    "command": {
-      "command": {
-        "currentFile": {
-          "count": 42,
-          "lastUpdated": 1660177919416
-        }
-      }
-    },
-    "shift": {
-      "shift": {
-        "currentFile": {
-          "count": 9,
-          "lastUpdated": 1660177939987
-        }
-      }
-    },
-    "cmd": {
-      "cmd": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1660177936029
-        }
-      }
-    },
-    "解除当前蓝牙频道所绑定的设备": {
-      "解除当前蓝牙频道所绑定的设备": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1660288990243
-        }
-      }
-    },
-    "常用快捷键一览": {
-      "常用快捷键一览": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1660295287545
-        }
-      }
-    },
-    "hjkl": {
-      "hjkl": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1660358728713
-        }
-      }
-    },
-    "javascript 执行机制": {
-      "javascript 执行机制": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1660554815774
-        }
-      }
-    },
-    "then3": {
-      "then3": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1660556397854
-        }
-      }
-    },
-    "process3": {
-      "process3": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1660556483248
-        }
-      }
-    },
-    "Queue": {
-      "Queue": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1660556557635
-        }
-      }
-    },
-    "Event": {
-      "Event": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1660556552901
-        }
-      }
-    },
-    "process2": {
-      "process2": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1660556575151
-        }
-      }
-    },
-    "then2": {
-      "then2": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1660556583737
-        }
-      }
-    },
-    "创建文件夹": {
-      "创建文件夹": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1660638454059
-        }
-      }
-    },
-    "manages": {
-      "manages": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1660638806472
-        }
-      }
-    },
-    "for": {
-      "for": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1660653467287
-        }
-      }
-    },
-    "length-1": {
-      "length-1": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1660653482950
-        }
-      }
-    },
-    "分而治之的算法，jiang": {
-      "分而治之的算法，jiang": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1660662537697
-        }
-      }
-    },
     "图的广度优先遍历": {
       "图的广度优先遍历": {
         "currentFile": {
@@ -244,6 +92,14 @@
         "currentFile": {
           "count": 2,
           "lastUpdated": 1662550844841
+        }
+      }
+    },
+    "leader": {
+      "leader": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1663120501028
         }
       }
     }
