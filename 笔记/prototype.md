@@ -93,3 +93,20 @@ Function.prototype.__proto__ === Object.prototype
 -   对象的 `__proto__` 指向原型， `__proto__` 将对象和原型连接起来组成了原型链
 
 ![](Pasted%20image%2020220526225443.png)
+```js
+
+function F() {
+  
+}
+let f = new F()
+console.log(f.prototype) // undefined
+
+console.log(f.__proto__ === F.prototype)// true
+console.log(f.__proto__.constructor === F)// true
+console.log(f.constructor === F)// true
+console.log(Object.constructor === Function)// true
+console.log(F.constructor === Function)// true
+
+function test() {}
+console.log(test.prototype.constructor.constructor===Function); // true
+```

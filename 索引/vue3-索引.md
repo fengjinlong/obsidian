@@ -30,6 +30,8 @@
 29. [[vue3-diff-脑图]]
 30. [vue3响应式原理.excalidraw](vue3响应式原理.excalidraw.png)
 31. [[有限状态自动机]]
+32. [[vue3.2+ 优化之 ref]]
+33. [[vue3优化点]]
 
 
 ## 黄奕源码

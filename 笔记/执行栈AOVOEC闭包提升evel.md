@@ -210,8 +210,9 @@ ECStack = [
 4. 如此反复，形成⼀个⽆限的循环。这个过程被称为“事件循环（Event Loop）”的原因。
 
 ## 那么其实⼀切也就迎刃⽽解了。闭包的原理是Scope(堆空间中存储closure(foo))，this的原理是动态绑定，作⽤域链的原理是Scope: [AO, globalContext.VO],eval不能回收的原理是推不进AO,变量提升的原理是AO的准备阶段，异步队列的原理是ECS.
+### 闭包 就是 外层函数的 AO 没有被释放，还在堆空间
 
-## ⾛进ES5+
+## ⾛进ES5
 ```js
 // this 值的决定，也被称为 This Binding。（即 this 绑定）
 // LexicalEnvironment（词法环境）

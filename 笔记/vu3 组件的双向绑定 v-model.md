@@ -48,4 +48,4 @@ export default {
 ```
 `emit("update:modelValue", 888);`
 
-`如果父组件是 v-model:age,则 子组件对应的是 emit("update:age", 888);`
+`如果父组件是 v-model:age="",则 子组件对应的是 emit("update:age", 888);`

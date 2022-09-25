@@ -485,6 +485,180 @@ const finalizeDepMarkers = (effect) => {
 
 优化后对于 `dep` 依赖集合的操作就减少了，自然也就优化了性能。
 
+
+
+
+
+## 响应式 API 的优化-ref
+
+响应式 API 的优化主要体现在对 `ref`、`computed` 等 API 的优化。
+
+以 `ref` API 为例，来看看它优化前的实现：
+
+```js
+function ref(value) {
+  return createRef(value)
+}
+
+const convert = (val) => isObject(val) ? reactive(val) : val
+
+function createRef(rawValue, shallow = false) {
+  if (isRef(rawValue)) {
+    // 如果传入的就是一个 ref，那么返回自身即可，处理嵌套 ref 的情况。
+    return rawValue
+  }
+  return new RefImpl(rawValue, shallow)
+}
+
+class RefImpl {
+  constructor(_rawValue, _shallow = false) {
+    this._rawValue = _rawValue
+    this._shallow = _shallow
+    this.__v_isRef = true
+    // 非 shallow 的情况，如果它的值是对象或者数组，则递归响应式
+    this._value = _shallow ? _rawValue : convert(_rawValue)
+  }
+  get value() {
+    // 给 value 属性添加 getter，并做依赖收集
+    track(toRaw(this), 'get' /* GET */, 'value')
+    return this._value
+  }
+  set value(newVal) {
+    // 给 value 属性添加 setter
+    if (hasChanged(toRaw(newVal), this._rawValue)) {
+      this._rawValue = newVal
+      this._value = this._shallow ? newVal : convert(newVal)
+      // 派发通知
+      trigger(toRaw(this), 'set' /* SET */, 'value', newVal)
+    }
+  }
+}
+复制代码
+```
+
+`ref` 函数返回了 `createRef` 函数执行的返回值，而在 `createRef` 内部，首先处理了嵌套 `ref` 的情况，如果传入的 `rawValue` 也是个 `ref`，那么直接返回 `rawValue`；接着返回 `RefImpl` 对象的实例。
+
+而 `RefImpl` 内部的实现，主要是劫持它的实例 `value` 属性的 `getter` 和 `setter`。
+
+当访问一个 `ref` 对象的 `value` 属性，会触发 `getter` 执行 `track` 函数做依赖收集然后返回它的值；当修改一个 `ref` 对象的 `value` 值，则会触发 `setter` 设置新值并且执行 `trigger` 函数派发通知，如果新值 `newVal` 是对象或者数组类型，那么把它转换成一个 `reactive` 对象。
+
+接下来，我们再来看 Vue.js 3.2 对于这部分的实现相关的改动：
+
+```js
+class RefImpl {
+  constructor(value, _shallow = false) {
+    this._shallow = _shallow
+    this.dep = undefined
+    this.__v_isRef = true
+    this._rawValue = _shallow ? value : toRaw(value)
+    this._value = _shallow ? value : convert(value)
+  }
+  get value() {
+    trackRefValue(this)
+    return this._value
+  }
+  set value(newVal) {
+    newVal = this._shallow ? newVal : toRaw(newVal)
+    if (hasChanged(newVal, this._rawValue)) {
+      this._rawValue = newVal
+      this._value = this._shallow ? newVal : convert(newVal)
+      triggerRefValue(this, newVal)
+    }
+  }
+}
+复制代码
+```
+
+主要改动部分就是对 `ref` 对象的 `value` 属性执行依赖收集和派发通知的逻辑。
+
+在 Vue.js 3.2 版本的 `ref` 的实现中，关于依赖收集部分，由原先的 `track` 函数改成了 `trackRefValue`，来看它的实现：
+
+```js
+function trackRefValue(ref) {
+  if (isTracking()) {
+    ref = toRaw(ref)
+    if (!ref.dep) {
+      ref.dep = createDep()
+    }
+    if ((process.env.NODE_ENV !== 'production')) {
+      trackEffects(ref.dep, {
+        target: ref,
+        type: "get" /* GET */,
+        key: 'value'
+      })
+    }
+    else {
+      trackEffects(ref.dep)
+    }
+  }
+}
+复制代码
+```
+
+可以看到这里直接把 `ref` 的相关依赖保存到 `dep` 属性中，而在 `track` 函数的实现中，会把依赖保留到全局的 `targetMap` 中：
+
+```js
+let depsMap = targetMap.get(target)
+if (!depsMap) {
+  // 每个 target 对应一个 depsMap
+  targetMap.set(target, (depsMap = new Map()))
+}
+let dep = depsMap.get(key)
+if (!dep) {
+  // 每个 key 对应一个 dep 集合
+  depsMap.set(key, (dep = createDep()))
+}
+复制代码
+```
+
+显然，`track` 函数内部可能需要做多次判断和设置逻辑，而把依赖保存到 `ref` 对象的 `dep` 属性中则省去了这一系列的判断和设置，从而优化性能。
+
+相应的，`ref` 的实现关于派发通知部分，由原先的 `trigger` 函数改成了 `triggerRefValue`，来看它的实现：
+
+```js
+function triggerRefValue(ref, newVal) {
+  ref = toRaw(ref)
+  if (ref.dep) {
+    if ((process.env.NODE_ENV !== 'production')) {
+      triggerEffects(ref.dep, {
+        target: ref,
+        type: "set" /* SET */,
+        key: 'value',
+        newValue: newVal
+      })
+    }
+    else {
+      triggerEffects(ref.dep)
+    }
+  }
+}
+
+function triggerEffects(dep, debuggerEventExtraInfo) {
+  for (const effect of isArray(dep) ? dep : [...dep]) {
+    if (effect !== activeEffect || effect.allowRecurse) {
+      if ((process.env.NODE_ENV !== 'production') && effect.onTrigger) {
+        effect.onTrigger(extend({ effect }, debuggerEventExtraInfo))
+      }
+      if (effect.scheduler) {
+        effect.scheduler()
+      }
+      else {
+        effect.run()
+      }
+    }
+  }
+}
+复制代码
+```
+
+由于直接从 `ref` 属性中就拿到了它所有的依赖且遍历执行，不需要执行 `trigger` 函数一些额外的逻辑，因此在性能上也得到了提升。
+
+  
+作者：黄轶  
+链接：https://juejin.cn/post/6995732683435278344  
+来源：稀土掘金  
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
 #### trackOpBit 的设计
 
 细心的你可能会发现，标记依赖的 `trackOpBit`，在每次计算时采用了左移的运算符 `trackOpBit = 1 << ++effectTrackDepth`；并且在赋值的时候，使用了或运算：
