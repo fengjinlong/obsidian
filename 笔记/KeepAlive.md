@@ -1,4 +1,5 @@
 # KeepAlive 组件
+#### LRU 的策略
 #### 需要渲染器底层支持
 #### KeepAlive 避免一个组件被频繁销毁和重建
 ```html

@@ -39,30 +39,6 @@
   "insertCommaAfterFrontMatterCompletion": false,
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "asdfasdf": {
-      "asdfasdf": {
-        "currentFile": {
-          "count": 12,
-          "lastUpdated": 1661699021323
-        }
-      }
-    },
-    "啊撒旦发生的发": {
-      "啊撒旦发生的发": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1661699006537
-        }
-      }
-    },
-    "asdfsad": {
-      "asdfsad": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1661699013136
-        }
-      }
-    },
     "node_modules": {
       "node_modules": {
         "currentFile": {
@@ -156,6 +132,62 @@
         "internalLink": {
           "count": 2,
           "lastUpdated": 1664090535520
+        }
+      }
+    },
+    "虚拟列表？在我们日常生活中，刷不到底的新闻": {
+      "虚拟列表？在我们日常生活中，刷不到底的新闻": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1664096337257
+        }
+      }
+    },
+    "虚拟列表。实现难度较大，通过计算滚动视窗，每次只渲染部分元素，既减少了首屏压力，长时间加载也不会有更多的性能负担，可以满足上述大部分场景。": {
+      "虚拟列表。实现难度较大，通过计算滚动视窗，每次只渲染部分元素，既减少了首屏压力，长时间加载也不会有更多的性能负担，可以满足上述大部分场景。": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1664096342132
+        }
+      }
+    },
+    "v-bind": {
+      "v-bind": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1664174397715
+        }
+      }
+    },
+    "#####": {
+      "#####": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1664173818020
+        }
+      }
+    },
+    "解析HTML，生成DOM树，解析CSS，生成CSSOM树": {
+      "解析HTML，生成DOM树，解析CSS，生成CSSOM树": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1664198932515
+        }
+      }
+    },
+    "考虑我们要执行一段批量插入节点的代码：": {
+      "考虑我们要执行一段批量插入节点的代码：": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1664199686664
+        }
+      }
+    },
+    "修改CSS的class": {
+      "修改CSS的class": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1664199806289
         }
       }
     }

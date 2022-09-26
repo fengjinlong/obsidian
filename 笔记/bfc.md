@@ -20,3 +20,31 @@ BFC 即块级格式上下文，根据盒模型可知，每个元素都被定义�
 -   绝对定位元素（`position` 为 `absolute` 或 `fixed` ）。
 -   行内块元素，即 `display` 为 `inline-block` 。
 -   `overflow` 的值不为 `visible` 。
+
+
+
+
+## BFC
+
+#### 容器内的元素不影响外部元素
+
+#### 构成 bfc
+
+1.  body
+    
+2.  float 除了 none 以外的值
+    
+3.  absolute, fixd
+    
+4.  display 为 inline-block table-cell flex
+    
+5.  overflow除了 visible 以外的值
+    
+
+#### 应用
+
+1.  同一个 BFC 下外边距折叠
+    
+2.  BFC 可以清除浮动
+    
+3.  bfc 可以阻止元素被浮动元素覆盖

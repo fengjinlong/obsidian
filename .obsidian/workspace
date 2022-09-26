@@ -4,8 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "f5b40c9183e22b34",
+        "id": "ba14f09a8743274e",
         "type": "leaf",
+        "dimension": 27.065712426805465,
         "state": {
           "type": "markdown",
           "state": {
@@ -16,12 +17,13 @@
         }
       },
       {
-        "id": "dffe834ef31901ce",
+        "id": "bbd0cd222e1ed469",
         "type": "leaf",
+        "dimension": 72.93428757319454,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/数组方法.md",
+            "file": "笔记/从渲染到回流重绘.md",
             "mode": "source",
             "source": false
           }
@@ -97,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/数组方法.md",
+                "file": "笔记/从渲染到回流重绘.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/数组方法.md",
+                "file": "笔记/从渲染到回流重绘.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,17 +129,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "dffe834ef31901ce",
+  "active": "bbd0cd222e1ed469",
   "lastOpenFiles": [
     "索引/技能-索引.md",
-    "笔记/vue3优化点.md",
+    "笔记/从渲染到回流重绘.md",
+    "索引/设计-索引.md",
     "索引/vue3-索引.md",
-    "笔记/prototype.md",
-    "笔记/原型链图.md",
-    "索引/键盘侠-索引.md",
-    "笔记/vu3 组件的双向绑定 v-model.md",
-    "笔记/vue3.x 组件通信.md",
-    "笔记/总览 diff.md",
-    "笔记/排序算法.md"
+    "笔记/bfc.md",
+    "笔记/watch.md",
+    "笔记/css vue2 vue3.md",
+    "笔记/排序算法.md",
+    "笔记/网站优化.md",
+    "笔记/微前端背景.md"
   ]
 }
