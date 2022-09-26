@@ -4,26 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "ba14f09a8743274e",
+        "id": "169b3b9802cf99d3",
         "type": "leaf",
-        "dimension": 27.065712426805465,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "索引/技能-索引.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "bbd0cd222e1ed469",
-        "type": "leaf",
-        "dimension": 72.93428757319454,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/从渲染到回流重绘.md",
+            "file": "笔记/深度优先.md",
             "mode": "source",
             "source": false
           }
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/从渲染到回流重绘.md",
+                "file": "笔记/深度优先.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/从渲染到回流重绘.md",
+                "file": "笔记/深度优先.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -129,17 +115,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "bbd0cd222e1ed469",
+  "active": "169b3b9802cf99d3",
   "lastOpenFiles": [
     "索引/技能-索引.md",
+    "笔记/深度优先.md",
+    "笔记/树的遍历 左中右 概念.md",
     "笔记/从渲染到回流重绘.md",
     "索引/设计-索引.md",
     "索引/vue3-索引.md",
     "笔记/bfc.md",
     "笔记/watch.md",
     "笔记/css vue2 vue3.md",
-    "笔记/排序算法.md",
-    "笔记/网站优化.md",
-    "笔记/微前端背景.md"
+    "笔记/排序算法.md"
   ]
 }
