@@ -190,6 +190,14 @@
           "lastUpdated": 1664199806289
         }
       }
+    },
+    "app": {
+      "app": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1664470743546
+        }
+      }
     }
   }
 }

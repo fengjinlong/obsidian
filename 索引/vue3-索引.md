@@ -35,6 +35,7 @@
 34. [[vue3 生命周期]]
 35.  [[css vue2 vue3]]
 36. [[watch]]
+37. [[app.use vs app.component]]
 
 
 ## 黄奕源码
