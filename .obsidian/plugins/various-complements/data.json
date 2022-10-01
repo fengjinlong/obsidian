@@ -90,8 +90,8 @@
     "vue3": {
       "vue3": {
         "currentFile": {
-          "count": 2,
-          "lastUpdated": 1663599742448
+          "count": 3,
+          "lastUpdated": 1664525532377
         }
       }
     },
@@ -122,8 +122,8 @@
     "响应式优化点": {
       "响应式优化点": {
         "currentFile": {
-          "count": 3,
-          "lastUpdated": 1664090513377
+          "count": 5,
+          "lastUpdated": 1664525501730
         }
       }
     },
@@ -196,6 +196,14 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1664470743546
+        }
+      }
+    },
+    "tree-shaking": {
+      "tree-shaking": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1664525540303
         }
       }
     }

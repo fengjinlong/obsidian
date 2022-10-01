@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "169b3b9802cf99d3",
+        "id": "cbfbe739cc8098b1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/app.use vs app.component.md",
+            "file": "笔记/深度优先.md",
             "mode": "preview",
             "source": false
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/app.use vs app.component.md",
+                "file": "笔记/深度优先.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/app.use vs app.component.md",
+                "file": "笔记/深度优先.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,17 +115,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "169b3b9802cf99d3",
+  "active": "cbfbe739cc8098b1",
   "lastOpenFiles": [
-    "索引/vue3-索引.md",
-    "笔记/watch.md",
-    "笔记/vue3优化点.md",
-    "笔记/KeepAlive.md",
-    "笔记/vu3 组件的双向绑定 v-model.md",
-    "笔记/vue3.x 组件通信.md",
+    "索引/算法索引.md",
     "笔记/深度优先.md",
-    "笔记/广度优先.md",
+    "笔记/树的遍历 左中右 概念.md",
     "索引/技能-索引.md",
-    "笔记/树的遍历 左中右 概念.md"
+    "笔记/数组.md",
+    "索引/vue3-索引.md",
+    "笔记/执行栈AOVOEC闭包提升evel.md",
+    "笔记/闭包.md",
+    "笔记/javascript 执行机制.md",
+    "笔记/vue3优化点.md"
   ]
 }

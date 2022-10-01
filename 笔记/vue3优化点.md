@@ -20,4 +20,13 @@
 > 
 
 
+## vue2 vue3 区别
+1. options api
+2. 响应式
+3. diff 优化
+4. 独立引用
+5. 体积更小 vue3 引用 tree-shaking 
+6. 编译优化
+7. Custom Renderer API
+
 

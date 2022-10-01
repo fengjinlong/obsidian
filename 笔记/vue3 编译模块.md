@@ -369,3 +369,156 @@ export { createVNode as createElementVNode };
 // 两个函数均在 runtime-core 的出口 导出即可
 ```
 
+
+
+
+#### 编译 template
+
+1. patse 将 string 转化为 ast
+   1. 解析三种类型，（根据的是解析 html 的文档规范）利用有限状态机原理
+      - 差值 处理截取推进
+
+        ```javascript
+        // {{message}}
+        {
+          type: NodeTypes.INTERPOLATION,
+            content: {
+              type: NodeTypes.SIMPLE_EXPRESSION,
+                content: "message",
+            },
+        }
+        ```
+    
+      - element 处理截取推进
+
+        ```javascript
+        // <div><p></p></div>
+        {
+          type: NodeTypes.ELEMENT,
+          tag: "div",
+          children: [
+            {
+              type: NodeTypes.ELEMENT,
+              tag: "p",
+              children: [],
+            },
+          ],
+        }
+        ```
+
+      - text （默认处理）处理截取推进
+
+        ```javascript
+        // some test
+        {
+          type: NodeTypes.TEXT,
+          content: "some text",
+        }
+        ```
+
+      - 综合类型
+
+        ```javascript
+        // <div>hi,{{message}}</div>
+        {
+          type: NodeTypes.ELEMENT,
+          tag: "div",
+            children: [
+            {
+              type: NodeTypes.TEXT,
+              content: "hi,",
+            },
+            {
+              type: NodeTypes.INTERPOLATION,
+              content: {
+                type: NodeTypes.SIMPLE_EXPRESSION,
+                content: "message",
+              },
+            },
+          ],
+        }
+        ```
+
+      - case
+
+        ```
+        // 之前处理<div>hi,{{message}}</div>中的text 节点时候，是遇见 {{ 为text判断的结束点
+        // 如果 demo 是<div><p>hi</p>{{message}}</div>,之前的逻辑是有问题的，text 节点截取为hi</p>，是不对的
+        // 变更 text 的结束条件，< 与 {{ 谁先出现以谁为结束的标志
+        ```
+
+      - case
+
+        ```
+        // <div><span></div>
+        ```
+
+
+2. transform 将ast 进行增删改查
+
+   1. 递归遍历
+
+   2. 插件体系式调用
+
+      ```javascript
+      transform(ast, {
+      	nodeTransforms: [ plugin ]
+      })
+      ```
+
+3. codegen 根据ast 生成 代码   render
+
+   1. 生成模板方法，快照测试
+
+   ```javascript
+   // hi
+   return function render(_ctx, _cache) {
+     return "hi"
+   }
+   
+   // {{message}} 
+   const { toDisplayString: _toDisplayString } = Vue
+   return function render(_ctx, _cache) {
+     return _toDisplayString(_ctx.message)
+   }
+   
+   // <div>hi, {{message}}</div>
+   const { toDisplayString: _toDisplayString, _createElementVNode: _createElementVNode } = Vue
+   return function render(_ctx) {
+     return _createElementVNode("div", null, "hi, " + _toDisplayString(_ctx.message)
+   }
+   ```
+
+   2. compile
+
+   ```javascript
+   export function baseCompile(template) {
+     const ast = baseParse(template);
+     transform(ast, {
+       nodeTransforms: [transformExpression, transformElement, transformText],
+     });
+     return generate(ast);
+   }
+   ```
+
+   3. 最后的 render 的样子
+
+   ```javascript
+   // 编译后的样子
+   const render = renderFunction()
+   function renderFunction(Vue) {
+   	const {...} = Vue
+     return function render (_ctx) {
+       return _createElementVNode("div", null, "hi, " + _toDisplayString(_ctx.message)
+     }
+   }
+   // 也就是包装一下
+   function complieToFunction(template) {
+     const {code} = baseCompile(template)
+     const render = new Function("Vue", code)(runtimeDom)
+     return render
+   }
+   ```
+
+
+
