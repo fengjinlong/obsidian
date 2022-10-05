@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "笔记/深度优先.md",
-            "mode": "preview",
+            "file": "索引/技能-索引.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/深度优先.md",
+                "file": "索引/技能-索引.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/深度优先.md",
+                "file": "索引/技能-索引.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,15 +117,15 @@
   },
   "active": "cbfbe739cc8098b1",
   "lastOpenFiles": [
-    "索引/算法索引.md",
-    "笔记/深度优先.md",
-    "笔记/树的遍历 左中右 概念.md",
+    "笔记/概念.md",
     "索引/技能-索引.md",
+    "笔记/深度优先.md",
+    "索引/算法索引.md",
+    "笔记/树的遍历 左中右 概念.md",
     "笔记/数组.md",
     "索引/vue3-索引.md",
     "笔记/执行栈AOVOEC闭包提升evel.md",
     "笔记/闭包.md",
-    "笔记/javascript 执行机制.md",
-    "笔记/vue3优化点.md"
+    "笔记/javascript 执行机制.md"
   ]
 }
