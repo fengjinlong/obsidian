@@ -508,3 +508,21 @@ Function.prototype._bind = function (ctx, ...args) {
   return bound
 };
 ```
+
+```js
+
+Function.prototype.myBind = function(context, ...args1) {
+  if(typeof this !== 'function') {
+    throw Error('error')
+  }
+  context = context ? Object(context) : Window
+
+  const currentFunc = this
+  return function(...args2) {
+    if(new.target) {
+      return new currentFunc(...[...args1, ...args2])
+    }
+    return currentFunc.apply(context, [...args1, ...args2])
+  }
+}
+```
