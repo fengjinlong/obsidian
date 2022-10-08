@@ -39,30 +39,6 @@
   "insertCommaAfterFrontMatterCompletion": false,
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "node_modules": {
-      "node_modules": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1662550836189
-        }
-      }
-    },
-    "install": {
-      "install": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1662550696519
-        }
-      }
-    },
-    "express": {
-      "express": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1662550844841
-        }
-      }
-    },
     "leader": {
       "leader": {
         "currentFile": {
@@ -204,6 +180,14 @@
         "currentFile": {
           "count": 1,
           "lastUpdated": 1664525540303
+        }
+      }
+    },
+    "执行栈AOVOEC闭包提升evel": {
+      "执行栈AOVOEC闭包提升evel": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1665107505829
         }
       }
     }

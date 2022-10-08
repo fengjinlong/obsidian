@@ -4,26 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "cbfbe739cc8098b1",
+        "id": "b6601fca8ac3a266",
         "type": "leaf",
-        "dimension": 15.217391304347828,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "索引/拉钩js核心-索引.md",
-            "mode": "source",
-            "source": false
-          }
-        }
-      },
-      {
-        "id": "47dfa431a92f2abd",
-        "type": "leaf",
-        "dimension": 84.78260869565217,
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/js基石篇.md",
+            "file": "笔记/排序算法.md",
             "mode": "source",
             "source": false
           }
@@ -54,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "基石",
+                "query": "vite",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -63,13 +49,11 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 323,
-    "collapsed": true
+    "width": 323
   },
   "right": {
     "id": "3183b1b661034dde",
@@ -101,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/js基石篇.md",
+                "file": "笔记/排序算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/js基石篇.md",
+                "file": "笔记/排序算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,17 +115,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "47dfa431a92f2abd",
+  "active": "b6601fca8ac3a266",
   "lastOpenFiles": [
-    "索引/拉钩js核心-索引.md",
-    "笔记/js基石篇.md",
-    "笔记/eventLoop.md",
-    "笔记/浏览器核心.md",
-    "索引/键盘侠-索引.md",
-    "索引/技能-索引.md",
-    "笔记/概念.md",
-    "笔记/深度优先.md",
     "索引/算法索引.md",
-    "笔记/树的遍历 左中右 概念.md"
+    "笔记/静态资源.md",
+    "笔记/css.md",
+    "索引/vite-index.md",
+    "笔记/初始安装.md",
+    "笔记/js基石篇.md",
+    "索引/拉钩js核心-索引.md",
+    "索引/键盘侠-索引.md",
+    "笔记/闭包.md",
+    "索引/草稿1.md"
   ]
 }
