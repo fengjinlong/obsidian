@@ -190,6 +190,38 @@
           "lastUpdated": 1665107505829
         }
       }
+    },
+    "create": {
+      "create": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1665328188216
+        }
+      }
+    },
+    "Constructor": {
+      "Constructor": {
+        "currentFile": {
+          "count": 2,
+          "lastUpdated": 1665328192701
+        }
+      }
+    },
+    "prototype": {
+      "prototype": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1665328199887
+        }
+      }
+    },
+    "instance": {
+      "instance": {
+        "currentFile": {
+          "count": 1,
+          "lastUpdated": 1665328257310
+        }
+      }
     }
   }
 }
