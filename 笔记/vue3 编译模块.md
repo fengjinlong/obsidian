@@ -151,7 +151,7 @@ function traverseNode(node: any) {
 2. 优化
 - 考虑要区分 程序的变动点与不变动点
 - 插件化思想
-- 有用户决定调用什么插件
+- 由用户决定调用什么插件
 
 ```js
 // 下面程序的变动点，不应该在程序的核心逻辑
@@ -177,7 +177,7 @@ function createTransformContext(root: any, options: any) {
   return context;
 }
 ```
-4. 实现 traansform 逻辑
+4. 实现 transform 逻辑
 ```js
 
 export function transform(root, options) {

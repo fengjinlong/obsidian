@@ -2,6 +2,7 @@
   "baseFontSize": 18,
   "theme": "system",
   "translucency": false,
-  "cssTheme": "Deep Work",
-  "baseFontSizeAction": false
+  "cssTheme": "Things",
+  "baseFontSizeAction": false,
+  "accentColor": ""
 }

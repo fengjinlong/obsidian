@@ -7,11 +7,12 @@
 | ref / emits      | ref        | emits      |
 | provide / inject | provide    | inject     |
 | EventBus         | emits / on | emits / on |
-| vuex             | -          | -          | 
+| vuex             | -          | -          |
+
 
 #### 兄弟通信
 
 | 方案     | 发起方 | 接收方 |
 | -------- | ------ | ------ |
-| EventBus | emit   | on     |
+| EventBus/mitt | emit   | on     |
 | vuex     | -      | -      | 

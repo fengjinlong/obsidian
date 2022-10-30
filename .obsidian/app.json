@@ -11,5 +11,11 @@
   "fileSortOrder": "alphabeticalReverse",
   "showLineNumber": true,
   "vimMode": true,
-  "communityThemeSortOrder": "download"
+  "communityThemeSortOrder": "download",
+  "pdfExportSettings": {
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

@@ -53,3 +53,10 @@ export default {
 
 -   vue3 默prop与event为：`modelValue`和`update:modelValue`；vue2 中则是：`value`和`input`；
 -   vue3 中直接通过 v-model 后面参数`v-model:msg`来指定属性名，并且`支持绑定多个 v-model`；而 vue2 中通过子组件的`model 属性中的prop值和event值`来指定属性名和事件名。
+```js
+
+<script setup> 
+const props = defineProps({ foo: String }) 
+const emit = defineEmits(['change', 'delete']) // setup code 
+</script>
+```

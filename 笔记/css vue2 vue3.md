@@ -72,3 +72,21 @@ useCssModule('classes')
 ```
 
 4. v-bind 
+
+
+5. 改变UI组件内的样式
+	![](Pasted%20image%2020221023213415.png)
+```css
+// 重点 scoped :deep()
+<style scoped>
+:deep(span) {
+  color: red;
+}
+:deep(button) {
+  border-radius: 50%;
+}
+.ppp {
+  color: yellowgreen;
+}
+</style>
+```

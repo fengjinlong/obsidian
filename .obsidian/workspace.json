@@ -4,28 +4,48 @@
     "type": "split",
     "children": [
       {
-        "id": "8e6f632db0907854",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "索引/技能-索引.md",
-            "mode": "source",
-            "source": false
+        "id": "4ce084f84d07f6a5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4b99d39bbd5058e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "索引/设计模式-索引.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "58888a5e88664018",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "笔记/简单工厂模式.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "883a271545e8d95d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "笔记/工厂模式.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        }
-      },
-      {
-        "id": "765135cc063ac7ac",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "笔记/创建文件 文件夹.md",
-            "mode": "preview",
-            "source": false
-          }
-        }
+        ],
+        "currentTab": 1,
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -43,7 +63,9 @@
             "type": "leaf",
             "state": {
               "type": "file-explorer",
-              "state": {}
+              "state": {
+                "sortOrder": "alphabeticalReverse"
+              }
             }
           },
           {
@@ -52,7 +74,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "自动生成",
+                "query": "runParallel",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +87,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 323
+    "width": 200
   },
   "right": {
     "id": "3183b1b661034dde",
@@ -97,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/创建文件 文件夹.md",
+                "file": "笔记/简单工厂模式.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/创建文件 文件夹.md",
+                "file": "笔记/简单工厂模式.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,17 +149,20 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "765135cc063ac7ac",
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "58888a5e88664018",
   "lastOpenFiles": [
-    "索引/技能-索引.md",
-    "笔记/自动生成 readme.md",
+    "索引/设计模式-索引.md",
+    "笔记/工厂模式.md",
     "索引/键盘侠-索引.md",
-    "笔记/npm login 报错.md",
-    "笔记/从渲染到回流重绘.md",
-    "笔记/初始安装.md",
-    "索引/vite-index.md",
-    "笔记/js基石篇.md",
     "索引/拉钩js核心-索引.md",
-    "笔记/vue3优化点.md"
+    "索引/类图.md",
+    "索引/算法索引.md",
+    "索引/js 原型，原型链相关.md",
+    "索引/the first.md",
+    "索引/vue3-索引.md",
+    "索引/常规技能-索引.md"
   ]
 }

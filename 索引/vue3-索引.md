@@ -36,6 +36,9 @@
 35.  [[css vue2 vue3]]
 36. [[watch]]
 37. [[app.use vs app.component]]
+38. [对比vue3 的 render](对比vue3%20的%20render.md)
+39. [虚拟DOM](虚拟DOM.md)
+40. [vue 动态 src background 写法](vue%20动态%20src%20background%20写法.md)
 
 
 ## 黄奕源码
