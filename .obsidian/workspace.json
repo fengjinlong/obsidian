@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "24f4217e3673a6f4",
+            "id": "7d0e561b8e682843",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/自动触发事件.md",
+                "file": "索引/hjkb.md",
                 "mode": "source",
                 "source": false
               }
@@ -62,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ref=",
+                "query": "hjkb",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/自动触发事件.md",
+                "file": "索引/hjkb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/自动触发事件.md",
+                "file": "索引/hjkb.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,8 +137,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "24f4217e3673a6f4",
+  "active": "7d0e561b8e682843",
   "lastOpenFiles": [
+    "笔记/自动触发事件.md",
     "索引/vue3-索引.md",
     "笔记/vue3 用ref获取dom元素.md",
     "笔记/bfc.md",
@@ -147,7 +148,6 @@
     "笔记/微前端背景.md",
     "笔记/缓存请求.md",
     "索引/设计模式-索引.md",
-    "笔记/基本面试题.md",
-    "索引/js 原型，原型链相关.md"
+    "笔记/基本面试题.md"
   ]
 }
