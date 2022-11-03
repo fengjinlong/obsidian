@@ -16,3 +16,7 @@
 | -------- | ------ | ------ |
 | EventBus/mitt | emit   | on     |
 | vuex     | -      | -      | 
+
+
+
+[vue3 父子数据交互总结 ref, props, emits, v-model, provide等](https://github.com/fengjinlong/vue3-api-demo/blob/main/src/components/P.vue)

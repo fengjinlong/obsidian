@@ -9,7 +9,6 @@
 8. [[vue3 挂载全局组件]]
 9. [[ ref isRef unRef proxyRefs ]]
 10. [[computed]]
-11. [[喜欢vue3的什么]]
 12. [[vue3 用ref获取dom元素]]
 13. [[Vue3.x 推荐使用 mitt.js]]
 14. [[vue3.x 组件通信]]
@@ -39,7 +38,8 @@
 38. [对比vue3 的 render](对比vue3%20的%20render.md)
 39. [虚拟DOM](虚拟DOM.md)
 40. [vue 动态 src background 写法](vue%20动态%20src%20background%20写法.md)
-
+41. [[vue3 用ref获取dom元素]]
+42. [[自动触发事件]]
 
 ## 黄奕源码
 1. [[vue3.0 带来的有优化]]

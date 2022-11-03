@@ -4,40 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "4ce084f84d07f6a5",
+        "id": "ca6fe39dcb876435",
         "type": "tabs",
         "children": [
           {
-            "id": "4b99d39bbd5058e5",
+            "id": "2e26c12715569705",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "索引/设计模式-索引.md",
+                "file": "索引/vue3-索引.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "58888a5e88664018",
+            "id": "24f4217e3673a6f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/简单工厂模式.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "883a271545e8d95d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "笔记/工厂模式.md",
+                "file": "笔记/自动触发事件.md",
                 "mode": "source",
                 "source": false
               }
@@ -74,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "runParallel",
+                "query": "ref=",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -119,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/简单工厂模式.md",
+                "file": "笔记/自动触发事件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/简单工厂模式.md",
+                "file": "笔记/自动触发事件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,20 +137,17 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "58888a5e88664018",
+  "active": "24f4217e3673a6f4",
   "lastOpenFiles": [
-    "索引/设计模式-索引.md",
-    "笔记/工厂模式.md",
-    "索引/键盘侠-索引.md",
-    "索引/拉钩js核心-索引.md",
-    "索引/类图.md",
-    "索引/算法索引.md",
-    "索引/js 原型，原型链相关.md",
-    "索引/the first.md",
     "索引/vue3-索引.md",
-    "索引/常规技能-索引.md"
+    "笔记/vue3 用ref获取dom元素.md",
+    "笔记/bfc.md",
+    "索引/常规技能-索引.md",
+    "笔记/webpack 原理.md",
+    "笔记/微前端背景.md",
+    "笔记/缓存请求.md",
+    "索引/设计模式-索引.md",
+    "笔记/基本面试题.md",
+    "索引/js 原型，原型链相关.md"
   ]
 }
