@@ -11,28 +11,11 @@
             "id": "2e26c12715569705",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "索引/vue3-索引.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7d0e561b8e682843",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "索引/hjkb.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -107,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "索引/hjkb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +106,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "索引/hjkb.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,17 +118,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "7d0e561b8e682843",
+  "active": "b909e41c1afcddf7",
   "lastOpenFiles": [
-    "笔记/自动触发事件.md",
-    "索引/vue3-索引.md",
-    "笔记/vue3 用ref获取dom元素.md",
-    "笔记/bfc.md",
-    "索引/常规技能-索引.md",
-    "笔记/webpack 原理.md",
-    "笔记/微前端背景.md",
-    "笔记/缓存请求.md",
-    "索引/设计模式-索引.md",
-    "笔记/基本面试题.md"
+    "Daily/2022-08-05.md",
+    "Daily/2022-05-29.md",
+    "Daily/Template.md",
+    "Daily/2022-01-19.md",
+    "Day Planners/Day Planner-20221031.md",
+    "Day Planners/Day Planner-20221101.md",
+    "Day Planners/Day Planner-20221103.md",
+    "Day Planners/Day Planner-20221102.md",
+    "Daily/2022-04-26.md",
+    "Daily/2022-01-17.md"
   ]
 }
