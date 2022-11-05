@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "77af7aae0c14721f",
+        "id": "da38b51b5eb7387f",
         "type": "tabs",
         "children": [
           {
-            "id": "f4a252f2944562ba",
+            "id": "48ab02d92cf8d476",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "笔记/js 模块化.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ],
@@ -45,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hjkb",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/js 模块化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/js 模块化.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,17 +124,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "b909e41c1afcddf7",
+  "active": "48ab02d92cf8d476",
   "lastOpenFiles": [
+    "笔记/js 小技巧.md",
+    "附件/Pasted image 20220526153736.png",
+    "笔记/js 模块化.md",
+    "索引/常规技能-索引.md",
+    "索引/vue3-索引.md",
     "Daily/2022-08-05.md",
     "Daily/2022-05-29.md",
     "Daily/Template.md",
     "Daily/2022-01-19.md",
-    "Day Planners/Day Planner-20221031.md",
-    "Day Planners/Day Planner-20221101.md",
-    "Day Planners/Day Planner-20221103.md",
-    "Day Planners/Day Planner-20221102.md",
-    "Daily/2022-04-26.md",
-    "Daily/2022-01-17.md"
+    "Day Planners/Day Planner-20221031.md"
   ]
 }
