@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/js 模块化.md",
-                "mode": "preview",
+                "file": "笔记/排序算法.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/js 模块化.md",
+                "file": "笔记/排序算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/js 模块化.md",
+                "file": "笔记/排序算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,15 +126,15 @@
   },
   "active": "48ab02d92cf8d476",
   "lastOpenFiles": [
+    "索引/结构算法-索引.md",
+    "笔记/js 模块化.md",
     "笔记/js 小技巧.md",
     "附件/Pasted image 20220526153736.png",
-    "笔记/js 模块化.md",
     "索引/常规技能-索引.md",
     "索引/vue3-索引.md",
     "Daily/2022-08-05.md",
     "Daily/2022-05-29.md",
     "Daily/Template.md",
-    "Daily/2022-01-19.md",
-    "Day Planners/Day Planner-20221031.md"
+    "Daily/2022-01-19.md"
   ]
 }
