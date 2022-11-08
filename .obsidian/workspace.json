@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/排序算法.md",
+                "file": "索引/常规技能-索引.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1411507f0e225428",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "笔记/微前端背景.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -94,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/排序算法.md",
+                "file": "笔记/微前端背景.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/排序算法.md",
+                "file": "笔记/微前端背景.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,17 +137,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "48ab02d92cf8d476",
+  "active": "1411507f0e225428",
   "lastOpenFiles": [
-    "索引/结构算法-索引.md",
-    "笔记/js 模块化.md",
-    "笔记/js 小技巧.md",
-    "附件/Pasted image 20220526153736.png",
     "索引/常规技能-索引.md",
-    "索引/vue3-索引.md",
-    "Daily/2022-08-05.md",
-    "Daily/2022-05-29.md",
-    "Daily/Template.md",
-    "Daily/2022-01-19.md"
+    "笔记/微前端背景.md",
+    "笔记/结构化克隆.md",
+    "笔记/函数创建 - scope - AO.md",
+    "笔记/V8 的 sort.md",
+    "笔记/从 URL 开始建立前端知识体系.md",
+    "笔记/冻结对象.md",
+    "索引/管理-索引.md",
+    "索引/键盘侠-索引.md",
+    "索引/结构算法-索引.md"
   ]
 }
