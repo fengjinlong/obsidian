@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/微前端背景.md",
+                "file": "索引/hjkb.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/微前端背景.md",
+                "file": "索引/hjkb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/微前端背景.md",
+                "file": "索引/hjkb.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,8 +139,8 @@
   },
   "active": "1411507f0e225428",
   "lastOpenFiles": [
-    "索引/常规技能-索引.md",
     "笔记/微前端背景.md",
+    "索引/常规技能-索引.md",
     "笔记/结构化克隆.md",
     "笔记/函数创建 - scope - AO.md",
     "笔记/V8 的 sort.md",
