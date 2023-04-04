@@ -262,7 +262,7 @@ export const createDep = (effects) => {
 }
 
 ```
-其中 `w` 表示是否已经被收集，`n` 表示是否新收集。
+其中 `w` 表示  是否  已经被收集，`n` 表示  是否  新收集。
 其中 `effectTrackDepth` 表示递归嵌套执行 `effect` 函数的深度；`trackOpBit` 用于标识依赖收集的状态；`maxMarkerBits` 表示最大标记的位数。
 
 ```js

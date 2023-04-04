@@ -4,36 +4,46 @@
     "type": "split",
     "children": [
       {
-        "id": "da38b51b5eb7387f",
+        "id": "f8be5cc8a57e944e",
         "type": "tabs",
         "children": [
           {
-            "id": "48ab02d92cf8d476",
+            "id": "6dfe54ae5e6fd12b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "索引/常规技能-索引.md",
+                "file": "笔记/react-性能优化.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1411507f0e225428",
+            "id": "36ca3cfa856c371a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "索引/hjkb.md",
+                "file": "索引/React-索引.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6d5b881780c49275",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "索引/js/常规技能-索引.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1,
-        "stacked": true
+        ]
       }
     ],
     "direction": "vertical"
@@ -62,8 +72,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": true,
+                "query": "虚拟列表",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -75,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 210.5
   },
   "right": {
     "id": "3183b1b661034dde",
@@ -94,20 +104,11 @@
             }
           },
           {
-            "id": "e4d80a2250b4356d",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
             "id": "75263758c51b6733",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "索引/hjkb.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,10 +125,17 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "索引/hjkb.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
+            }
+          },
+          {
+            "id": "c3ec7b277a2a79df",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
             }
           }
         ]
@@ -137,17 +145,78 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1411507f0e225428",
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian42-brat:BRAT": false,
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "command-palette:打开命令面板": false,
+      "random-note:开始漫游笔记": false,
+      "graph:查看关系图谱": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-journey-plugin:Find Journey": false,
+      "open-vscode:VSCode": false,
+      "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
+    }
+  },
+  "active": "b909e41c1afcddf7",
   "lastOpenFiles": [
-    "笔记/微前端背景.md",
-    "索引/常规技能-索引.md",
-    "笔记/结构化克隆.md",
-    "笔记/函数创建 - scope - AO.md",
-    "笔记/V8 的 sort.md",
-    "笔记/从 URL 开始建立前端知识体系.md",
-    "笔记/冻结对象.md",
-    "索引/管理-索引.md",
-    "索引/键盘侠-索引.md",
-    "索引/结构算法-索引.md"
+    "Daily/2022-01-21.md",
+    "Daily/2022-01-14.md",
+    "Daily/2022-01-18.md",
+    "Daily/Template.md",
+    "Day Planners/Day Planner-20230316.md",
+    "Day Planners/Day Planner-20230404.md",
+    "Day Planners",
+    "Day Planners/Day Planner-20230402.md",
+    "笔记/react-keepAlive.md",
+    "附件/Pasted image 20230404222502.png",
+    "索引/React-索引.md",
+    "附件/Pasted image 20230223000129.png",
+    "附件/Pasted image 20230403150357.png",
+    "索引/面试/2023复习记录.md",
+    "索引/面试/the first.md",
+    "笔记/虚拟列表.md",
+    "索引/js/常规技能-索引.md",
+    "笔记/柯里化.md",
+    "笔记/react-useMemo-返回组件的两种写法.md",
+    "笔记/按顺序发送多个请求.md",
+    "笔记/react-性能优化.md",
+    "笔记/useCallback, React.Memo.md",
+    "附件/Pasted image 20230403153805.png",
+    "索引/web3.md",
+    "canvas/react-reconciler.canvas",
+    "笔记/Vue3.x 推荐使用 mitt.js.md",
+    "附件/Pasted image 20230403150704.png",
+    "附件/Pasted image 20230403145545.png",
+    "附件/Pasted image 20230403144911.png",
+    "笔记/vu3-directive.md",
+    "索引/vue3-索引.md",
+    "笔记/ref isRef unRef proxyRefs toRef toRefs.md",
+    "笔记/解构影响响应式.md",
+    "canvas/开发一个库.canvas",
+    "Day Planners/Day Planner-20230403.md",
+    "canvas/react-scheduler.canvas",
+    "索引/ai.md",
+    "canvas/react-流程.canvas",
+    "canvas/lucky-react.canvas",
+    "canvas/react-useEffect.canvas",
+    "canvas/react-update-更新流程2.canvas",
+    "canvas/未命名.canvas",
+    "canvas/未命名 1.canvas",
+    "Excalidraw/vue3响应式原理.excalidraw.png",
+    "笔记/react 卡片.canvas",
+    "索引/开发工具",
+    "索引/面试",
+    "索引/js",
+    "Excalidraw/工厂方法模式生产coffee2.excalidraw.png",
+    "Excalidraw的副本/Scripts/Downloaded/Expand rectangles horizontally.svg",
+    "Excalidraw的副本/Scripts/Downloaded",
+    "Excalidraw的副本/Scripts",
+    "Excalidraw的副本",
+    "Excalidraw/Scripts/1~.js",
+    "Excalidraw/Scripts/1.js",
+    "Excalidraw/Scripts/Downloaded"
   ]
 }

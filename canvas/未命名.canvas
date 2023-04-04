@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"type":"text","text":"创建优先级\ntriggerEventFlow","id":"b5b797a3cf701581","x":-260,"y":-239,"width":250,"height":60},
+		{"type":"text","text":"优先级影响 update 的更新","id":"048c94f10221dad2","x":-280,"y":-110,"width":250,"height":60},
+		{"type":"text","text":"交互产生优先级","id":"3869c558c5365008","x":-700,"y":-179,"width":250,"height":60},
+		{"id":"5265b59aafd7426b","x":-720,"y":120,"width":250,"height":60,"type":"text","text":"同步任务"},
+		{"id":"5663f9ae92db00cb","x":-720,"y":340,"width":250,"height":60,"type":"text","text":"宏任务"},
+		{"type":"text","text":"workloop 可以中断","id":"7de6143e628ce718","x":-235,"y":340,"width":250,"height":60},
+		{"id":"a351bf4e364d9bd2","x":-235,"y":120,"width":250,"height":60,"type":"text","text":"workloop 不可中断"},
+		{"id":"770be6b0b003ef93","x":180,"y":220,"width":261,"height":72,"type":"text","text":"render 执行完毕 ？\n中断？"},
+		{"id":"55f466e439ef6598","x":520,"y":640,"width":250,"height":60,"type":"text","text":""}
+	],
+	"edges":[
+		{"id":"213bb477a3488a50","fromNode":"3869c558c5365008","fromSide":"right","toNode":"b5b797a3cf701581","toSide":"left"},
+		{"id":"84171f6140ece8f8","fromNode":"3869c558c5365008","fromSide":"right","toNode":"048c94f10221dad2","toSide":"left"},
+		{"id":"bb5d663f87a3af6a","fromNode":"5663f9ae92db00cb","fromSide":"right","toNode":"7de6143e628ce718","toSide":"left","label":"开启时间切片"},
+		{"id":"d1aa4b2de19300ff","fromNode":"5265b59aafd7426b","fromSide":"right","toNode":"a351bf4e364d9bd2","toSide":"left"},
+		{"id":"54ddb0feeeb972f9","fromNode":"a351bf4e364d9bd2","fromSide":"right","toNode":"770be6b0b003ef93","toSide":"left"},
+		{"id":"74efcb8ac5760120","fromNode":"7de6143e628ce718","fromSide":"right","toNode":"770be6b0b003ef93","toSide":"left"},
+		{"id":"6ddbab817ec119da","fromNode":"770be6b0b003ef93","fromSide":"right","toNode":"55f466e439ef6598","toSide":"left","label":"中断 开启时间切片 并且 wip 不是 null"}
+	]
+}

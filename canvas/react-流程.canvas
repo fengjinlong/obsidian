@@ -1,0 +1,37 @@
+{
+	"nodes":[
+		{"type":"text","text":"render 阶段，也就是 进行 reconciler 工作","id":"efbc1c06aec77f80","x":-531,"y":-140,"width":240,"height":100},
+		{"type":"text","text":"performUnitOfWork","id":"e1d5fb4368cf55ae","x":-80,"y":-120,"width":250,"height":60},
+		{"type":"text","text":"构建 dom tree","id":"73a15f4e8c3aec37","x":840,"y":-10,"width":250,"height":60},
+		{"type":"text","text":"标记 flag 更新","id":"9b271bc7e2cfde1b","x":840,"y":160,"width":250,"height":60},
+		{"type":"text","text":"递归 构建 subtreeFlags，父节点搜集所有子节点的 flag","id":"e5cc19d6e82b4ab7","x":1440,"y":70,"width":300,"height":80},
+		{"type":"text","text":"completeWork","id":"e64e009d5fffcc72","x":270,"y":70,"width":250,"height":60},
+		{"type":"text","text":"beginWork","id":"ab7b09561004bdc4","x":270,"y":-210,"width":250,"height":60},
+		{"type":"text","text":"返回子 fiber","id":"6f3a8a1075041b93","x":840,"y":-290,"width":250,"height":60},
+		{"type":"text","text":"返回子 fiber(复用节点？带 flag ？)","id":"2a2eda33155e34a5","x":840,"y":-170,"width":250,"height":60},
+		{"type":"text","text":"commit 阶段","id":"87844682909ba02e","x":-531,"y":360,"width":240,"height":60},
+		{"type":"text","text":"切换 wip","id":"e4a1cf843129c9d1","x":-80,"y":220,"width":340,"height":60},
+		{"type":"text","text":"commit 有三阶段\n1. beforeMutation\n2. Mutation ( 操作 dom 的阶段 )\n3. layout\n2，3之间 切换 wip","id":"caefb83baf053c24","x":-80,"y":420,"width":340,"height":200},
+		{"type":"text","text":"1. 递归节点（节点为 null 是结束条件）\n2. 递归到底层的 条件\n\t1. 没有子\n\t2. 没有flag（父没有，子一定没有）\n3. 最底层的节点进行相应的操作（增删改，清除 当前的 flag）","id":"19fe5277710b5647","x":620,"y":410,"width":500,"height":220},
+		{"id":"4b04d4bb041946ba","x":1315,"y":490,"width":250,"height":60,"type":"text","text":"递归兄弟，递归父"},
+		{"type":"text","text":"FiberRootNode","id":"b6bcceaa8767ef56","x":-536,"y":-460,"width":250,"height":60},
+		{"type":"text","text":"HostRootFiber","id":"dd4be5d89101e0a8","x":20,"y":-460,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"cb7098cd53aab598","fromNode":"b6bcceaa8767ef56","fromSide":"right","toNode":"dd4be5d89101e0a8","toSide":"left"},
+		{"id":"88466eff92c0bdf7","fromNode":"efbc1c06aec77f80","fromSide":"right","toNode":"e1d5fb4368cf55ae","toSide":"left","label":"是否中断"},
+		{"id":"4f23690e1643be21","fromNode":"e1d5fb4368cf55ae","fromSide":"right","toNode":"ab7b09561004bdc4","toSide":"left"},
+		{"id":"5e818c8b0f39479e","fromNode":"e1d5fb4368cf55ae","fromSide":"right","toNode":"e64e009d5fffcc72","toSide":"left"},
+		{"id":"ef127a34049b9f90","fromNode":"ab7b09561004bdc4","fromSide":"right","toNode":"6f3a8a1075041b93","toSide":"left","label":"mount"},
+		{"id":"807cbab99767c0ab","fromNode":"ab7b09561004bdc4","fromSide":"right","toNode":"2a2eda33155e34a5","toSide":"left","label":"update"},
+		{"id":"83252ccc1fe4c534","fromNode":"e64e009d5fffcc72","fromSide":"right","toNode":"73a15f4e8c3aec37","toSide":"left","label":"mount"},
+		{"id":"0484e979feb54440","fromNode":"e64e009d5fffcc72","fromSide":"right","toNode":"9b271bc7e2cfde1b","toSide":"left","label":"update"},
+		{"id":"35a8d720c0bb31fc","fromNode":"73a15f4e8c3aec37","fromSide":"right","toNode":"e5cc19d6e82b4ab7","toSide":"left"},
+		{"id":"0dcbfbb42090221a","fromNode":"9b271bc7e2cfde1b","fromSide":"right","toNode":"e5cc19d6e82b4ab7","toSide":"left"},
+		{"id":"93719bb3abc53321","fromNode":"87844682909ba02e","fromSide":"right","toNode":"e4a1cf843129c9d1","toSide":"left","label":"没有更新"},
+		{"id":"a69a1783d9876e0e","fromNode":"87844682909ba02e","fromSide":"right","toNode":"caefb83baf053c24","toSide":"left","label":"有更新"},
+		{"id":"b5a11b363ec0f417","fromNode":"caefb83baf053c24","fromSide":"right","toNode":"19fe5277710b5647","toSide":"left","label":"Mutation 阶段"},
+		{"id":"3b51383b460e1855","fromNode":"19fe5277710b5647","fromSide":"right","toNode":"4b04d4bb041946ba","toSide":"left"},
+		{"id":"dc0b7fe362e87073","fromNode":"4b04d4bb041946ba","fromSide":"top","toNode":"19fe5277710b5647","toSide":"top"}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"4a99b404f7b74523","x":-600,"y":-286,"width":299,"height":266,"color":"4","type":"text","text":"## react\ncreateElement() -> jsx()\n1. div -> ReactElement\n2. ReactElement -> {$$typeof, key, type, ref, props}"},
+		{"id":"b3c1874820819d4e","x":180,"y":-660,"width":460,"height":200,"type":"text","text":"创建应用的 fiberRootNode,\nReactDOM.createRoot(document.getElementById('root'))\n1. "},
+		{"id":"86c9a9988fe747e2","x":180,"y":-420,"width":460,"height":300,"type":"text","text":"执行调度 render()\n1. 创建一个更新 update\n2. 将更新添加到容器 hostRootFiber 的updateQueue\n3. renderRoot(fiberRootNode)\n\t1. 获取 workInProgress\n\t2. 进行递归操作 ( beginWork, completeWork )"},
+		{"id":"efcab48b2e4cb828","x":-280,"y":-516,"width":352,"height":153,"type":"text","text":"## react-reconciler\nReactDOM.createRoot(document.getElementById('root')).render();"},
+		{"id":"d9c016b66f6815b6","x":-505,"y":-1040,"width":401,"height":340,"type":"text","text":"![](Pasted%20image%2020230302211012.png)"},
+		{"id":"73e9481b82a70abd","x":180,"y":-935,"width":198,"height":130,"type":"text","text":"fiberNode\n1. tag\n2. type\n3. pendingProps\n4. key\n5. stateNode\n6. ref\n7. return\n8. child\n9. sibling\n10. index\n11. memoizedProps\n12. memoizedState\n13. alternate\n14. updateQueue\n15. flag\n"},
+		{"id":"83399862a93c0173","x":430,"y":-935,"width":190,"height":130,"type":"text","text":"FiberRootNode\n1. Container\n2. current\n3. finishedWork"}
+	],
+	"edges":[
+		{"id":"55e8822a0683e681","fromNode":"efcab48b2e4cb828","fromSide":"right","toNode":"86c9a9988fe747e2","toSide":"left"},
+		{"id":"214cde684dacbc37","fromNode":"efcab48b2e4cb828","fromSide":"right","toNode":"b3c1874820819d4e","toSide":"left"},
+		{"id":"e85110bab65c5c73","fromNode":"d9c016b66f6815b6","fromSide":"bottom","toNode":"efcab48b2e4cb828","toSide":"top"},
+		{"id":"cc4311d1b2149e37","fromNode":"83399862a93c0173","fromSide":"bottom","toNode":"b3c1874820819d4e","toSide":"top"},
+		{"id":"fb247550a7fb2561","fromNode":"73e9481b82a70abd","fromSide":"bottom","toNode":"b3c1874820819d4e","toSide":"top"}
+	]
+}

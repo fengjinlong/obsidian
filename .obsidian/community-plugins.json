@@ -1,17 +1,16 @@
 [
   "calendar",
   "obsidian-admonition",
-  "obsidian-day-planner",
   "table-editor-obsidian",
   "obsidian-journey-plugin",
-  "emoji-shortcodes",
   "cm-editor-syntax-highlight-obsidian",
   "open-vscode",
   "obsidian-plugin-deploy-content-to-anywhere",
   "various-complements",
-  "obsidian-excalidraw-plugin",
   "obsidian-mind-map",
-  "obsidian-vimrc-support",
   "obsidian-better-command-palette",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "canvas-mindmap",
+  "obsidian-excalidraw-plugin",
+  "obsidian42-brat"
 ]

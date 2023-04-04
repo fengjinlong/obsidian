@@ -7,7 +7,7 @@
 6. [[vu3 组件的双向绑定 v-model]]
 7. [[readonly isReadOnly isReactive isProxy shallowReadOnly]]
 8. [[vue3 挂载全局组件]]
-9. [[ ref isRef unRef proxyRefs ]]
+9. [[ ref isRef unRef proxyRefs toRef toRefs ]]
 10. [[computed]]
 12. [[vue3 用ref获取dom元素]]
 13. [[Vue3.x 推荐使用 mitt.js]]
@@ -40,6 +40,7 @@
 40. [vue 动态 src background 写法](vue%20动态%20src%20background%20写法.md)
 41. [[vue3 用ref获取dom元素]]
 42. [[自动触发事件]]
+43. [[vu3-directive]]
 
 ## 黄奕源码
 1. [[vue3.0 带来的有优化]]

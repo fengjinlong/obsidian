@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"id":"066d92e4b78b6f5c","x":-980,"y":-426,"width":2682,"height":1236,"type":"group","label":"未命名组"},
+		{"type":"text","text":"beginWork\n1. 节点删除 ChildDeletion\n2. 节点移动","id":"a0379eaed2ded6f2","x":-285,"y":-406,"width":345,"height":146},
+		{"type":"text","text":"completeWork ( 标记 update flags)\n1. hostText 内容更新\n2. hostComponent 属性变化","id":"cb3484da7310a9ae","x":-285,"y":-180,"width":345,"height":140},
+		{"type":"text","text":"updata","id":"3b463534fa90bd8f","x":-960,"y":40,"width":200,"height":80},
+		{"type":"text","text":"commitWork\n1. 对于 删除，需要遍历 root","id":"3722433af0f61324","x":-285,"y":120,"width":345,"height":160},
+		{"type":"text","text":"找到当前对应的 hook 数据\nworkInProgressHook","id":"a8cf2d2dd8a0bedb","x":200,"y":630,"width":297,"height":100},
+		{"type":"text","text":"useState\n1. 实现 updateState\n\n","id":"9a9136d93599b3bf","x":-360,"y":610,"width":345,"height":140},
+		{"type":"text","text":"1. singleElement\n2. singleTextNode\n","id":"7524d5566311247f","x":670,"y":-406,"width":255,"height":146},
+		{"type":"text","text":"1. 可以复用就复用\n2. 不可复用，标记删除，并添加新的","id":"4b7d8b7c1e23b337","x":1050,"y":-406,"width":250,"height":146},
+		{"type":"text","text":"标记更新","id":"9fdb2cd00f17e699","x":668,"y":-154,"width":255,"height":88},
+		{"type":"text","text":"uptate ---> commitUpdate\n赋值操作\ncommitTextUpdate ( a = b )\nupdateFiberProps ( a = b )","id":"946de92be4fef07f","x":668,"y":44,"width":320,"height":153},
+		{"type":"text","text":"update ---> commitDeletion(递归不同的子树)\n1. FC，要处理 useEffect 的 unmount 执行，解绑 ref \n2. HostComponent 解绑 ref\n3. 对于子树为组件的  根HostComponent 解除 ref\n4. classComponent, 调用 componentWillUnMonnt","id":"8a75674d4a821903","x":670,"y":280,"width":577,"height":240},
+		{"type":"text","text":"1. 当前更新时机的 currentHook(全局的) 为 null, nextCurrentHook = current ? current.memoizedState : null\n2. 当前更新时机的 currentHook 不为 null, nextCurrentHook = currentHook.next\n3. nextCurrentHook 为 null, 说明是 更新时机 添加 了一个新的 hook，if (xxx) { useState(1) }, 报错\n4. nextCurrentHook 不为 null, nextCurrentHook 赋值给 全局的currentHook，并构建 hook 数据对象 newHook\n5. return workInProgressHook ? workInProgressHook.next = newHook : workInProgressHook = newHook","id":"82feef58aa4ccec2","x":670,"y":570,"width":1012,"height":220}
+	],
+	"edges":[
+		{"id":"ba8b33529e5678ce","fromNode":"3b463534fa90bd8f","fromSide":"right","toNode":"a0379eaed2ded6f2","toSide":"left"},
+		{"id":"73f3186eec38f6bc","fromNode":"a0379eaed2ded6f2","fromSide":"right","toNode":"7524d5566311247f","toSide":"left","label":"单节点情况"},
+		{"id":"69d7352b51b669f7","fromNode":"7524d5566311247f","fromSide":"right","toNode":"4b7d8b7c1e23b337","toSide":"left"},
+		{"id":"de7a783c8fadb7bc","fromNode":"cb3484da7310a9ae","fromSide":"right","toNode":"9fdb2cd00f17e699","toSide":"left","label":"单节点情况"},
+		{"id":"30aba0d076cebab1","fromNode":"3b463534fa90bd8f","fromSide":"right","toNode":"cb3484da7310a9ae","toSide":"left"},
+		{"id":"1f5833e7064e95ee","fromNode":"3722433af0f61324","fromSide":"right","toNode":"946de92be4fef07f","toSide":"left"},
+		{"id":"65259ff3c87dc842","fromNode":"3722433af0f61324","fromSide":"right","toNode":"8a75674d4a821903","toSide":"left"},
+		{"id":"8d80ee48b4f701c1","fromNode":"3b463534fa90bd8f","fromSide":"right","toNode":"3722433af0f61324","toSide":"left"},
+		{"id":"2eae6929c626b961","fromNode":"3b463534fa90bd8f","fromSide":"right","toNode":"9a9136d93599b3bf","toSide":"left"},
+		{"id":"afd18850ff1d9757","fromNode":"9a9136d93599b3bf","fromSide":"right","toNode":"a8cf2d2dd8a0bedb","toSide":"left"},
+		{"id":"9ad0939e1e92691f","fromNode":"a8cf2d2dd8a0bedb","fromSide":"right","toNode":"82feef58aa4ccec2","toSide":"left"}
+	]
+}

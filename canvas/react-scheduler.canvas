@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"type":"group","id":"ea64d5983c47b6b9","x":-960,"y":-640,"width":2490,"height":1863,"label":"scheduler"},
+		{"type":"text","text":"scheduler()，\n当前可能有任务正在进行 prev1","id":"5977881b900a9b05","x":-475,"y":-312,"width":250,"height":106,"color":"#e8f812"},
+		{"type":"text","text":"交互触发 ，添加带优先级的任务到队列","id":"360b2e8a4a0c1d43","x":-940,"y":-300,"width":250,"height":83},
+		{"type":"text","text":"scheduler 目的是拿到优先级最高的任务，过程可能会取消上一个任务。拿到后执行任务过程中 ，可能会发生打断。调度流程：\n1. 时间够用，任务结束进入 commit\n2. 时间不够，再次进入，同一个任务，cb 相同，再次执行旧的任务。不走调度流程\n3. 时间不够，再次进入，优先级高的任务进入，cb 不同，执行新的任务。走新调度过程流程","id":"e4a7af2629d2285f","x":-628,"y":-620,"width":806,"height":220},
+		{"type":"text","text":"对比当前 任务prev1 与 w1 的优先级","id":"277c5b840512f256","x":400,"y":109,"width":280,"height":89},
+		{"type":"text","text":"从任务队列获取优先级最高的任务 w1","id":"b080e16085a77a23","x":400,"y":-110,"width":280,"height":120},
+		{"type":"text","text":"取消正在调度的 cb","id":"e8c5fb713784fb46","x":-280,"y":-80,"width":250,"height":60},
+		{"type":"text","text":"调度结束","id":"486dfa28d673c5da","x":-940,"y":86,"width":250,"height":136},
+		{"type":"text","text":"再次 scheduler()，获取 currCb","id":"32e15759d97daf90","x":-475,"y":1100,"width":250,"height":103,"color":"3"},
+		{"type":"text","text":"设置此时的回调 prevCb = currCb","id":"014e65bf58829ff7","x":400,"y":1100,"width":280,"height":91},
+		{"type":"text","text":"如果 prevCb === currCb，任务相同，不用再次调度，重复执行任务","id":"ce44242ed278ee44","x":-80,"y":624,"width":250,"height":132,"color":"4"},
+		{"type":"text","text":"获取正在调度的 cb","id":"2b7470b6f986a345","x":415,"y":-315,"width":250,"height":97},
+		{"type":"text","text":"打断正在进行的 prev1，执行 w1，记录此时的回调 currCb。","id":"d3fff8d46223afec","x":400,"y":400,"width":280,"height":160,"color":"1"},
+		{"type":"text","text":"执行用户任务","id":"6fc7c4ea224e417a","x":400,"y":660,"width":280,"height":60,"color":"4"},
+		{"type":"text","text":"用户任务中断，\n将 prev1 的优先级设置为当前w1 的优先级","id":"6fb4482b39b9522f","x":400,"y":860,"width":280,"height":120},
+		{"type":"text","text":"在任务队列清除任务，将prev1 优先级设置为最低","id":"69ba21f53a315457","x":1260,"y":873,"width":250,"height":95},
+		{"id":"631258bd8c09e2d6","x":-905,"y":1260,"width":1110,"height":591,"type":"text","text":"React Scheduler 使用 MessageChannel 的原因为：**生成宏任务**，实现：\n\n1.  将主线程还给浏览器，以便浏览器更新页面。\n2.  浏览器更新页面后继续执行未完成的任务。\n\n为什么不使用微任务呢？\n\n1.  微任务将在页面更新前全部执行完，所以达不到「将主线程还给浏览器」的目的。\n\n为什么不使用 `setTimeout(fn, 0)` 呢？\n\n1.  递归的 `setTimeout()` 调用会使调用间隔变为 4ms，导致浪费了 4ms。\n\n为什么不使用 `rAF()` 呢？\n\n1.  如果上次任务调度不是 `rAF()` 触发的，将导致在当前帧更新前进行两次任务调度。\n2.  页面更新的时间不确定，如果浏览器间隔了 10ms 才更新页面，那么这 10ms 就浪费了。"},
+		{"id":"55224f5198e778ad","x":-905,"y":1960,"width":1110,"height":200,"type":"text","text":"-   requestIdleCallback FPS只有20ms，正常情况下渲染一帧时长控制在16.67ms (1s / 60 = 16.67ms)。该时间是高于页面流畅的诉求。\n-   个人认为: RequestIdleCallback 不重要且不紧急的定位。因为React渲染内容，并非是不重要且不紧急。不仅该api兼容一般，帧渲染能力一般，也不太符合渲染诉求，故React 团队自行实现。\n"}
+	],
+	"edges":[
+		{"id":"c38b9036c3ca575e","fromNode":"360b2e8a4a0c1d43","fromSide":"right","toNode":"5977881b900a9b05","toSide":"left"},
+		{"id":"432270b84d0e398a","fromNode":"5977881b900a9b05","fromSide":"right","toNode":"2b7470b6f986a345","toSide":"left","color":"#e8f812"},
+		{"id":"5ebf2bd85b0e9843","fromNode":"2b7470b6f986a345","fromSide":"bottom","toNode":"b080e16085a77a23","toSide":"top"},
+		{"id":"0565faed0c4e392e","fromNode":"b080e16085a77a23","fromSide":"left","toNode":"e8c5fb713784fb46","toSide":"right","label":"没有"},
+		{"id":"9a156bf4cab7482a","fromNode":"b080e16085a77a23","fromSide":"bottom","toNode":"277c5b840512f256","toSide":"top"},
+		{"id":"628f43beb09533e7","fromNode":"277c5b840512f256","fromSide":"bottom","toNode":"d3fff8d46223afec","toSide":"top","label":"prev1 优先级 低于  w1 的优先级"},
+		{"id":"0936b23c0f76ec18","fromNode":"d3fff8d46223afec","fromSide":"bottom","toNode":"6fc7c4ea224e417a","toSide":"top","color":"1"},
+		{"id":"cf1761dd849cdc16","fromNode":"6fc7c4ea224e417a","fromSide":"bottom","toNode":"6fb4482b39b9522f","toSide":"top"},
+		{"id":"5068a8398087b359","fromNode":"6fb4482b39b9522f","fromSide":"bottom","toNode":"014e65bf58829ff7","toSide":"top"},
+		{"id":"8e74da06609f123b","fromNode":"6fb4482b39b9522f","fromSide":"right","toNode":"69ba21f53a315457","toSide":"left","label":"如果由于任务执行完的中断"},
+		{"id":"879dddca757a1b96","fromNode":"014e65bf58829ff7","fromSide":"left","toNode":"32e15759d97daf90","toSide":"right"},
+		{"id":"11ec1bc250088251","fromNode":"ce44242ed278ee44","fromSide":"right","toNode":"6fc7c4ea224e417a","toSide":"left"},
+		{"id":"9b986d8cf9cfaff2","fromNode":"32e15759d97daf90","fromSide":"top","toNode":"ce44242ed278ee44","toSide":"left","color":"3"},
+		{"id":"e7a8a1c61ddbefd4","fromNode":"e8c5fb713784fb46","fromSide":"left","toNode":"486dfa28d673c5da","toSide":"right"},
+		{"id":"62b63b3c62f55eb8","fromNode":"277c5b840512f256","fromSide":"left","toNode":"486dfa28d673c5da","toSide":"right","label":"相同"}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"7bf29c8760461e97","x":-518,"y":-327,"width":250,"height":60,"type":"text","text":"业务代码"},
+		{"id":"79cd44c38e5a34d5","x":-518,"y":-140,"width":250,"height":60,"type":"text","text":"代码规范（打包）"},
+		{"id":"1ec82e8acb702bd2","x":-518,"y":60,"width":250,"height":60,"type":"text","text":"健壮性（单元测试）"},
+		{"id":"1213538e6cca4e15","x":-518,"y":220,"width":250,"height":60,"type":"text","text":"开源"},
+		{"id":"fdb0f99c11d735a1","x":-60,"y":220,"width":250,"height":60,"type":"text","text":"维护"}
+	],
+	"edges":[
+		{"id":"53a3b2db17c2f5db","fromNode":"7bf29c8760461e97","fromSide":"bottom","toNode":"79cd44c38e5a34d5","toSide":"top"},
+		{"id":"cb3a7f7b74cf9652","fromNode":"79cd44c38e5a34d5","fromSide":"bottom","toNode":"1ec82e8acb702bd2","toSide":"top"},
+		{"id":"1718559d550f6155","fromNode":"1ec82e8acb702bd2","fromSide":"bottom","toNode":"1213538e6cca4e15","toSide":"top"},
+		{"id":"16b0cfb3a5c6284a","fromNode":"1213538e6cca4e15","fromSide":"right","toNode":"fdb0f99c11d735a1","toSide":"left"}
+	]
+}

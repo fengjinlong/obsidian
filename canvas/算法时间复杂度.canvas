@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"type":"text","text":"O(n)","id":"3c61e8d0bde1aa6f","x":-60,"y":-95,"width":250,"height":60},
+		{"type":"text","text":"O(n 2)","id":"f6e3d6985ee2284d","x":-60,"y":30,"width":250,"height":60},
+		{"type":"text","text":"O(logn)","id":"5e6db38896a4aa64","x":-60,"y":140,"width":250,"height":60},
+		{"type":"text","text":"O(nlogn)","id":"1b875cbb1c77f5ad","x":-60,"y":260,"width":250,"height":60},
+		{"type":"text","text":"O1","id":"ae84fb6451663e4c","x":-60,"y":-220,"width":250,"height":60},
+		{"type":"text","text":"快排，希尔，归并(稳)","id":"a151c730c07076f4","x":425,"y":260,"width":250,"height":60},
+		{"type":"text","text":"冒泡(稳)，选择，插入(稳)","id":"fecc7076c57d1abe","x":425,"y":30,"width":250,"height":60},
+		{"type":"text","text":"时间复杂度","id":"a9a7c4a3bb19d8b2","x":-500,"y":30,"width":250,"height":60},
+		{"type":"file","file":"附件/Pasted image 20230310154246.png","id":"30e08602d6e9d48f","x":-100,"y":640,"width":935,"height":777}
+	],
+	"edges":[
+		{"id":"ded526d8c46b77e8","fromNode":"f6e3d6985ee2284d","fromSide":"right","toNode":"fecc7076c57d1abe","toSide":"left","label":"两个 for"},
+		{"id":"61d59fc4211faa97","fromNode":"1b875cbb1c77f5ad","fromSide":"right","toNode":"a151c730c07076f4","toSide":"left","label":"基于二分思想"},
+		{"id":"a9909bdd2fe7314f","fromNode":"a9a7c4a3bb19d8b2","fromSide":"right","toNode":"ae84fb6451663e4c","toSide":"left"},
+		{"id":"e742f06867b04f04","fromNode":"a9a7c4a3bb19d8b2","fromSide":"right","toNode":"3c61e8d0bde1aa6f","toSide":"left"},
+		{"id":"8ece74270db2ada0","fromNode":"a9a7c4a3bb19d8b2","fromSide":"right","toNode":"f6e3d6985ee2284d","toSide":"left"},
+		{"id":"6927100495851114","fromNode":"a9a7c4a3bb19d8b2","fromSide":"right","toNode":"1b875cbb1c77f5ad","toSide":"left"},
+		{"id":"1defa76402f21492","fromNode":"a9a7c4a3bb19d8b2","fromSide":"right","toNode":"5e6db38896a4aa64","toSide":"left"}
+	]
+}

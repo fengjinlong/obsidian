@@ -39,35 +39,27 @@
   "insertCommaAfterFrontMatterCompletion": false,
   "showLogAboutPerformanceInConsole": false,
   "selectionHistoryTree": {
-    "leader": {
-      "leader": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1663120501028
+    "ref isRef": {
+      "ref isRef": {
+        "internalLink": {
+          "count": 6,
+          "lastUpdated": 1679022341604
         }
       }
     },
-    "加深了对上篇文章的理解": {
-      "加深了对上篇文章的理解": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1663598705465
-        }
-      }
-    },
-    "reactive": {
-      "reactive": {
+    "多节点 diff": {
+      "多节点 diff": {
         "internalLink": {
           "count": 1,
-          "lastUpdated": 1663599121192
+          "lastUpdated": 1678377270332
         }
       }
     },
-    "vue3": {
-      "vue3": {
-        "currentFile": {
-          "count": 3,
-          "lastUpdated": 1664525532377
+    "useCallback, React.Memo": {
+      "useCallback, React.Memo": {
+        "internalLink": {
+          "count": 1,
+          "lastUpdated": 1678980432211
         }
       }
     },
@@ -75,151 +67,31 @@
       "effect & reactive": {
         "internalLink": {
           "count": 1,
-          "lastUpdated": 1663603510397
+          "lastUpdated": 1679553783505
         }
       }
     },
-    "ref isRef": {
-      "ref isRef": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663603554944
-        }
-      }
-    },
-    "柯里化": {
-      "柯里化": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1663854007749
-        }
-      }
-    },
-    "响应式优化点": {
-      "响应式优化点": {
-        "currentFile": {
-          "count": 5,
-          "lastUpdated": 1664525501730
-        }
-      }
-    },
-    "runtime-core 运行时流程": {
-      "runtime-core 运行时流程": {
+    "reactive": {
+      "reactive": {
         "internalLink": {
           "count": 2,
-          "lastUpdated": 1664090535520
+          "lastUpdated": 1680506820542
         }
       }
     },
-    "虚拟列表？在我们日常生活中，刷不到底的新闻": {
-      "虚拟列表？在我们日常生活中，刷不到底的新闻": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1664096337257
-        }
-      }
-    },
-    "虚拟列表。实现难度较大，通过计算滚动视窗，每次只渲染部分元素，既减少了首屏压力，长时间加载也不会有更多的性能负担，可以满足上述大部分场景。": {
-      "虚拟列表。实现难度较大，通过计算滚动视窗，每次只渲染部分元素，既减少了首屏压力，长时间加载也不会有更多的性能负担，可以满足上述大部分场景。": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1664096342132
-        }
-      }
-    },
-    "v-bind": {
-      "v-bind": {
+    "props": {
+      "props": {
         "currentFile": {
           "count": 2,
-          "lastUpdated": 1664174397715
+          "lastUpdated": 1680506871362
         }
       }
     },
-    "#####": {
-      "#####": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1664173818020
-        }
-      }
-    },
-    "解析HTML，生成DOM树，解析CSS，生成CSSOM树": {
-      "解析HTML，生成DOM树，解析CSS，生成CSSOM树": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1664198932515
-        }
-      }
-    },
-    "考虑我们要执行一段批量插入节点的代码：": {
-      "考虑我们要执行一段批量插入节点的代码：": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1664199686664
-        }
-      }
-    },
-    "修改CSS的class": {
-      "修改CSS的class": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1664199806289
-        }
-      }
-    },
-    "app": {
-      "app": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1664470743546
-        }
-      }
-    },
-    "tree-shaking": {
-      "tree-shaking": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1664525540303
-        }
-      }
-    },
-    "执行栈AOVOEC闭包提升evel": {
-      "执行栈AOVOEC闭包提升evel": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665107505829
-        }
-      }
-    },
-    "create": {
-      "create": {
+    "demo1": {
+      "demo1": {
         "currentFile": {
           "count": 2,
-          "lastUpdated": 1665328188216
-        }
-      }
-    },
-    "Constructor": {
-      "Constructor": {
-        "currentFile": {
-          "count": 2,
-          "lastUpdated": 1665328192701
-        }
-      }
-    },
-    "prototype": {
-      "prototype": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1665328199887
-        }
-      }
-    },
-    "instance": {
-      "instance": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1665328257310
+          "lastUpdated": 1680514152996
         }
       }
     }
