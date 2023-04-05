@@ -8,3 +8,17 @@
 
 代表项目：Gitcoin捐赠平台
 https://www.gitcoin.co/
+
+
+L2扩容方案排行：
+1.Sidechains 侧链
+
+2.State channels 状态通道（准备金制度、数据+运算迁移 https://layer2.finance/）
+
+3.Plasma子链（挑战期验证 Polygon）
+
+4.Optimistic rollups 乐观汇总（运算搬走数据留在公链、依赖以太坊 OP/ARB）
+
+5.Zero-knowledge rollups 零知识汇总（运算复杂，手续费高，但前景好）
+
+6.Validiums 有效性证明（零知识证明、运算迁移 StarkWare团队提出） https://ethereum.org/en/developers/docs/scaling/#validium

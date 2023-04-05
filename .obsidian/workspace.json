@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/react-性能优化.md",
-                "mode": "source",
+                "file": "笔记/react-keepAlive.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -26,18 +26,6 @@
               "type": "markdown",
               "state": {
                 "file": "索引/React-索引.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6d5b881780c49275",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "索引/js/常规技能-索引.md",
                 "mode": "source",
                 "source": false
               }
@@ -109,6 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "笔记/react-keepAlive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,6 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "笔记/react-keepAlive.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,19 +150,20 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "b909e41c1afcddf7",
+  "active": "6dfe54ae5e6fd12b",
   "lastOpenFiles": [
+    "索引/React-索引.md",
+    "索引/web3.md",
+    "Day Planners/Day Planner-20230404.md",
     "Daily/2022-01-21.md",
     "Daily/2022-01-14.md",
     "Daily/2022-01-18.md",
     "Daily/Template.md",
     "Day Planners/Day Planner-20230316.md",
-    "Day Planners/Day Planner-20230404.md",
     "Day Planners",
     "Day Planners/Day Planner-20230402.md",
     "笔记/react-keepAlive.md",
     "附件/Pasted image 20230404222502.png",
-    "索引/React-索引.md",
     "附件/Pasted image 20230223000129.png",
     "附件/Pasted image 20230403150357.png",
     "索引/面试/2023复习记录.md",
@@ -185,7 +176,6 @@
     "笔记/react-性能优化.md",
     "笔记/useCallback, React.Memo.md",
     "附件/Pasted image 20230403153805.png",
-    "索引/web3.md",
     "canvas/react-reconciler.canvas",
     "笔记/Vue3.x 推荐使用 mitt.js.md",
     "附件/Pasted image 20230403150704.png",
