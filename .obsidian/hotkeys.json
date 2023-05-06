@@ -99,5 +99,7 @@
   "workspace:goto-tab-5": [],
   "obsidian-excalidraw-plugin:toggle-lock": [],
   "obsidian-excalidraw-plugin:insert-link": [],
-  "graph:open": []
+  "graph:open": [],
+  "app:go-back": [],
+  "global-search:open": []
 }

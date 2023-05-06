@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"e81e6e3e1904b063","x":-399,"y":-300,"width":619,"height":280,"type":"text","text":"1. `reconciler`是`React`核心逻辑所在的模块，中文名叫`协调器`。协调（reconcile）就是`diff`算法的意思。\n2. 当所有`ReactElement`比较完后，会生成一棵`fiberNode树`，一共会存在两棵`fiberNode树`：\n\n-   current：与视图中真实UI对应的`fiberNode树`\n-   workInProgress：触发更新后，正在`reconciler`中计算的`fiberNode树`"},
+		{"id":"dc0c934440a9b87b","x":-350,"y":172,"width":610,"height":328,"type":"text","text":"1. JSX消费的顺序以DFS（深度优先遍历）的顺序遍历`ReactElement`，这意味着：\n-   如果有子节点，遍历子节点\n-   如果没有子节点，遍历兄弟节点\n\n2. 这是个递归的过程，存在递、归两个阶段：\n-   递：对应`beginWork` 生产子节点\n-   归：对应`completeWork`"}
+	],
+	"edges":[]
+}

@@ -1,0 +1,1 @@
+https://webpack.js.org/contribute/writing-a-plugin/#creating-a-plugin

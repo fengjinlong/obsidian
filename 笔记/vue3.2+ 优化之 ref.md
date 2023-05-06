@@ -82,6 +82,10 @@ class RefImpl {
   }
   get value() {
     trackRefValue(this);
+    // 也就是 trackEffects(ref.dep);
+	//	if (dep.has(activeEffect)) return;
+	//	dep.add(activeEffect);
+	//	activeEffect.deps.push(dep);
     return this._value;
   }
   set value(newValue: any) {

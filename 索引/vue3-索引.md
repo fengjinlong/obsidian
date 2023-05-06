@@ -40,7 +40,7 @@
 40. [vue 动态 src background 写法](vue%20动态%20src%20background%20写法.md)
 41. [[vue3 用ref获取dom元素]]
 42. [[自动触发事件]]
-43. [[vu3-directive]]
+43. [[vue3-directive]]
 
 ## 黄奕源码
 1. [[vue3.0 带来的有优化]]

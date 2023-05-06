@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"type":"text","text":"UpdateQueue ----\n```js\n{\n\tshared: {\n\t\tpending: {\n\t\t    action: action(state)\n\t\t}\n\t}，\n\tdispatch: Dispatch<state> | null\n}\n```","id":"9f1a92729c0202c7","x":-443,"y":27,"width":543,"height":293},
+		{"type":"text","text":"消费 update 就是返回 一个带最新状态的 obj ---\n```js\n{\n    memoizedState: action(state)\n}\n```","id":"a8eba94a341f4fb9","x":-434,"y":420,"width":534,"height":225},
+		{"type":"text","text":"updata -----\n```js\n{\n  action: action(state)\n}\n```","id":"a93234f408b0d6ed","x":-443,"y":-260,"width":543,"height":164},
+		{"type":"text","text":"action(state) 两种含义\n- useState( baseState)\n- useState( b => fn(b) )","id":"f37a9631cc71455f","x":240,"y":-258,"width":287,"height":162}
+	],
+	"edges":[
+		{"id":"fa8bfb5a1a8d4593","fromNode":"f37a9631cc71455f","fromSide":"left","toNode":"a93234f408b0d6ed","toSide":"right"}
+	]
+}

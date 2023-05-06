@@ -4,34 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "f8be5cc8a57e944e",
+        "id": "e0ad95c0d1621c92",
         "type": "tabs",
         "children": [
           {
-            "id": "6dfe54ae5e6fd12b",
+            "id": "81dc9ca2b211f2a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "笔记/react-keepAlive.md",
-                "mode": "preview",
+                "file": "索引/js/常规技能-索引.md",
+                "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "36ca3cfa856c371a",
+            "id": "fdd3a6f121b0743d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "索引/React-索引.md",
+                "file": "Daily/Template.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -60,20 +61,28 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "虚拟列表",
+                "query": "nginx",
                 "matchingCase": false,
-                "explainSearch": false,
+                "explainSearch": true,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
+            }
+          },
+          {
+            "id": "4077d8c3ffe6ef9f",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 210.5
+    "width": 200
   },
   "right": {
     "id": "3183b1b661034dde",
@@ -97,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/react-keepAlive.md",
+                "file": "Daily/Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/react-keepAlive.md",
+                "file": "Daily/Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,58 +159,57 @@
       "obsidian-excalidraw-plugin:新建 Excalidraw 绘图": false
     }
   },
-  "active": "6dfe54ae5e6fd12b",
+  "active": "fdd3a6f121b0743d",
   "lastOpenFiles": [
+    "canvas/react-流程总结一下.canvas",
     "索引/React-索引.md",
-    "索引/web3.md",
-    "Day Planners/Day Planner-20230404.md",
-    "Daily/2022-01-21.md",
-    "Daily/2022-01-14.md",
-    "Daily/2022-01-18.md",
-    "Daily/Template.md",
-    "Day Planners/Day Planner-20230316.md",
-    "Day Planners",
-    "Day Planners/Day Planner-20230402.md",
-    "笔记/react-keepAlive.md",
-    "附件/Pasted image 20230404222502.png",
-    "附件/Pasted image 20230223000129.png",
-    "附件/Pasted image 20230403150357.png",
-    "索引/面试/2023复习记录.md",
-    "索引/面试/the first.md",
-    "笔记/虚拟列表.md",
+    "笔记/nginx 404.md",
     "索引/js/常规技能-索引.md",
-    "笔记/柯里化.md",
+    "笔记/webpack5 gzip.md",
+    "笔记/网站优化.md",
+    "笔记/跨域.md",
+    "笔记/npm run 发生了什么.md",
+    "笔记/pnpm.md",
+    "笔记/jest.md",
+    "笔记/概念.md",
+    "笔记/初始安装.md",
+    "笔记/webpack-优化.md",
+    "索引/webpack - 索引.md",
+    "笔记/react-ref.md",
+    "笔记/react-immer.md",
+    "笔记/react-hook注意事项.md",
+    "笔记/react-api-store-router.canvas",
     "笔记/react-useMemo-返回组件的两种写法.md",
-    "笔记/按顺序发送多个请求.md",
-    "笔记/react-性能优化.md",
-    "笔记/useCallback, React.Memo.md",
-    "附件/Pasted image 20230403153805.png",
-    "canvas/react-reconciler.canvas",
-    "笔记/Vue3.x 推荐使用 mitt.js.md",
-    "附件/Pasted image 20230403150704.png",
-    "附件/Pasted image 20230403145545.png",
-    "附件/Pasted image 20230403144911.png",
-    "笔记/vu3-directive.md",
+    "笔记/RTK 的使用.md",
+    "索引/js/拉钩js核心-索引.md",
+    "笔记/computed.md",
     "索引/vue3-索引.md",
-    "笔记/ref isRef unRef proxyRefs toRef toRefs.md",
-    "笔记/解构影响响应式.md",
-    "canvas/开发一个库.canvas",
-    "Day Planners/Day Planner-20230403.md",
-    "canvas/react-scheduler.canvas",
+    "canvas/算法时间复杂度-与稳定性.canvas",
+    "索引/算法-索引.md",
     "索引/ai.md",
-    "canvas/react-流程.canvas",
-    "canvas/lucky-react.canvas",
-    "canvas/react-useEffect.canvas",
-    "canvas/react-update-更新流程2.canvas",
-    "canvas/未命名.canvas",
-    "canvas/未命名 1.canvas",
+    "索引/js/v8.md",
     "Excalidraw/vue3响应式原理.excalidraw.png",
-    "笔记/react 卡片.canvas",
+    "笔记/watch.md",
+    "附件/Pasted image 20230503095230.png",
+    "附件/Pasted image 20230428231353.png",
+    "附件/Pasted image 20230428230838.png",
+    "附件/Pasted image 20230428230708.png",
+    "附件/Pasted image 20230428230600.png",
+    "附件/Pasted image 20230428174715.png",
+    "canvas/react-useEffect.canvas",
+    "Excalidraw/工厂方法模式生产coffee2.excalidraw.png",
+    "canvas/多节点 diff.canvas",
+    "附件/Pasted image 20230426001644.png",
+    "canvas/hh.canvas",
+    "canvas/react-reconciler-大致流程.canvas",
+    "canvas/react-更新-update.canvas",
+    "canvas/lucky-react.canvas",
+    "canvas/react-reconciler.canvas",
+    "附件/Pasted image 20230417090940.png",
+    "Day Planners",
     "索引/开发工具",
     "索引/面试",
     "索引/js",
-    "Excalidraw/工厂方法模式生产coffee2.excalidraw.png",
-    "Excalidraw的副本/Scripts/Downloaded/Expand rectangles horizontally.svg",
     "Excalidraw的副本/Scripts/Downloaded",
     "Excalidraw的副本/Scripts",
     "Excalidraw的副本",

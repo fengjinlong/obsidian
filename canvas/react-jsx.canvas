@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"type":"text","text":"```html\n<div ref='ref' id='d'>123</div>\n```","id":"534f699d982f78f8","x":-300,"y":-160,"width":480,"height":80},
+		{"type":"text","text":"```js\n_jsx(\"div\", {\n  ref: \"ref\",\n  id: \"d\",\n  children: \"123\"\n});\n```","id":"538edf1b47c44704","x":-298,"y":100,"width":478,"height":183},
+		{"type":"text","text":"```js\nreturn ReactElement = {\n\t$$typeof: REACT_ELEMENT_TYPE,\n\ttype,\n\tkey,\n\tref,\n\tprops,\n\t__mark: 'KaSong'\n};\n```\n- ReactElement 不能表达节点之间的关系\n- 不能表达状态\n### 引出虚拟 dom， faiberNode\n- 介于 ReactElement 与 真实dom 之间\n- ","id":"813be239b2c0c9b5","x":-298,"y":440,"width":478,"height":500},
+		{"id":"ada36d0b0f2fac69","x":-184,"y":-300,"width":250,"height":60,"type":"text","text":"jsx"}
+	],
+	"edges":[
+		{"id":"0164a7384406be21","fromNode":"534f699d982f78f8","fromSide":"bottom","toNode":"538edf1b47c44704","toSide":"top","label":"babel"},
+		{"id":"9186320b95b2dcb7","fromNode":"538edf1b47c44704","fromSide":"bottom","toNode":"813be239b2c0c9b5","toSide":"top","label":"jax"},
+		{"id":"46f6de4a020f2011","fromNode":"ada36d0b0f2fac69","fromSide":"bottom","toNode":"534f699d982f78f8","toSide":"top"}
+	]
+}
