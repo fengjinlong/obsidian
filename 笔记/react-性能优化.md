@@ -16,7 +16,7 @@ https://space.bilibili.com/453618117?share_medium=android&share_plat=android&sha
 
 ## 变与不变分离开
 
-demo1
+demo1  分离
 ```ts
 function App() {
   const [count, setCount] = useState(1);
@@ -34,6 +34,11 @@ function Child() {
   console.log("child render");
   return <div>child</div>;
 }
+// 此情景  Child1 的方式 是不重新渲染的
+const Child1 = memo(function () {
+	console.log("child don't render");
+	return <div>child</div>;
+});
 
 export default App;
 ```
@@ -64,7 +69,7 @@ function Change() {
   );
 }
 function Child() {
-  console.log("child render");
+  console.log("child don't render");
   return <div>child</div>;
 }
 export default App;
@@ -127,7 +132,7 @@ function Parent({ children }: { children: React.ReactNode }) {
 }
 
 function Child() {
-  console.log("child render");
+  console.log("child don't render");
   return <div>child</div>;
 }
 
@@ -156,7 +161,7 @@ const C = () => {
   }, []);
 };
 function Child() {
-  console.log("child rendera"); // 不会重复渲染
+  console.log("child don't rendera"); // 不会重复渲染
   return <div>child</div>;
 }
 
@@ -164,7 +169,7 @@ export default App;
 ```
 
 3. 当比较 props 时候
-	1. react 默认是全等的，即使 props（对象类型） 没有变化，也是不等的，{} !== {}。使用 React.memo 时候， props进行的 是浅比较，也就是 {} === {}，这样，父组件的 props 没有变化，更容易命中优化。也就是全等比较高效，但不以命中；浅比较低效，但易命中
+	1. react 默认是全等的，即使 props（对象类型） 没有变化，也是不等的，{} !== {}。使用 React.memo 时候， props进行的 是浅比较，也就是 {} == {}，这样，父组件的 props 没有变化，更容易命中优化。也就是全等比较高效，但不以命中；浅比较低效，但易命中
 
 
 ![](Pasted%20image%2020230403153805.png)

@@ -1,0 +1,31 @@
+{
+  "settings": {
+    "migrated": 4,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "emojiStyle": "twemoji",
+    "iconColor": "#f61909",
+    "recentlyUsedIcons": [
+      "FabEnvira",
+      "FabFirstOrderAlt",
+      "FabCriticalRole"
+    ],
+    "recentlyUsedIconsSize": 6,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": true,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsBackgroundCheckEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconIdentifier": ":"
+  },
+  "索引/面试": "FabCriticalRole",
+  "索引/面试/项目.md": "FabEnvira",
+  "笔记/vue3.md": "FabEnvira"
+}

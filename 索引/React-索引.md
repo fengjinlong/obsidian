@@ -25,6 +25,7 @@
 25. [[class hook]]
 26. [[fiber]]
 27. [[react-immer]]
+28. [[react-监控React无意义渲染]]
 
 # 关键流程
 1. [react-jsx](react-jsx.canvas)
@@ -35,3 +36,8 @@
 6. [[react-更新流程]]
 7. [react-hook-effect的关系.excalidraw](react-hook-effect的关系.excalidraw.md)
 8. [[react-hook注意事项]]
+
+
+[[状态库对比]]
+
+## [mini-react](mini-react.md) 

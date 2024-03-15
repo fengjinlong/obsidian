@@ -4,7 +4,6 @@
   "table-editor-obsidian",
   "obsidian-journey-plugin",
   "cm-editor-syntax-highlight-obsidian",
-  "open-vscode",
   "obsidian-plugin-deploy-content-to-anywhere",
   "various-complements",
   "obsidian-mind-map",
@@ -12,5 +11,7 @@
   "obsidian-style-settings",
   "canvas-mindmap",
   "obsidian-excalidraw-plugin",
-  "obsidian42-brat"
+  "obsidian42-brat",
+  "obsidian-icon-folder",
+  "obsidian-kanban"
 ]

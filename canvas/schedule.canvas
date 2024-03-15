@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"type":"text","text":"入口 ensureRootIsScheduled                      ","id":"53a63ba053a50b33","x":-430,"y":-304,"width":270,"height":64},
+		{"type":"text","text":"同步优先级更新批处理","id":"20677c9793a72bf9","x":60,"y":-342,"width":250,"height":60},
+		{"type":"text","text":"其他优先级宏任务调度","id":"ba20fc26d3df67b1","x":60,"y":-200,"width":250,"height":60},
+		{"type":"text","text":"调度器调度任务","id":"fccc37567eac027b","x":60,"y":-80,"width":250,"height":60},
+		{"type":"text","text":"更新逻辑 b-c","id":"ab0d1521297e11e6","x":1220,"y":-80,"width":250,"height":60},
+		{"type":"text","text":"renderRoot","id":"62d998159f82ae23","x":480,"y":-200,"width":250,"height":60},
+		{"type":"text","text":"无切片，同步更新","id":"07defbe27545d6f6","x":900,"y":-312,"width":250,"height":60},
+		{"type":"text","text":"再次调度","id":"b2ec52ed5986b678","x":1095,"y":400,"width":250,"height":60},
+		{"id":"8f24a1078c0978d4","x":1095,"y":760,"width":250,"height":60,"type":"text","text":"commitRoot"},
+		{"type":"text","text":"有时间切片，并发更新","id":"aef72c4b7cf4a5c2","x":900,"y":120,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"f917878386456461","fromNode":"53a63ba053a50b33","fromSide":"right","toNode":"20677c9793a72bf9","toSide":"left"},
+		{"id":"55a9614461201a5e","fromNode":"53a63ba053a50b33","fromSide":"right","toNode":"ba20fc26d3df67b1","toSide":"left"},
+		{"id":"5af2474534997b34","fromNode":"ba20fc26d3df67b1","fromSide":"bottom","toNode":"fccc37567eac027b","toSide":"top"},
+		{"id":"f8621142d1072649","fromNode":"fccc37567eac027b","fromSide":"right","toNode":"62d998159f82ae23","toSide":"left"},
+		{"id":"d69551808c99c6fb","fromNode":"07defbe27545d6f6","fromSide":"right","toNode":"ab0d1521297e11e6","toSide":"top"},
+		{"id":"f0349ad08b261027","fromNode":"aef72c4b7cf4a5c2","fromSide":"right","toNode":"ab0d1521297e11e6","toSide":"bottom","label":"可中断"},
+		{"id":"aac73e3ee261b340","fromNode":"62d998159f82ae23","fromSide":"right","toNode":"07defbe27545d6f6","toSide":"left"},
+		{"id":"58e7127dfed35016","fromNode":"62d998159f82ae23","fromSide":"right","toNode":"aef72c4b7cf4a5c2","toSide":"left"},
+		{"id":"a5550affbff179d6","fromNode":"b2ec52ed5986b678","fromSide":"left","toNode":"53a63ba053a50b33","toSide":"bottom"},
+		{"id":"102d446fdf1214be","fromNode":"ab0d1521297e11e6","fromSide":"right","toNode":"b2ec52ed5986b678","toSide":"right"},
+		{"id":"a2acfdfd159af264","fromNode":"b2ec52ed5986b678","fromSide":"bottom","toNode":"8f24a1078c0978d4","toSide":"top"}
+	]
+}

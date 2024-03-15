@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"6f3b42902168a5b6","x":-370,"y":-238,"width":390,"height":98,"type":"text","text":"fiber.memoizedState = hook"},
+		{"id":"56be73f04f358357","x":-370,"y":0,"width":250,"height":60,"type":"text","text":"hook.updateQueue"}
+	],
+	"edges":[]
+}

@@ -20,8 +20,8 @@
 		{"type":"text","text":"#### commitMutaitonEffectsOnFiber(finishedWork)\n1. 添加节点\n\n\n#### 更新阶段的 commitRoot\n-   对于`ChildDeletion`，需要遍历被删除的子树\n-   对于`Update`的 flags，需要更新文本内容\n\n#### 到这里 页面呈现元素","id":"29a5f79e1da4337d","x":1960,"y":2640,"width":972,"height":400,"color":"1"},
 		{"type":"text","text":"prepareFreshStack(root)\n1. 这个 wip 是 root.current 对应的，也就是 hostRootFiber 的 wip。根只有一个，根没有 wip\n2. 也就是找 wip = current.alternate, 有就是更新阶段，没有就是 mount 阶段\n3. wip 挂载 flags, update, state，child 等","id":"a69b755920c794fb","x":1969,"y":70,"width":560,"height":250},
 		{"type":"text","text":"scheduleUpdateOnFiber","id":"3e6cbf011b1a325c","x":762,"y":-88,"width":302,"height":68},
-		{"type":"text","text":"### 数据共享池","id":"638af84ce6e6c61e","x":3530,"y":-1169,"width":340,"height":80},
-		{"type":"text","text":"更新，万物的根源\n1. 更新的队列 createUpdateQueue \n```js\n{\n  shared: {\n    pending: null\n  },\n  dispatch: null\n}\n```\n","id":"a690b2d19bfcbf04","x":-1326,"y":-1489,"width":513,"height":320}
+		{"type":"text","text":"更新，万物的根源\n1. 更新的队列 createUpdateQueue \n```js\n{\n  shared: {\n    pending: null\n  },\n  dispatch: null\n}\n```\n","id":"a690b2d19bfcbf04","x":-1326,"y":-1489,"width":513,"height":320},
+		{"type":"text","text":"### 数据共享池","id":"638af84ce6e6c61e","x":3530,"y":-639,"width":340,"height":80,"color":"4"}
 	],
 	"edges":[
 		{"id":"152cc34826061911","fromNode":"8287cf37e4bf14b7","fromSide":"left","toNode":"5870380d4418ba9d","toSide":"top"},
@@ -42,8 +42,8 @@
 		{"id":"7c5791a84bcd667a","fromNode":"3edd1eba12e2fd27","fromSide":"right","toNode":"29a5f79e1da4337d","toSide":"left"},
 		{"id":"030460fa3cb1017f","fromNode":"3e6cbf011b1a325c","fromSide":"left","toNode":"2a206214fc1f8a90","toSide":"top"},
 		{"id":"b6e208416df60443","fromNode":"acca51732ad653c8","fromSide":"bottom","toNode":"3e6cbf011b1a325c","toSide":"right"},
-		{"id":"da454da3d7241979","fromNode":"638af84ce6e6c61e","fromSide":"bottom","toNode":"acca51732ad653c8","toSide":"top"},
-		{"id":"a7b001104f7277f8","fromNode":"638af84ce6e6c61e","fromSide":"bottom","toNode":"424367458c690186","toSide":"top"},
+		{"id":"da454da3d7241979","fromNode":"638af84ce6e6c61e","fromSide":"left","toNode":"acca51732ad653c8","toSide":"right","color":"4"},
+		{"id":"a7b001104f7277f8","fromNode":"638af84ce6e6c61e","fromSide":"bottom","toNode":"424367458c690186","toSide":"top","color":"4"},
 		{"id":"0958bdda683826a2","fromNode":"424367458c690186","fromSide":"bottom","toNode":"99e6f850030df323","toSide":"right"},
 		{"id":"f8070914f290cd30","fromNode":"424367458c690186","fromSide":"bottom","toNode":"a3ec753fa7a2b1d1","toSide":"right"},
 		{"id":"dd6a53d00da2788f","fromNode":"424367458c690186","fromSide":"bottom","toNode":"29a5f79e1da4337d","toSide":"right"}

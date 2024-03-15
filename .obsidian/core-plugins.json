@@ -6,13 +6,12 @@
   "backlink",
   "canvas",
   "outgoing-link",
+  "tag-pane",
   "page-preview",
-  "daily-notes",
   "note-composer",
   "command-palette",
   "editor-status",
   "bookmarks",
-  "random-note",
   "word-count",
   "file-recovery"
 ]

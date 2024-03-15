@@ -20,7 +20,7 @@ export default {
 </script>
 ```
 
-`vv 必须是响应式数据`
+`vvv 必须是响应式数据`
 
 ### 子组件
 ```js

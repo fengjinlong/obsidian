@@ -197,31 +197,49 @@ export function proxyRefs(objectWithRefs) {
 2. toRef当数据发生改变是，界面不会自动更新
 3. 想在更新响应式数据的时候不更新`UI`，那么就使用`toRef`
 ```js
-// toRef 如果原始对象是非响应式的就不会更新视图 数据是会变的
+<template>
+  <div>
+    <p>{{ obj.age }}</p>
+    <p>{{ age1 }}</p>
+  </div>
+</template>
+<script setup>
+import { toRef } from "vue";
+
 const obj = {
-  num: 1,
-  count: 2,
+  age: 18,
 };
-let num1 = toRef(obj, "num");
+const age1 = toRef(obj, "age");
+setTimeout(() => {
+  age1.value = 21;
+  // 原始数据变了   响应式数据也变了   但是页面不更新了
+  console.log(obj.age); // 21 但是页面不会更新 还是 18
+}, 1200);
+</script>
 
-// toRef 如果原始对象是响应式 更新视图 数据是会变的
-const obj2 = reactive({
-  num: 1,
-  count: 2,
-});
-let num2 = toRef(obj2, "num");
-
-const change = () => {
-  // 视图不更新
-  num1.value++;
-};
-
-const change2 = () => {
-  // 视图更新
-  num2.value++;
-  // obj2.num++;
-};
 ```
 
 ### toRefs
-1. 将对象的多个属性都变成响应式数据，并且要求响应式数据和原始数据关联，并且更新响应式数据的时候   更新界面，就可以使用`toRefs`
+1. 将对象的多个属性都变成响应式数据，并且要求响应式数据和原始数据关联，并且更新响应式数据的时候   不更新界面，就可以使用`toRefs`
+```js
+<template>
+  <div>
+    <p>{{ obj.age }}</p>
+    <p>{{ obj2.age }}</p>
+  </div>
+</template>
+<script setup>
+import { toRefs } from "vue";
+
+const obj = {
+  age: 18,
+  name: "xiaoming",
+};
+const obj2 = toRefs(obj);
+setTimeout(() => {
+  obj2.age.value = 21;
+  // 原始数据变了   响应式数据也变了   但是页面不更新了
+  console.log(obj2.age.value); // 21 但是页面不会更新 还是 18
+  console.log(obj.age); // 21 但是页面不会更新 还是 18
+}, 1200);
+</script>```

@@ -10,7 +10,7 @@
   "attachmentFolderPath": "附件",
   "fileSortOrder": "alphabeticalReverse",
   "showLineNumber": true,
-  "vimMode": false,
+  "vimMode": true,
   "communityThemeSortOrder": "download",
   "pdfExportSettings": {
     "pageSize": "A4",

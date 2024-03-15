@@ -101,5 +101,7 @@
   "obsidian-excalidraw-plugin:insert-link": [],
   "graph:open": [],
   "app:go-back": [],
-  "global-search:open": []
+  "global-search:open": [],
+  "workspace:next-tab": [],
+  "workspace:previous-tab": []
 }
