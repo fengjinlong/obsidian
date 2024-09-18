@@ -8,7 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "370f07c5a3ae7cba",
+            "id": "71cb56adbeac538d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "笔记/k.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3dfe9f3b07cd5f14",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -16,69 +28,8 @@
                 "file": "Excalidraw/K.excalidraw.md"
               }
             }
-          },
-          {
-            "id": "1f4a4473559c6fa1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "笔记/裸K.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a0e411aeebaa57f4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "笔记/裸K线交易法(Price Action).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f619d96611ef76ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "笔记/心得.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "67002305355b2cf0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "笔记/裸K线交易法(Price Action).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dcc71bdd79371784",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "笔记/交易系统.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "阳",
+                "query": "k线",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -124,7 +75,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -152,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "笔记/裸K.md",
+                "file": "笔记/k.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "笔记/裸K.md",
+                "file": "笔记/k.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,43 +165,44 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "1f4a4473559c6fa1",
+  "active": "71cb56adbeac538d",
   "lastOpenFiles": [
+    "索引/开发工具/键盘侠-索引.md",
+    "Excalidraw/K.excalidraw.md",
+    "笔记/k.md",
     "笔记/裸K线交易法(Price Action).md",
-    "附件/Pasted image 20240315162545.png",
+    "笔记/关键位.md",
     "笔记/裸K.md",
-    "笔记/心得.md",
-    "索引/2024/交易.md",
-    "笔记/入场和止损方法.md",
+    "索引/开发工具/hjkb.md",
+    "Excalidraw/fib.excalidraw.md",
+    "笔记/useState.md",
+    "Excalidraw/react-批处理.excalidraw.md",
+    "Excalidraw/react-update-流程.excalidraw.md",
+    "Excalidraw/react-diff.excalidraw.md",
+    "Excalidraw/react-hooks.excalidraw.md",
+    "Excalidraw/react-reconciler.excalidraw.md",
+    "笔记/从 URL 开始建立前端知识体系.md",
+    "笔记/静态资源.md",
+    "笔记/跨域.md",
+    "索引/2024/mini-react.md",
+    "索引/面试/the first.md",
+    "索引/面试/项目.md",
+    "Excalidraw/工厂方法模式生产coffee2.excalidraw.md",
+    "Excalidraw/打家劫舍.excalidraw.md",
+    "Excalidraw/工厂方法模式生产coffee2.excalidraw.png",
+    "Excalidraw/归并排序.excalidraw.md",
+    "Excalidraw/算法-反转链表.excalidraw.md",
+    "Excalidraw/Drawing 2024-01-22 17.48.47.excalidraw.md",
+    "Excalidraw/Drawing 2024-03-13 10.27.33.excalidraw.md",
+    "附件/Pasted image 20240316142925.png",
+    "附件/Pasted Image 20240316145301_827.png",
+    "附件/Pasted Image 20240316144433_834.png",
+    "附件/Pasted Image 20240316143652_011.png",
+    "附件/Pasted Image 20240316143424_880.png",
+    "附件/Pasted image 20240315162545.png",
     "附件/Pasted image 20240315155649.png",
     "附件/Pasted image 20240315155551.png",
     "附件/Pasted image 20240315155338.png",
-    "附件/Pasted image 20240315155302.png",
-    "附件/Pasted image 20240315153752.png",
-    "附件/Pasted image 20240315153709.png",
-    "附件/Pasted image 20240315151005.png",
-    "附件/Pasted image 20240315150746.png",
-    "附件/Pasted image 20240315150345.png",
-    "笔记/关键位.md",
-    "笔记/qml.md",
-    "Excalidraw/K.excalidraw.md",
-    "笔记/awmfx.md",
-    "笔记/交易系统.md",
-    "笔记/神奇的Pinbar.md",
-    "笔记/k.md",
-    "Excalidraw/react-reconciler.excalidraw.md",
-    "Excalidraw/react-hook-effect的关系.excalidraw.md",
-    "Excalidraw/react-批处理.excalidraw.md",
-    "Excalidraw/Drawing 2024-01-22 17.48.47.excalidraw.md",
-    "Excalidraw/算法-反转链表.excalidraw.md",
-    "Excalidraw/归并排序.excalidraw.md",
-    "Excalidraw/打家劫舍.excalidraw.md",
-    "Excalidraw/react-workLoop 递归顺序.excalidraw.md",
-    "索引/ai.md",
-    "索引/2024/algo.md",
-    "索引/2024/mini-react.md",
-    "笔记/订单流交易.md",
-    "笔记/交易细则.md",
     "canvas/未命名 4.canvas",
     "canvas/react-jsx.canvas",
     "笔记/react-api-store-router.canvas",
